@@ -27,57 +27,8 @@ foreach( [
 }
 */
 
-function pcc_child_page_list_render_callback( $attributes, $content ) {
-	$content = '';
+add_action('acf/init', function() {
+    require __DIR__ . '/blocks/child-pages.php';
+});
 
-	global $post;
-
-	if ( !isset($attributes['parent'])) {
-		$parent = $post->ID;
-	} else {
-		$parent = $attributes['parent'];
-	}
-
-    $children = new WP_Query( array(
-		'post_type' => 'page',
-		'post_parent' => $parent,
-		'post__not_in' => 0,
-		'orderby' => 'menu_order',
-		'order' => 'asc',
-	) );
-
-
-    if ( $children->have_posts() ) {
-		while( $children->have_posts() ) {
-			$children->the_post();
-			$content .= sprintf( '<p>%s</p>', get_the_title() );
-		}
-	}
-
-	wp_reset_postdata();
-
-	return $content;
-}
-
-function pcc_assets() {
-    wp_register_script(
-        'pcc-blocks',
-        plugins_url( 'build/index.js', __FILE__ ),
-        array( 'wp-blocks', 'wp-element', 'wp-data', 'wp-components', 'wp-i18n' )
-    );
-
-    register_block_type( 'pcc/child-page-list', array(
-        'editor_script' => 'pcc-blocks',
-		'render_callback' => 'pcc_child_page_list_render_callback',
-		'attributes' => array(
-			'parent' => array(
-				'type' => 'number',
-				'default' => false,
-			)
-		)
-    ) );
-
-}
-add_action( 'init', 'pcc_assets' );
-
-require_once __DIR__ . '/lib/settings.php';
+acf_add_options_page( [ 'page_title' => __('Configuration', 'platformcoop-support') ] );
