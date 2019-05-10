@@ -12,23 +12,22 @@
  * @package         PlatformCoop
  */
 
-/*
-foreach( [
-	'pcc-chapter',
-	'pcc-event',
-	'pcc-job',
-	'pcc-news',
-	'pcc-person',
-	'pcc-project',
-	'pcc-resource',
-	'pcc-story'
-] as $post_type ) {
-	require_once( dirname( __FILE__ ) . "/post-types/$post_type.php" );
+foreach ([
+    // 'pcc-chapter',
+    'pcc-event',
+    // 'pcc-job',
+    // 'pcc-news',
+    // 'pcc-person',
+    // 'pcc-project',
+    // 'pcc-resource',
+    // 'pcc-story'
+] as $post_type) {
+    require_once(dirname(__FILE__) . "/post-types/$post_type.php");
 }
-*/
 
-add_action('acf/init', function() {
+add_action('acf/init', function () {
     require __DIR__ . '/blocks/child-pages.php';
+    require __DIR__ . '/blocks/social-links.php';
 });
 
-acf_add_options_page( [ 'page_title' => __('Configuration', 'platformcoop-support') ] );
+acf_add_options_page([ 'page_title' => __('Configuration', 'platformcoop-support') ]);

@@ -22,7 +22,7 @@ $parent = get_field('parent') ?: get_the_id();
 $style = get_field('style') ?: 'child-pages--card';
 
 // Create class attribute allowing for custom "className" and "align" values.
-$className = "child-pages $style";
+$className = "social-links $style";
 if (!empty($block['className'])) {
     $className .= ' ' . $block['className'];
 } ?>
