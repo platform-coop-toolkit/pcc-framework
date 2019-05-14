@@ -12,22 +12,27 @@
  * @package         PlatformCoop
  */
 
+require_once dirname(__FILE__) . '/lib/utils.php';
+
 foreach ([
-    // 'pcc-chapter',
-    'pcc-event',
-    // 'pcc-job',
-    // 'pcc-news',
-    'pcc-person',
-    // 'pcc-project',
-    // 'pcc-resource',
-    // 'pcc-story'
-] as $post_type) {
-    require_once(dirname(__FILE__) . "/post-types/$post_type.php");
+    'event',
+    'person',
+] as $posttype) {
+    require_once dirname(__FILE__) . "/lib/posttypes/pcc-$posttype.php";
+    add_action('init', '\\PlatformCoop\\PostTypes\\' . ucfirst($posttype) . '\\init');
 }
 
 add_action('acf/init', function () {
-    require __DIR__ . '/blocks/child-pages.php';
-    require __DIR__ . '/blocks/social-links.php';
+    require_once dirname(__FILE__) . '/blocks/child-pages.php';
+    require_once dirname(__FILE__) . '/blocks/social-links.php';
 });
 
-acf_add_options_page([ 'page_title' => __('Configuration', 'platformcoop-support') ]);
+
+if (is_admin()) {
+    require_once dirname(__FILE__) . '/lib/settings.php';
+
+    add_action('cmb2_admin_init', '\\PlatformCoop\\PostTypes\\Event\\data');
+    add_action('cmb2_admin_init', '\\PlatformCoop\\PostTypes\\Event\\program');
+    add_action('cmb2_admin_init', '\\PlatformCoop\\PostTypes\\Event\\sponsors');
+    add_action('cmb2_admin_init', '\\PlatformCoop\\Settings\\page');
+}
