@@ -17,7 +17,7 @@ foreach ([
     'pcc-event',
     // 'pcc-job',
     // 'pcc-news',
-    // 'pcc-person',
+    'pcc-person',
     // 'pcc-project',
     // 'pcc-resource',
     // 'pcc-story'
