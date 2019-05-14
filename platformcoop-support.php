@@ -27,12 +27,11 @@ add_action('acf/init', function () {
     require_once dirname(__FILE__) . '/blocks/social-links.php';
 });
 
-
 if (is_admin()) {
     require_once dirname(__FILE__) . '/lib/settings.php';
-
     add_action('cmb2_admin_init', '\\PlatformCoop\\PostTypes\\Event\\data');
     add_action('cmb2_admin_init', '\\PlatformCoop\\PostTypes\\Event\\program');
     add_action('cmb2_admin_init', '\\PlatformCoop\\PostTypes\\Event\\sponsors');
     add_action('cmb2_admin_init', '\\PlatformCoop\\Settings\\page');
+    add_filter('acf/settings/show_admin', '__return_false');
 }
