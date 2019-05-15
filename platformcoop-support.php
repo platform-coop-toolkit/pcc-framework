@@ -22,9 +22,10 @@ foreach ([
     add_action('init', '\\PlatformCoop\\PostTypes\\' . ucfirst($posttype) . '\\init');
 }
 
+require_once dirname(__FILE__) . '/blocks/social-links.php';
+
 add_action('acf/init', function () {
     require_once dirname(__FILE__) . '/blocks/child-pages.php';
-    require_once dirname(__FILE__) . '/blocks/social-links.php';
 });
 
 if (is_admin()) {
