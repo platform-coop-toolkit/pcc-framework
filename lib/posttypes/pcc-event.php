@@ -184,7 +184,7 @@ function sponsors()
     ]);
 
     $sponsor_id = $cmb->add_field([
-        'id' => $prefix . 'program',
+        'id' => $prefix . 'sponsors',
         'type' => 'group',
         'options' => [
             'group_title' => __('Sponsor {#}', 'platformcoop-support'),

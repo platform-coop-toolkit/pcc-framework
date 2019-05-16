@@ -4,8 +4,52 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "bc2a73789950965ae07d4a25a82b22fe",
+    "content-hash": "9e9774cebe44807e30b03b1dc47220b4",
     "packages": [
+        {
+            "name": "davidgorges/human-name-parser",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/davidgorges/HumanNameParser.php.git",
+                "reference": "eaa00aaac580fe47604ed7e9a52eda73dd45444c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/davidgorges/HumanNameParser.php/zipball/eaa00aaac580fe47604ed7e9a52eda73dd45444c",
+                "reference": "eaa00aaac580fe47604ed7e9a52eda73dd45444c",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.1"
+            },
+            "require-dev": {
+                "phpstan/phpstan-shim": "^0.11.2",
+                "phpunit/phpunit": "7.*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "HumanNameParser\\": "src/HumanNameParser"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "David Gorges",
+                    "email": "david.gorges@leaphub.de"
+                },
+                {
+                    "name": "Jason Priem",
+                    "email": "jason@jasonpriem.com"
+                }
+            ],
+            "description": "Parses a human name",
+            "time": "2019-03-10T15:43:47+00:00"
+        },
         {
             "name": "johnbillion/extended-cpts",
             "version": "4.2.3",
