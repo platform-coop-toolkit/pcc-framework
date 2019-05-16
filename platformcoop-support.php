@@ -29,7 +29,9 @@ add_action('acf/init', function () {
 });
 
 if (is_admin()) {
+    require_once dirname(__FILE__) . '/lib/admin.php';
     require_once dirname(__FILE__) . '/lib/settings.php';
+    add_action('admin_enqueue_scripts', '\\PlatformCoop\\Admin\\enqueue_assets');
     add_action('cmb2_admin_init', '\\PlatformCoop\\PostTypes\\Event\\data');
     add_action('cmb2_admin_init', '\\PlatformCoop\\PostTypes\\Event\\program');
     add_action('cmb2_admin_init', '\\PlatformCoop\\PostTypes\\Event\\sponsors');
