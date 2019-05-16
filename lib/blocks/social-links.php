@@ -1,24 +1,14 @@
 <?php
 
-add_action('init', function () {
-    wp_register_script(
-        'social-links-js',
-        plugin_dir_url(dirname(__FILE__)) . 'build/index.js',
-        [
-            'wp-element',
-            'wp-i18n',
-            'wp-blocks',
-            'wp-components'
-        ],
-        false,
-        true
-    );
+namespace PlatformCoop\Blocks\SocialLinks;
 
+function register_block()
+{
     register_block_type(
         'pcc/social-links',
         [
-            'editor_script' => 'social-links-js',
-            'render_callback' => 'pcc_social_links_render',
+            'editor_script' => 'platform-coop-blocks-js',
+            'render_callback' => '\\PlatformCoop\\Blocks\\SocialLinks\\render_callback',
             'attributes' => [
                 'className' => [ 'type' => 'string' ],
                 'label_facebook' => [ 'type' => 'string' ],
@@ -26,9 +16,9 @@ add_action('init', function () {
             ]
         ]
     );
-});
+}
 
-function pcc_social_links_render($attributes)
+function render_callback($attributes)
 {
     $class =
         ( isset($attributes['className']) && ! empty($attributes['className']) ) ?

@@ -22,7 +22,19 @@ foreach ([
     add_action('init', '\\PlatformCoop\\PostTypes\\' . ucfirst($posttype) . '\\init');
 }
 
-require_once dirname(__FILE__) . '/blocks/social-links.php';
+require_once dirname(__FILE__) . '/lib/blocks.php';
+
+add_action('init', '\\PlatformCoop\\Blocks\\register_block_assets');
+
+foreach ([
+    'social-links',
+] as $block) {
+    require_once dirname(__FILE__) . "/lib/blocks/$block.php";
+    $pieces = explode('-', $block);
+    $pieces = array_map('ucfirst', $pieces);
+    $block = implode('', $pieces);
+    add_action('init', "\\PlatformCoop\\Blocks\\$block\\register_block");
+}
 
 add_action('acf/init', function () {
     require_once dirname(__FILE__) . '/blocks/child-pages.php';
@@ -31,6 +43,7 @@ add_action('acf/init', function () {
 if (is_admin()) {
     require_once dirname(__FILE__) . '/lib/admin.php';
     require_once dirname(__FILE__) . '/lib/settings.php';
+
     add_action('admin_enqueue_scripts', '\\PlatformCoop\\Admin\\enqueue_assets');
     add_action('cmb2_admin_init', '\\PlatformCoop\\PostTypes\\Event\\data');
     add_action('cmb2_admin_init', '\\PlatformCoop\\PostTypes\\Event\\program');
