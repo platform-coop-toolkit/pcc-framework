@@ -1,6 +1,6 @@
 {
   "name": "platformcoop-support",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "main": "Gruntfile.js",
   "author": "Platform Cooperativism Consortium",
   "devDependencies": {
@@ -10,6 +10,7 @@
     "grunt-wp-readme-to-markdown": "~1.0.0"
   },
   "scripts": {
+    "readme": "grunt readme",
     "start": "wp-scripts start",
     "build": "wp-scripts build",
     "lint:js": "wp-scripts lint-js ./src",
