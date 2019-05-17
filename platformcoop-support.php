@@ -7,7 +7,7 @@
  * Author URI:      https://platform.coop
  * Text Domain:     platformcoop-support
  * Domain Path:     /languages
- * Version:         0.1.0
+ * Version:         0.2.0
  *
  * @package         PlatformCoop
  */
@@ -27,6 +27,7 @@ require_once dirname(__FILE__) . '/lib/blocks.php';
 add_action('init', '\\PlatformCoop\\Blocks\\register_block_assets');
 
 foreach ([
+    'child-pages',
     'social-links',
 ] as $block) {
     require_once dirname(__FILE__) . "/lib/blocks/$block.php";
@@ -35,10 +36,6 @@ foreach ([
     $block = implode('', $pieces);
     add_action('init', "\\PlatformCoop\\Blocks\\$block\\register_block");
 }
-
-add_action('acf/init', function () {
-    require_once dirname(__FILE__) . '/blocks/child-pages.php';
-});
 
 if (is_admin()) {
     require_once dirname(__FILE__) . '/lib/admin.php';
