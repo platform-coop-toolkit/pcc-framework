@@ -201,7 +201,7 @@ function sponsors()
     ]);
 }
 
-function is_parent_event( $cmb )
+function is_parent_event($cmb)
 {
-    return empty( get_post_ancestors( $cmb->object_id ) );
+    return empty(get_post_ancestors($cmb->object_id));
 }
