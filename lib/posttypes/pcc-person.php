@@ -12,6 +12,7 @@ function init()
         [
             'menu_icon' => 'dashicons-businessperson',
             'show_in_rest' => true,
+            'supports' => ['title', 'editor', 'custom-fields']
         ],
         [
             'singular' => __('Person', 'platformcoop-support'),
