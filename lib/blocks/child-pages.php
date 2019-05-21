@@ -2,6 +2,11 @@
 
 namespace PlatformCoop\Blocks\ChildPages;
 
+/**
+ * Register the Child Pages block.
+ *
+ * @return null
+ */
 function register_block()
 {
     register_block_type(
@@ -18,6 +23,13 @@ function register_block()
     );
 }
 
+/**
+ * Render callback for Child Pages block.
+ *
+ * @param array $attributes The block attributes.
+ *
+ * @return string
+ */
 function render_callback($attributes)
 {
     if (!isset($attributes['parent'])) {

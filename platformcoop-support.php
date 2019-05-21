@@ -29,7 +29,6 @@ add_action('init', '\\PlatformCoop\\Blocks\\register_block_assets');
 
 foreach ([
     'child-pages',
-    // 'event-data',
     'social-links',
 ] as $block) {
     require_once dirname(__FILE__) . "/lib/blocks/$block.php";
@@ -45,8 +44,6 @@ if (is_admin()) {
 
     add_action('admin_enqueue_scripts', '\\PlatformCoop\\Admin\\enqueue_assets');
     add_action('cmb2_admin_init', '\\PlatformCoop\\PostTypes\\Event\\data');
-    // add_action('cmb2_admin_init', '\\PlatformCoop\\PostTypes\\Event\\program');
     add_action('cmb2_admin_init', '\\PlatformCoop\\PostTypes\\Event\\sponsors');
     add_action('cmb2_admin_init', '\\PlatformCoop\\Settings\\page');
 }
-

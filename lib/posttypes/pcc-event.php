@@ -6,6 +6,8 @@ use function PlatformCoop\PostTypes\Person\get_people;
 
 /**
  * Registers the `pcc-event` post type.
+ *
+ * @return null
  */
 function init()
 {
@@ -16,17 +18,6 @@ function init()
             'menu_icon' => 'dashicons-calendar-alt',
             'show_in_rest' => true,
             'supports' => ['title', 'editor', 'page-attributes', 'custom-fields'],
-            // 'template_lock' => 'all',
-            // 'template' => [
-            //     ['core/columns', [], [
-            //         ['core/column', [], [
-            //             ['core/heading', ['level' => '2']]
-            //         ]],
-            //         ['core/column', [], [
-            //             ['core/paragraph', []]
-            //         ]],
-            //     ]],
-            // ]
         ],
         [
             'singular' => __('Event', 'platformcoop-support'),
@@ -36,7 +27,13 @@ function init()
     );
 }
 
-function register_meta() {
+/**
+ * Registers meta fields for the `pcc-event` post type.
+ *
+ * @return null
+ */
+function register_meta()
+{
     register_post_meta('pcc-event', 'pcc_event_start', [
         'show_in_rest' => true,
         'single' => true,
@@ -62,10 +59,17 @@ function register_meta() {
         'single' => true,
         'type' => 'string',
     ]);
+    register_post_meta('pcc-event', 'pcc_event_type', [
+        'show_in_rest' => true,
+        'single' => true,
+        'type' => 'string',
+    ]);
 }
 
 /**
  * Registers the Event Data metabox and meta fields.
+ *
+ * @return null
  */
 function data()
 {
@@ -142,6 +146,8 @@ function data()
 
 /**
  * Registers the Event Sponsors metabox and meta fields.
+ *
+ * @return null
  */
 function sponsors()
 {
@@ -201,6 +207,13 @@ function sponsors()
     ]);
 }
 
+/**
+ * Determine if event is a parent or a child (for CMB2's `show_on` callback).
+ *
+ * @param mixed $cmb The CMB2 meta box.
+ *
+ * @return bool
+ */
 function is_parent_event($cmb)
 {
     return empty(get_post_ancestors($cmb->object_id));

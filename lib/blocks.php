@@ -2,6 +2,11 @@
 
 namespace PlatformCoop\Blocks;
 
+/**
+ * Register assets for custom blocks.
+ *
+ * @return null
+ */
 function register_block_assets()
 {
     wp_register_script(

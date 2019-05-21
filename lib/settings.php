@@ -17,7 +17,11 @@ function page()
     ]);
     $cmb->add_field([
         'name' => __('Donate Link', 'platformcoop-support'),
-        'desc' => __('Link to external donation form (used in site footer and some page templates).', 'platformcoop-support'),
+        'desc' =>
+            __(
+                'Link to external donation form (used in site footer and some page templates).',
+                'platformcoop-support'
+            ),
         'id' => 'donate_link',
         'type' => 'text_url',
         'default' =>
@@ -32,9 +36,13 @@ function page()
     ]);
     $cmb->add_field([
         'name' => __('Newsletter Signup Link', 'platformcoop-support'),
-        'desc' => __('Link to external newsletter signup form (used in site footer and some page templates).', 'platformcoop-support'),
+        'desc' =>
+            __(
+                'Link to external newsletter signup form (used in site footer and some page templates).',
+                'platformcoop-support'
+            ),
         'id' => 'signup_link',
         'type' => 'text_url',
         'default' => 'https://lists.riseup.net/www/info/platformcoop-newsletter',
     ]);
-};
+}

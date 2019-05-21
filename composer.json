@@ -14,5 +14,9 @@
     },
     "require-dev": {
       "squizlabs/php_codesniffer": "^2.8.0"
+    },
+    "scripts": {
+      "test": ["@standards"],
+      "standards": "vendor/bin/phpcs . --extensions=php --standard=phpcs.xml.dist --ignore=node_modules,tests,vendor"
     }
 }
