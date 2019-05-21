@@ -1,8 +1,13 @@
 {
-  "name": "platformcoop-support",
+  "name": "@platformcoop/platformcoop-support",
   "version": "0.3.0",
-  "main": "Gruntfile.js",
+  "description": "Utilities for the Platform Cooperativism Consortium's website.",
   "author": "Platform Cooperativism Consortium",
+  "keywords": ["wordpress", "plugin", "custom post types", "blocks"],
+  "homepage": "https://github.com/greatislander/platformcoop-support",
+  "repository": "https://github.com/greatislander/platformcoop-support",
+  "bugs": "https://github.com/greatislander/platformcoop-support/issues",
+  "main": "Gruntfile.js",
   "devDependencies": {
     "@wordpress/eslint-plugin": "^2.2.0",
     "@wordpress/scripts": "^3.1.0",
@@ -15,6 +20,7 @@
     "start": "wp-scripts start",
     "build": "wp-scripts build",
     "lint:js": "wp-scripts lint-js ./src",
-    "lint:css": "wp-scripts lint-style './src/**/*.css'"
+    "lint:css": "wp-scripts lint-style './src/**/*.css'",
+    "lint:pkg-json": "wp-scripts lint-pkg-json ."
   }
 }
