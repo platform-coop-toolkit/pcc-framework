@@ -7,7 +7,7 @@
  * Author URI:      https://platform.coop
  * Text Domain:     platformcoop-support
  * Domain Path:     /languages
- * Version:         0.2.0
+ * Version:         0.3.0
  *
  * @package         PlatformCoop
  */

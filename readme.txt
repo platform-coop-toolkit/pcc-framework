@@ -24,6 +24,11 @@ Block and Custom Post Type utilities for the Platform Cooperativism Consortium.
 None yet.
 
 == Changelog ==
+= 0.3.0 =
+* Remove unused post types.
+* Make events hierarchical.
+* Refine event metadata, add experimental event meta block (unused).
+
 = 0.2.0 =
 * Rebuild dynamic blocks in JavaScript.
 * Register custom fields using CMB2 instead of ACF.

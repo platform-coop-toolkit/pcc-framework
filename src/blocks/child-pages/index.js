@@ -2,6 +2,9 @@ const { __ } = wp.i18n;
 const { registerBlockType } = wp.blocks;
 const { ServerSideRender } = wp.components;
 
+/**
+ * Internal dependencies
+ */
 import SelectPage from './components/select-page';
 
 registerBlockType( 'pcc/child-pages', {
@@ -10,7 +13,7 @@ registerBlockType( 'pcc/child-pages', {
 	icon: 'networking',
 	category: 'widgets',
 	attributes: {
-    exclude: {
+		exclude: {
 			type: 'integer',
 		},
 		parent: {
@@ -21,26 +24,26 @@ registerBlockType( 'pcc/child-pages', {
 		{
 			name: 'card',
 			label: __( 'Card' ),
-    },
+		},
 		{
 			name: 'card-with-excerpt',
-      label: __( 'Card with Excerpt' ),
-      isDefault: true,
-    },
-    {
+			label: __( 'Card with Excerpt' ),
+			isDefault: true,
+		},
+		{
 			name: 'text-only',
 			label: __( 'Text Only' ),
 		},
 	],
 	edit: ( props ) => {
-    const { attributes, isSelected } = props;
+		const { attributes, isSelected } = props;
 
-    let blockUI;
+		let blockUI;
 
 		if ( isSelected ) {
-			blockUI = <SelectPage { ... { ...props } } />
+			blockUI = <SelectPage { ... { ...props } } />;
 		} else {
-			blockUI = <ServerSideRender block="pcc/child-pages" attributes={ attributes } />
+			blockUI = <ServerSideRender block="pcc/child-pages" attributes={ attributes } />;
 		}
 
 		return blockUI;
