@@ -25,6 +25,7 @@ None yet.
 
 ## Changelog ##
 ### 0.4.0 ###
+* Configure CI (resolve #10)
 * Change event slug
 
 ### 0.3.2 ###
