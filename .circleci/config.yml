@@ -48,11 +48,11 @@ job-references:
     steps:
       - checkout
       - run:
-        name: "Run Tests"
-        command: |
-          yarn
-          yarn test
-          yarn build
+          name: "Run Tests"
+          command: |
+            yarn
+            yarn test
+            yarn build
 
 jobs:
   assets-build:
