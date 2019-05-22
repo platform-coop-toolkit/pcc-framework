@@ -44,4 +44,4 @@ function error_handler($message, $subtitle = '', $title = '')
     $footer = '<a href="https://github.com/platform-coop-toolkit/platformcoop-support/wiki/">Documentation</a>';
     $message = "<h1>{$title}<br><small>{$subtitle}</small></h1><p>{$message}</p><p>{$footer}</p>";
     wp_die($message, $title);
-};
+}
