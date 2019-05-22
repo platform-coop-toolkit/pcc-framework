@@ -24,25 +24,28 @@ Utilities, custom post types and blocks for the Platform Cooperativism Consortiu
 None yet.
 
 == Changelog ==
+= 0.4.0 =
+* Change event slug
+
 = 0.3.2 =
-* Update license: [aaa8b4c](https://github.com/platform-coop-toolkit/platformcoop-support/commit/aaa8b4c0bdc58347cc709b6aac977a182f586278)
+* Update license
 
 = 0.3.1 =
-* Normalize composer.json: [e90192c](https://github.com/platform-coop-toolkit/platformcoop-support/commit/e90192c9321c466d7b743c086ddd8acc4265736b)
-* Clean up package.json: [#9](https://github.com/platform-coop-toolkit/platformcoop-support/pull/9)
+* Normalize composer.json
+* Clean up package.json
 
 = 0.3.0 =
-* Remove unused post types.
-* Make events hierarchical.
-* Refine event metadata, add experimental event meta block (unused).
+* Remove unused post types
+* Make events hierarchical
+* Refine event metadata, add experimental event meta block (unused)
 
 = 0.2.0 =
-* Rebuild dynamic blocks in JavaScript.
-* Register custom fields using CMB2 instead of ACF.
+* Rebuild dynamic blocks in JavaScript
+* Register custom fields using CMB2 instead of ACF
 
 = 0.1.0 =
-* Add dynamic blocks using ACF Blocks utility.
-* Scaffold initial post types.
+* Add dynamic blocks using ACF Blocks utility
+* Scaffold initial post types
 
 == Upgrade Notice ==
 

@@ -22,7 +22,7 @@ function init()
         [
             'singular' => __('Event', 'platformcoop-support'),
             'plural' => __('Events', 'platformcoop-support'),
-            'slug' => 'event'
+            'slug' => 'events'
         ]
     );
 }
