@@ -1,9 +1,9 @@
 #dashboard_right_now li a.cpt-pcc-event-count::before,
 #dashboard_right_now li > span.cpt-pcc-event-count::before {
-  content: "\f508";
+	content: "\f508";
 }
 
 #dashboard_right_now li a.cpt-pcc-person-count::before,
 #dashboard_right_now li > span.cpt-pcc-person-count::before {
-  content: "\f12e";
+	content: "\f12e";
 }
