@@ -27,7 +27,8 @@
     "build": "wp-scripts build",
     "lint:js": "wp-scripts lint-js ./src",
     "lint:css": "wp-scripts lint-style './src/**/*.css'",
-    "lint:pkg-json": "wp-scripts lint-pkg-json ."
+    "lint:pkg-json": "wp-scripts lint-pkg-json .",
+    "test": "npm run -s lint:js && npm run -s lint:css && npm run -s lint:pkg-json"
   },
   "npmPackageJsonLintConfig": {
     "extends": "@wordpress/npm-package-json-lint-config",

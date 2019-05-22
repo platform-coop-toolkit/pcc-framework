@@ -26,3 +26,22 @@ function get_config_option($key = '', $default = false)
     }
     return $val;
 }
+
+/**
+ * Error handler.
+ *
+ * @since 0.4.0
+ *
+ * @param string $message
+ * @param string $subtitle
+ * @param string $title
+ *
+ * @return null
+ */
+function error_handler($message, $subtitle = '', $title = '')
+{
+    $title = $title ?: __('Platform Co-op &rsaquo; Error', 'sage');
+    $footer = '<a href="https://github.com/platform-coop-toolkit/platformcoop-support/wiki/">Documentation</a>';
+    $message = "<h1>{$title}<br><small>{$subtitle}</small></h1><p>{$message}</p><p>{$footer}</p>";
+    wp_die($message, $title);
+};

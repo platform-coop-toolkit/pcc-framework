@@ -16,6 +16,22 @@
 
 require_once dirname(__FILE__) . '/lib/utils.php';
 
+/**
+ * Ensure dependencies are loaded
+ */
+if (!function_exists('register_extended_post_type')) {
+    if (!file_exists($composer = __DIR__.'/vendor/autoload.php')) {
+        \PlatformCoop\Utils\error_handler(
+            __(
+                'You must run <code>composer install</code> from the Platform Co-op Support directory.',
+                'platformcoop-support'
+            ),
+            __('Autoloader not found.', 'platformcoop-support')
+        );
+    }
+    require_once $composer;
+}
+
 foreach ([
     'event',
     'person',
