@@ -5,7 +5,7 @@
 **License URI:** https://opensource.org/licenses/BSD-3-Clause  
 **Requires at least:** 5.2  
 **Tested up to:** 5.2  
-**Stable tag:** 0.3.2  
+**Stable tag:** 0.4.0  
 
 Utilities, custom post types and blocks for the Platform Cooperativism Consortium website.
 
