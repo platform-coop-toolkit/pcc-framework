@@ -2,10 +2,9 @@ workflows:
   version: 2
   main:
     jobs:
-      - php56-build
-      - php70-build
       - php71-build
       - php72-build
+      - php73-build
 
 version: 2
 
@@ -39,54 +38,14 @@ job-references:
           name: "Run Tests"
           command: |
             composer global require "phpunit/phpunit=5.7.*"
-            composer global require wp-coding-standards/wpcs
-            phpcs --config-set installed_paths $HOME/.composer/vendor/wp-coding-standards/wpcs
-            phpcs
-            rm -rf $WP_TESTS_DIR $WP_CORE_DIR
-            bash bin/install-wp-tests.sh wordpress_test root '' 127.0.0.1 latest
-            phpunit
-            WP_MULTISITE=1 phpunit
+            composer install
+            composer standards
+            # rm -rf $WP_TESTS_DIR $WP_CORE_DIR
+            # bash bin/install-wp-tests.sh wordpress_test root '' 127.0.0.1 latest
+            # phpunit
+            # WP_MULTISITE=0 phpunit
 
 jobs:
-  php56-build:
-    <<: *php_job
-    docker:
-      - image: circleci/php:5.6
-      - image: *mysql_image
-    steps:
-      - checkout
-      - run: *setup_environment
-      - run: *install_dependencies
-      - run:
-          name: "Run Tests"
-          command: |
-            composer global require "phpunit/phpunit=5.7.*"
-            composer global require wp-coding-standards/wpcs
-            phpcs --config-set installed_paths $HOME/.composer/vendor/wp-coding-standards/wpcs
-            phpcs
-            SKIP_DB_CREATE=false
-            rm -rf $WP_TESTS_DIR $WP_CORE_DIR
-            bash bin/install-wp-tests.sh wordpress_test root '' 127.0.0.1 4.5 $SKIP_DB_CREATE
-            phpunit
-            WP_MULTISITE=1 phpunit
-            SKIP_DB_CREATE=true
-            rm -rf $WP_TESTS_DIR $WP_CORE_DIR
-            bash bin/install-wp-tests.sh wordpress_test root '' 127.0.0.1 latest $SKIP_DB_CREATE
-            phpunit
-            WP_MULTISITE=1 phpunit
-            SKIP_DB_CREATE=true
-            rm -rf $WP_TESTS_DIR $WP_CORE_DIR
-            bash bin/install-wp-tests.sh wordpress_test root '' 127.0.0.1 trunk $SKIP_DB_CREATE
-            phpunit
-            WP_MULTISITE=1 phpunit
-            SKIP_DB_CREATE=true
-
-  php70-build:
-    <<: *php_job
-    docker:
-      - image: circleci/php:7.0
-      - image: *mysql_image
-
   php71-build:
     <<: *php_job
     docker:
@@ -97,4 +56,10 @@ jobs:
     <<: *php_job
     docker:
       - image: circleci/php:7.2
+      - image: *mysql_image
+
+  php73-build:
+    <<: *php_job
+    docker:
+      - image: circleci/php:7.3
       - image: *mysql_image
