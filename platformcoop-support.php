@@ -9,7 +9,7 @@
  * Domain Path:     /languages
  * License:         BSD 3-Clause "New" License
  * License URI:     https://opensource.org/licenses/BSD-3-Clause
- * Version:         0.4.0
+ * Version:         0.5.0
  *
  * @package         PlatformCoop
  */

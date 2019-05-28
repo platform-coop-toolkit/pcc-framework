@@ -5,7 +5,7 @@
 **License URI:** https://opensource.org/licenses/BSD-3-Clause  
 **Requires at least:** 5.2  
 **Tested up to:** 5.2  
-**Stable tag:** 0.4.0  
+**Stable tag:** 0.5.0  
 
 Utilities, custom post types and blocks for the Platform Cooperativism Consortium website.
 
@@ -24,6 +24,9 @@ Utilities, custom post types and blocks for the Platform Cooperativism Consortiu
 None yet.
 
 ## Changelog ##
+### 0.5.0 ###
+* Add thumbnail support to events and people: #13
+
 ### 0.4.0 ###
 * Configure CI (resolve #10)
 * Change event slug
