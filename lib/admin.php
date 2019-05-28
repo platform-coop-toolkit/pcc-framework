@@ -1,6 +1,6 @@
 <?php
 
-namespace PlatformCoop\Admin;
+namespace PCCFramework\Admin;
 
 function enqueue_assets()
 {

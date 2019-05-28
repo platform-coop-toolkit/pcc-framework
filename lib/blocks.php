@@ -1,6 +1,6 @@
 <?php
 
-namespace PlatformCoop\Blocks;
+namespace PCCFramework\Blocks;
 
 /**
  * Register assets for custom blocks.

@@ -1,6 +1,6 @@
 <?php
 
-namespace PlatformCoop\Blocks\ChildPages;
+namespace PCCFramework\Blocks\ChildPages;
 
 /**
  * Register the Child Pages block.
@@ -13,7 +13,7 @@ function register_block()
         'pcc/child-pages',
         [
             'editor_script' => 'platform-coop-blocks-js',
-            'render_callback' => '\\PlatformCoop\\Blocks\\ChildPages\\render_callback',
+            'render_callback' => '\\PCCFramework\\Blocks\\ChildPages\\render_callback',
             'attributes' => [
                 'className' => [ 'type' => 'string' ],
                 'current' => [ 'type' => 'integer' ],
@@ -76,7 +76,7 @@ function render_callback($attributes)
                     <div class="wp-block-button is-style-primary">
                         <a class="wp-block-button__link" href="<?php echo get_the_permalink($children->post) ?>">
                             <span class="screen-reader-text"><?php echo get_the_title(); ?> &mdash; </span>
-                            <?php _e('Read more', 'platformcoop-support') ?>
+                            <?php _e('Read more', 'pcc-framework') ?>
                         </a>
                     </div>
                 <?php } ?>

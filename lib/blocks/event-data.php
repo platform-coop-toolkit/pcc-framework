@@ -1,6 +1,6 @@
 <?php
 
-namespace PlatformCoop\Blocks\EventData;
+namespace PCCFramework\Blocks\EventData;
 
 /**
  * Register the Event Data block.

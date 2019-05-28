@@ -1,5 +1,5 @@
 {
-    "name": "platformcoop/platformcoop-support",
+    "name": "platformcoop/pcc-framework",
     "type": "wordpress-plugin",
     "description": "Utilities, custom post types and blocks for the Platform Cooperativism Consortium website.",
     "keywords": [

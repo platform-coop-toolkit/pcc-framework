@@ -1,6 +1,6 @@
 <?php
 
-namespace PlatformCoop\Utils;
+namespace PCCFramework\Utils;
 
 /**
  * Wrapper function around cmb2_get_option

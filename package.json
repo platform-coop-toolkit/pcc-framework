@@ -1,5 +1,5 @@
 {
-  "name": "@platformcoop/platformcoop-support",
+  "name": "@platformcoop/pcc-framework",
   "version": "0.5.0",
   "description": "Utilities, custom post types and blocks for the Platform Cooperativism Consortium website.",
   "author": "Platform Cooperativism Consortium",
@@ -10,9 +10,9 @@
     "custom post types",
     "blocks"
   ],
-  "homepage": "https://github.com/greatislander/platformcoop-support",
-  "repository": "https://github.com/greatislander/platformcoop-support",
-  "bugs": "https://github.com/greatislander/platformcoop-support/issues",
+  "homepage": "https://github.com/platform-coop-toolkit/pcc-framework",
+  "repository": "https://github.com/platform-coop-toolkit/pcc-framework",
+  "bugs": "https://github.com/platform-coop-toolkit/pcc-framework/issues",
   "main": "Gruntfile.js",
   "devDependencies": {
     "@wordpress/eslint-plugin": "^2.2.0",

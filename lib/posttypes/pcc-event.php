@@ -1,8 +1,8 @@
 <?php
 
-namespace PlatformCoop\PostTypes\Event;
+namespace PCCFramework\PostTypes\Event;
 
-use function PlatformCoop\PostTypes\Person\get_people;
+use function PCCFramework\PostTypes\Person\get_people;
 
 /**
  * Registers the `pcc-event` post type.
@@ -21,8 +21,8 @@ function init()
             'supports' => ['title', 'editor', 'page-attributes', 'custom-fields', 'thumbnail'],
         ],
         [
-            'singular' => __('Event', 'platformcoop-support'),
-            'plural' => __('Events', 'platformcoop-support'),
+            'singular' => __('Event', 'pcc-framework'),
+            'plural' => __('Events', 'pcc-framework'),
             'slug' => 'events'
         ]
     );
@@ -78,7 +78,7 @@ function data()
 
     $cmb = new_cmb2_box([
         'id'            => 'event_data',
-        'title'         => __('Event Data', 'platformcoop-support'),
+        'title'         => __('Event Data', 'pcc-framework'),
         'object_types'  => ['pcc-event'],
         'context'       => 'normal',
         'priority'      => 'high',
@@ -86,61 +86,61 @@ function data()
     ]);
 
     $cmb->add_field([
-        'name' => __('Start', 'platformcoop-support'),
+        'name' => __('Start', 'pcc-framework'),
         'id' => $prefix . 'start',
         'type' => 'text_datetime_timestamp'
     ]);
 
     $cmb->add_field([
-        'name' => __('End', 'platformcoop-support'),
+        'name' => __('End', 'pcc-framework'),
         'id' => $prefix . 'end',
         'type' => 'text_datetime_timestamp'
     ]);
 
     $cmb->add_field([
-        'name' => __('Venue', 'platformcoop-support'),
+        'name' => __('Venue', 'pcc-framework'),
         'id'   => $prefix . 'venue',
         'type' => 'text',
     ]);
 
     $cmb->add_field([
-        'name' => __('Venue Address', 'platformcoop-support'),
+        'name' => __('Venue Address', 'pcc-framework'),
         'id'   => $prefix . 'venue_address',
         'type' => 'textarea_small',
     ]);
 
     $cmb->add_field([
-        'name' => __('Registration Link', 'platformcoop-support'),
+        'name' => __('Registration Link', 'pcc-framework'),
         'id'   => $prefix . 'registration_url',
         'type' => 'text_url',
         'protocols' => ['http', 'https'],
-        'show_on_cb' => 'PlatformCoop\PostTypes\Event\is_parent_event'
+        'show_on_cb' => 'PCCFramework\PostTypes\Event\is_parent_event'
     ]);
 
     $cmb->add_field([
-        'name' => __('Event Type', 'platformcoop-support'),
+        'name' => __('Event Type', 'pcc-framework'),
         'id'   => $prefix . 'type',
         'type' => 'select',
         'show_option_none' => false,
         'default' => 'pcc',
         'options' => [
-            'community' => __('Community Event', 'platformcoop-support'),
-            'conference' => __('PCC Conference', 'platformcoop-support'),
-            'pcc' => __('PCC Event', 'platformcoop-support'),
-            'icde' => __('ICDE Event', 'platformcoop-support'),
+            'community' => __('Community Event', 'pcc-framework'),
+            'conference' => __('PCC Conference', 'pcc-framework'),
+            'pcc' => __('PCC Event', 'pcc-framework'),
+            'icde' => __('ICDE Event', 'pcc-framework'),
         ],
-        'show_on_cb' => 'PlatformCoop\PostTypes\Event\is_parent_event'
+        'show_on_cb' => 'PCCFramework\PostTypes\Event\is_parent_event'
     ]);
 
     $cmb->add_field([
-        'name' => __('Participants', 'platformcoop-support'),
+        'name' => __('Participants', 'pcc-framework'),
         'id'   => $prefix . 'participants',
         'type' => 'select',
         'show_option_none' => true,
         'options' => get_people(),
         'repeatable' => true,
         'text' => [
-            'add_row_text' => __('Add Participant', 'platformcoop-support'),
+            'add_row_text' => __('Add Participant', 'pcc-framework'),
         ]
     ]);
 }
@@ -156,47 +156,47 @@ function sponsors()
 
     $cmb = new_cmb2_box([
         'id'            => 'event_sponsors',
-        'title'         => __('Event Sponsors', 'platformcoop-support'),
+        'title'         => __('Event Sponsors', 'pcc-framework'),
         'object_types'  => ['pcc-event'],
         'context'       => 'normal',
         'priority'      => 'high',
         'show_names'    => true,
-        'show_on_cb'    => 'PlatformCoop\PostTypes\Event\is_parent_event'
+        'show_on_cb'    => 'PCCFramework\PostTypes\Event\is_parent_event'
     ]);
 
     $sponsor_id = $cmb->add_field([
         'id' => $prefix . 'sponsors',
         'type' => 'group',
         'options' => [
-            'group_title' => __('Sponsor {#}', 'platformcoop-support'),
-            'add_button' => __('Add Sponsor', 'platformcoop-support'),
-            'remove_button' => __('Remove Sponsor', 'platformcoop-support'),
+            'group_title' => __('Sponsor {#}', 'pcc-framework'),
+            'add_button' => __('Add Sponsor', 'pcc-framework'),
+            'remove_button' => __('Remove Sponsor', 'pcc-framework'),
             'sortable' => true,
         ],
     ]);
 
     $cmb->add_group_field($sponsor_id, [
-        'name' => __('Sponsor Name', 'platformcoop-support'),
+        'name' => __('Sponsor Name', 'pcc-framework'),
         'id'   => 'name',
         'type' => 'text',
     ]);
 
     $cmb->add_group_field($sponsor_id, [
-        'name' => __('Sponsor Link', 'platformcoop-support'),
+        'name' => __('Sponsor Link', 'pcc-framework'),
         'id' => 'link',
         'type' => 'text_url',
         'protocols' => ['http', 'https'],
     ]);
 
     $cmb->add_group_field($sponsor_id, [
-        'name' => __('Sponsor Logo', 'platformcoop-support'),
+        'name' => __('Sponsor Logo', 'pcc-framework'),
         'id' => 'logo',
         'type'    => 'file',
         'options' => [
             'url' => false,
         ],
         'text' => [
-            'add_upload_file_text' => __('Add/Upload Logo', 'platformcoop-support')
+            'add_upload_file_text' => __('Add/Upload Logo', 'pcc-framework')
         ],
         'query_args' => [
             'type' => [

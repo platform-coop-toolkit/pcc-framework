@@ -1,4 +1,4 @@
-=== Platform Coop Support ===
+=== Platform Cooperativism Consortium Framework ===
 Contributors: greatislander
 Tags: blocks, custom post types
 License: BSD 3-Clause "New" License
@@ -24,6 +24,9 @@ Utilities, custom post types and blocks for the Platform Cooperativism Consortiu
 None yet.
 
 == Changelog ==
+= 0.6.0 =
+* Rename plugin: #16
+
 = 0.5.0 =
 * Add thumbnail support to events and people: #13
 

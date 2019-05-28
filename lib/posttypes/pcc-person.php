@@ -1,6 +1,6 @@
 <?php
 
-namespace PlatformCoop\PostTypes\Person;
+namespace PCCFramework\PostTypes\Person;
 
 /**
  * Registers the `pcc-person` post type.
@@ -16,8 +16,8 @@ function init()
             'supports' => ['title', 'editor', 'custom-fields', 'thumbnail']
         ],
         [
-            'singular' => __('Person', 'platformcoop-support'),
-            'plural' => __('People', 'platformcoop-support'),
+            'singular' => __('Person', 'pcc-framework'),
+            'plural' => __('People', 'pcc-framework'),
             'slug' => 'people'
         ]
     );
