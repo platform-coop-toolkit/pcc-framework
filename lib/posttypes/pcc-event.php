@@ -16,8 +16,9 @@ function init()
         [
             'hierarchical' => true,
             'menu_icon' => 'dashicons-calendar-alt',
+            'menu_position' => 24,
             'show_in_rest' => true,
-            'supports' => ['title', 'editor', 'page-attributes', 'custom-fields'],
+            'supports' => ['title', 'editor', 'page-attributes', 'custom-fields', 'thumbnail'],
         ],
         [
             'singular' => __('Event', 'platformcoop-support'),

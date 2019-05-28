@@ -11,8 +11,9 @@ function init()
         'pcc-person',
         [
             'menu_icon' => 'dashicons-businessperson',
+            'menu_position' => 25,
             'show_in_rest' => true,
-            'supports' => ['title', 'editor', 'custom-fields']
+            'supports' => ['title', 'editor', 'custom-fields', 'thumbnail']
         ],
         [
             'singular' => __('Person', 'platformcoop-support'),
