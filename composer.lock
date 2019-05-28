@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "9e9774cebe44807e30b03b1dc47220b4",
+    "content-hash": "4c573c1f95d42d763e29bfddec6c3b25",
     "packages": [
         {
             "name": "davidgorges/human-name-parser",
