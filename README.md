@@ -26,6 +26,7 @@ None yet.
 ## Changelog ##
 ### 0.6.0 ###
 * Rename plugin: #16
+* Add configuration for automatic deployment: #18
 
 ### 0.5.0 ###
 * Add thumbnail support to events and people: #13
