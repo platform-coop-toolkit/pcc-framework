@@ -4017,10 +4017,10 @@ grunt-wp-i18n@~1.0.3:
     grunt "^1.0.3"
     node-wp-i18n "^1.2.2"
 
-grunt-wp-readme-to-markdown@~1.0.0:
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/grunt-wp-readme-to-markdown/-/grunt-wp-readme-to-markdown-1.0.0.tgz#749ffd803b584d50bd64e73a7a1a91873e9d8cfb"
-  integrity sha1-dJ/9gDtYTVC9ZOc6ehqRhz6djPs=
+grunt-wp-readme-to-markdown@~2.0.1:
+  version "2.0.1"
+  resolved "https://registry.yarnpkg.com/grunt-wp-readme-to-markdown/-/grunt-wp-readme-to-markdown-2.0.1.tgz#406cd5e98988580dc1d16e805c4e2e6092568552"
+  integrity sha1-QGzV6YmIWA3B0W6AXE4uYJJWhVI=
 
 grunt@^1.0.3:
   version "1.0.4"
