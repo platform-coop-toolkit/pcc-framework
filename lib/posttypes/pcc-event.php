@@ -88,25 +88,33 @@ function data()
     $cmb->add_field([
         'name' => __('Start', 'pcc-framework'),
         'id' => $prefix . 'start',
-        'type' => 'text_datetime_timestamp'
+        'type' => 'text_datetime_timestamp',
+        'description' =>
+            __('The date and time at which the event begins.', 'pcc-framework'),
     ]);
 
     $cmb->add_field([
         'name' => __('End', 'pcc-framework'),
         'id' => $prefix . 'end',
-        'type' => 'text_datetime_timestamp'
+        'type' => 'text_datetime_timestamp',
+        'description' =>
+            __('The date and time at which the event ends.', 'pcc-framework'),
     ]);
 
     $cmb->add_field([
         'name' => __('Venue', 'pcc-framework'),
         'id'   => $prefix . 'venue',
         'type' => 'text',
+        'description' =>
+            __('The name of the event&rsquo;s principal venue.', 'pcc-framework'),
     ]);
 
     $cmb->add_field([
         'name' => __('Venue Address', 'pcc-framework'),
         'id'   => $prefix . 'venue_address',
         'type' => 'textarea_small',
+        'description' =>
+            __('The civic address of the event&rsquo;s principal venue.', 'pcc-framework'),
     ]);
 
     $cmb->add_field([
@@ -114,7 +122,9 @@ function data()
         'id'   => $prefix . 'registration_url',
         'type' => 'text_url',
         'protocols' => ['http', 'https'],
-        'show_on_cb' => 'PCCFramework\PostTypes\Event\is_parent_event'
+        'show_on_cb' => 'PCCFramework\PostTypes\Event\is_parent_event',
+        'description' =>
+            __('A hyperlink to the event&rsquo;s external registration page.', 'pcc-framework'),
     ]);
 
     $cmb->add_field([
@@ -129,7 +139,9 @@ function data()
             'pcc' => __('PCC Event', 'pcc-framework'),
             'icde' => __('ICDE Event', 'pcc-framework'),
         ],
-        'show_on_cb' => 'PCCFramework\PostTypes\Event\is_parent_event'
+        'show_on_cb' => 'PCCFramework\PostTypes\Event\is_parent_event',
+        'description' =>
+            __('The type of event.', 'pcc-framework'),
     ]);
 
     $cmb->add_field([
