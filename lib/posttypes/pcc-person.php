@@ -13,7 +13,7 @@ function init()
             'menu_icon' => 'dashicons-businessperson',
             'menu_position' => 25,
             'show_in_rest' => true,
-            'supports' => ['title', 'editor', 'category', 'custom-fields', 'thumbnail'],
+            'supports' => ['title', 'editor', 'custom-fields', 'thumbnail'],
         ],
         [
             'singular' => __('Person', 'pcc-framework'),
