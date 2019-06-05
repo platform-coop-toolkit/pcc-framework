@@ -13,12 +13,12 @@ function init()
             'menu_icon' => 'dashicons-businessperson',
             'menu_position' => 25,
             'show_in_rest' => true,
-            'supports' => ['title', 'editor', 'custom-fields', 'thumbnail']
+            'supports' => ['title', 'editor', 'category', 'custom-fields', 'thumbnail'],
         ],
         [
             'singular' => __('Person', 'pcc-framework'),
             'plural' => __('People', 'pcc-framework'),
-            'slug' => 'people'
+            'slug' => 'people',
         ]
     );
 }
@@ -44,4 +44,47 @@ function get_people()
     }
 
     return $options;
+}
+
+/**
+ * Registers the Person Data metabox and meta fields.
+ *
+ * @return null
+ */
+function data()
+{
+    $prefix = 'pcc_person_';
+
+    $cmb = new_cmb2_box([
+        'id'            => 'person_data',
+        'title'         => __('Person Data', 'pcc-framework'),
+        'object_types'  => ['pcc-person'],
+        'context'       => 'normal',
+        'priority'      => 'high',
+        'show_names'    => true,
+    ]);
+
+    $cmb->add_field([
+        'name' => __('Title', 'pcc-framework'),
+        'id'   => $prefix . 'title',
+        'type' => 'text',
+        'description' =>
+            __('The job title of this person.', 'pcc-framework'),
+    ]);
+
+    $cmb->add_field([
+        'name' => __('Organization', 'pcc-framework'),
+        'id'   => $prefix . 'organization',
+        'type' => 'text',
+        'description' =>
+            __('The name of the organization with which this person is primarily affiliated.', 'pcc-framework'),
+    ]);
+
+    $cmb->add_field([
+        'name' => __('Organization Link', 'pcc-framework'),
+        'id'   => $prefix . 'organization_link',
+        'type' => 'text_url',
+        'description' =>
+            __('A hyperlink organization with which this person is primarily affiliated.', 'pcc-framework'),
+    ]);
 }

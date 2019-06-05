@@ -13,6 +13,7 @@ function register_block_assets()
         'platform-coop-blocks-js',
         plugin_dir_url(dirname(__FILE__)) . 'build/index.js',
         [
+            'wp-dom-ready',
             'wp-date',
             'wp-element',
             'wp-i18n',

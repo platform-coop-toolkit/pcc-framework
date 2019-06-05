@@ -40,6 +40,14 @@ foreach ([
     add_action('init', '\\PCCFramework\\PostTypes\\' . ucfirst($posttype) . '\\init');
 }
 
+foreach ([
+    'focus',
+    'role',
+] as $taxonomy) {
+    require_once dirname(__FILE__) . "/lib/taxonomies/pcc-$taxonomy.php";
+    add_action('init', '\\PCCFramework\\Taxonomies\\' . ucfirst($taxonomy) . '\\init');
+}
+
 require_once dirname(__FILE__) . '/lib/blocks.php';
 
 add_action('init', '\\PCCFramework\\PostTypes\\Event\\register_meta');
@@ -63,5 +71,6 @@ if (is_admin()) {
     add_action('admin_enqueue_scripts', '\\PCCFramework\\Admin\\enqueue_assets');
     add_action('cmb2_admin_init', '\\PCCFramework\\PostTypes\\Event\\data');
     add_action('cmb2_admin_init', '\\PCCFramework\\PostTypes\\Event\\sponsors');
+    add_action('cmb2_admin_init', '\\PCCFramework\\PostTypes\\Person\\data');
     add_action('cmb2_admin_init', '\\PCCFramework\\Settings\\page');
 }
