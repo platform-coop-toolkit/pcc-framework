@@ -2,6 +2,10 @@
 
 namespace PCCFramework\Utils;
 
+if (! defined('PCC_FRAMEWORK_VERSION')) {
+    define('PCC_FRAMEWORK_VERSION', '0.7.0');
+}
+
 /**
  * Wrapper function around cmb2_get_option
  *

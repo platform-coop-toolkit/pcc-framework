@@ -14,8 +14,8 @@
  * @package         PCCFramework
  */
 
-if (! defined('PCC_FRAMEWORK_VERSION')) {
-    define('PCC_FRAMEWORK_VERSION', '0.7.0');
+if (!defined('ABSPATH')) {
+    die('Direct access to this file is not permitted.');
 }
 
 /**
