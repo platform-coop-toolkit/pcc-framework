@@ -24,6 +24,9 @@ Utilities, custom post types and blocks for the Platform Cooperativism Consortiu
 None yet.
 
 == Changelog ==
+= 0.7.0 =
+* Add fields for image and video attribution (#32): #33
+
 = 0.6.0 =
 * Rename plugin: #16
 * Add configuration for automatic deployment: #18

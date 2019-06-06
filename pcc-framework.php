@@ -33,11 +33,14 @@ if (!function_exists('register_extended_post_type')) {
 }
 
 foreach ([
+    'attachment',
     'event',
     'person',
 ] as $posttype) {
     require_once dirname(__FILE__) . "/lib/posttypes/pcc-$posttype.php";
-    add_action('init', '\\PCCFramework\\PostTypes\\' . ucfirst($posttype) . '\\init');
+    if ($posttype !== 'attachment') {
+        add_action('init', '\\PCCFramework\\PostTypes\\' . ucfirst($posttype) . '\\init');
+    }
 }
 
 foreach ([
@@ -73,4 +76,6 @@ if (is_admin()) {
     add_action('cmb2_admin_init', '\\PCCFramework\\PostTypes\\Event\\sponsors');
     add_action('cmb2_admin_init', '\\PCCFramework\\PostTypes\\Person\\data');
     add_action('cmb2_admin_init', '\\PCCFramework\\Settings\\page');
+    add_filter('attachment_fields_to_edit', '\\PCCFramework\\PostTypes\\Attachment\\data', 10, 2);
+    add_action('edit_attachment', '\\PCCFramework\\PostTypes\\Attachment\\save');
 }
