@@ -43,7 +43,8 @@ function data($form_fields, $post)
         'value' => $organization_link ?? '',
         'label' => __('Organization Link', 'pcc-framework'),
         'input' => 'html',
-        'helps' => __('A hyperlink to the website of the organization who created this image or video.', 'pcc-framework'),
+        'helps' =>
+            __('A hyperlink to the website of the organization who created this image or video.', 'pcc-framework'),
         'html' =>sprintf(
             '<input type="url" id="%1$s" class="regular-text code" name="%2$s" value="%3$s" />',
             "attachments-$post->ID-{$prefix}organization_link",
