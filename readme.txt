@@ -1,26 +1,40 @@
 === PCC Framework ===
 Contributors: greatislander
-Tags: blocks, custom post types
+Tags: blocks, custom post types, taxonomies
 License: BSD 3-Clause "New" License
 License URI: https://opensource.org/licenses/BSD-3-Clause
 Requires at least: 5.2.1
 Tested up to: 5.2.1
 Stable tag: 0.6.0
 
-Utilities, custom post types and blocks for the Platform Cooperativism Consortium website.
+Utilities, blocks, custom post types, and taxonomies for the Platform Cooperativism Consortium website.
 
 == Description ==
 
-Utilities, custom post types and blocks for the Platform Cooperativism Consortium website.
+This plugin adds the following custom components for the Platform Cooperativism Consortium:
+
+Blocks:
+
+* Child Pages
+* Social Links
+
+Custom Post Types:
+
+* Events
+* People
+
+Custom Taxonomies:
+
+* Roles
+* Topics
 
 == Installation ==
 
-1. Upload the plugin zip file via the Plugins panel in WordPress.
+1. Upload the [plugin zip file]() via the Plugins panel in WordPress.
 2. Activate the plugin.
 3. There is no step three.
 
 == Frequently Asked Questions ==
-
 None yet.
 
 == Changelog ==
@@ -63,6 +77,5 @@ None yet.
 * Scaffold initial post types
 
 == Upgrade Notice ==
-
 = 0.6.0 =
 The plugin has been renamed to pcc-framework. Removing and reinstalling is recommended.
