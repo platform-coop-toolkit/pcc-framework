@@ -23,7 +23,7 @@ Custom Taxonomies:
 
 ## Installation ##
 
-1. Upload the [plugin zip file]() via the Plugins panel in WordPress.
+1. Upload the plugin zip file via the Plugins panel in WordPress.
 2. Activate the plugin.
 3. There is no step three.
 
