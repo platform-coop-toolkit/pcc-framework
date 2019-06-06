@@ -1,6 +1,7 @@
 # Changelog #
 ## 0.7.0 ##
 * Add fields for image and video attribution (#32): #33
+* Add Gulp tasks for CSS build and readme to Markdown (#31): #34
 
 ## 0.6.0 ##
 * Rename plugin: #16

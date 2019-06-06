@@ -20,7 +20,7 @@ function register_block_assets()
             'wp-blocks',
             'wp-components'
         ],
-        false,
+        PCC_FRAMEWORK_VERSION,
         true
     );
 }

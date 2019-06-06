@@ -9,15 +9,22 @@
  * Domain Path:     /languages
  * License:         BSD 3-Clause "New" License
  * License URI:     https://opensource.org/licenses/BSD-3-Clause
- * Version:         0.6.0
+ * Version:         0.7.0
  *
  * @package         PCCFramework
  */
 
+if (! defined('PCC_FRAMEWORK_VERSION')) {
+    define('PCC_FRAMEWORK_VERSION', '0.7.0');
+}
+
+/**
+ * Load utilities.
+ */
 require_once dirname(__FILE__) . '/lib/utils.php';
 
 /**
- * Ensure dependencies are loaded
+ * Ensure Composer dependencies are present.
  */
 if (!function_exists('register_extended_post_type')) {
     if (!file_exists($composer = __DIR__.'/vendor/autoload.php')) {
@@ -32,6 +39,9 @@ if (!function_exists('register_extended_post_type')) {
     require_once $composer;
 }
 
+/**
+ * Load and register post types.
+ */
 foreach ([
     'attachment',
     'event',
@@ -40,9 +50,13 @@ foreach ([
     require_once dirname(__FILE__) . "/lib/posttypes/pcc-$posttype.php";
     if ($posttype !== 'attachment') {
         add_action('init', '\\PCCFramework\\PostTypes\\' . ucfirst($posttype) . '\\init');
+        add_action('init', '\\PCCFramework\\PostTypes\\' . ucfirst($posttype) . '\\register_meta');
     }
 }
 
+/**
+ * Load and register taxonomies.
+ */
 foreach ([
     'role',
     'topic',
@@ -51,9 +65,11 @@ foreach ([
     add_action('init', '\\PCCFramework\\Taxonomies\\' . ucfirst($taxonomy) . '\\init');
 }
 
+/**
+ * Load blocks.
+ */
 require_once dirname(__FILE__) . '/lib/blocks.php';
 
-add_action('init', '\\PCCFramework\\PostTypes\\Event\\register_meta');
 add_action('init', '\\PCCFramework\\Blocks\\register_block_assets');
 
 foreach ([
@@ -67,6 +83,9 @@ foreach ([
     add_action('init', "\\PCCFramework\\Blocks\\$block\\register_block");
 }
 
+/**
+ * Load admin assets and metadata fields.
+ */
 if (is_admin()) {
     require_once dirname(__FILE__) . '/lib/admin.php';
     require_once dirname(__FILE__) . '/lib/settings.php';

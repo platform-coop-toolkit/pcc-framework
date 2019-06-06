@@ -47,6 +47,16 @@ function get_people()
 }
 
 /**
+ * Registers meta fields for the `pcc-person` post type.
+ *
+ * @return null
+ */
+function register_meta()
+{
+    // TODO.
+}
+
+/**
  * Registers the Person Data metabox and meta fields.
  *
  * @return null
