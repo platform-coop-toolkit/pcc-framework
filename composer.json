@@ -16,6 +16,7 @@
         }
     ],
     "require": {
+        "commerceguys/addressing": "^1.0",
         "davidgorges/human-name-parser": "^1.0",
         "johnbillion/extended-cpts": "^4.2"
     },

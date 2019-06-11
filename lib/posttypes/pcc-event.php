@@ -2,6 +2,7 @@
 
 namespace PCCFramework\PostTypes\Event;
 
+use CommerceGuys\Addressing\Country\CountryRepository;
 use function PCCFramework\PostTypes\Person\get_people;
 
 /**
@@ -75,6 +76,11 @@ function register_meta()
 function data()
 {
     $prefix = 'pcc_event_';
+    $countryRepository = new CountryRepository();
+    $countries = [];
+    foreach ($countryRepository->getAll() as $country) {
+        $countries[$country->getCountryCode()] = $country->getName();
+    }
 
     $cmb = new_cmb2_box([
         'id'            => 'event_data',
@@ -102,7 +108,7 @@ function data()
     ]);
 
     $cmb->add_field([
-        'name' => __('Venue', 'pcc-framework'),
+        'name' => __('Venue Name', 'pcc-framework'),
         'id'   => $prefix . 'venue',
         'type' => 'text',
         'description' =>
@@ -110,11 +116,45 @@ function data()
     ]);
 
     $cmb->add_field([
-        'name' => __('Venue Address', 'pcc-framework'),
-        'id'   => $prefix . 'venue_address',
-        'type' => 'textarea_small',
+        'name' => __('Venue Street Address', 'pcc-framework'),
+        'id'   => $prefix . 'venue_street_address',
+        'type' => 'text',
         'description' =>
-            __('The civic address of the event&rsquo;s principal venue.', 'pcc-framework'),
+            __('The street address of the event&rsquo;s principal venue.', 'pcc-framework'),
+    ]);
+
+    $cmb->add_field([
+        'name' => __('Venue Town/City', 'pcc-framework'),
+        'id'   => $prefix . 'venue_locality',
+        'type' => 'text',
+        'description' =>
+            __('The town or city of the event&rsquo;s principal venue.', 'pcc-framework'),
+    ]);
+
+    $cmb->add_field([
+        'name' => __('Venue Region', 'pcc-framework'),
+        'id'   => $prefix . 'venue_region',
+        'type' => 'text',
+        'description' =>
+            __('The province, state, or region of the event&rsquo;s principal venue.', 'pcc-framework'),
+    ]);
+
+    $cmb->add_field([
+        'name' => __('Venue Postal Code', 'pcc-framework'),
+        'id'   => $prefix . 'venue_postal_code',
+        'type' => 'text',
+        'description' =>
+            __('The postal code of the event&rsquo;s principal venue.', 'pcc-framework'),
+    ]);
+
+    $cmb->add_field([
+        'name' => __('Venue Country', 'pcc-framework'),
+        'id'   => $prefix . 'venue_country',
+        'type' => 'select',
+        'default' => 'US',
+        'options' => $countries,
+        'description' =>
+            __('The country of the event&rsquo;s principal venue.', 'pcc-framework'),
     ]);
 
     $cmb->add_field([
