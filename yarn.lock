@@ -1262,10 +1262,10 @@
   resolved "https://registry.yarnpkg.com/@wordpress/babel-plugin-import-jsx-pragma/-/babel-plugin-import-jsx-pragma-2.2.0.tgz#31ddeb743efea6626c93299d11c75270f66d5f9a"
   integrity sha512-H31qqjbXrQebue4ho8bu/vCPkVCENalxQMMAQOGulmQxOQ6IF+9uwglCR6ZiAWhZmPo6LFq0NQ+IPLSUX8IS8Q==
 
-"@wordpress/babel-preset-default@^4.2.0":
-  version "4.2.0"
-  resolved "https://registry.yarnpkg.com/@wordpress/babel-preset-default/-/babel-preset-default-4.2.0.tgz#019dc9f4ced1be710426f47043b3207102caa511"
-  integrity sha512-a0+PzFKRgmZLILdkCwTqoEJY3getFRqiT1mtd1hQvszrX01RbKmeOmPHx6OZPE0HhbYWS4HK/RCGXgBfPy7ROw==
+"@wordpress/babel-preset-default@^4.3.0":
+  version "4.3.0"
+  resolved "https://registry.yarnpkg.com/@wordpress/babel-preset-default/-/babel-preset-default-4.3.0.tgz#139f0245f11435551e96740b7801f692a6bad32d"
+  integrity sha512-yj/JEQh8SJzI3d6h531iVnKvFSYssdFb2PwpMCL5BuIXk98U+FOKSmIHj134WJ1lm4viwMIQeH3UZ93bJ0MqTQ==
   dependencies:
     "@babel/core" "^7.4.4"
     "@babel/plugin-proposal-async-generator-functions" "^7.2.0"
@@ -1275,12 +1275,12 @@
     "@babel/preset-env" "^7.4.4"
     "@babel/runtime" "^7.4.4"
     "@wordpress/babel-plugin-import-jsx-pragma" "^2.2.0"
-    "@wordpress/browserslist-config" "^2.4.0"
+    "@wordpress/browserslist-config" "^2.5.0"
 
-"@wordpress/browserslist-config@^2.4.0":
-  version "2.4.0"
-  resolved "https://registry.yarnpkg.com/@wordpress/browserslist-config/-/browserslist-config-2.4.0.tgz#f461ad81c9ff039c73c0f8c1c932ef36af05d1fd"
-  integrity sha512-d2OmEK/qsZQxTQ449M0eatFYlW/en/ISQtakSDkaY0YB2FKZN2cM5rgOcV1aHQdkrAW00nVorMo4BPH7TpgH6g==
+"@wordpress/browserslist-config@^2.5.0":
+  version "2.5.0"
+  resolved "https://registry.yarnpkg.com/@wordpress/browserslist-config/-/browserslist-config-2.5.0.tgz#f237750147b71f5a2c70bc9b43f3e3287218e9d3"
+  integrity sha512-cspE4iJ87YjweKAtnIsCxm7ZJQ/ved3TdRJWS0DX/0AOukoRhOMYh7CP1aVc0M3J1kB4LtTY7u3HOcqF2Yf2VA==
 
 "@wordpress/dependency-extraction-webpack-plugin@^1.0.1":
   version "1.0.1"
@@ -1290,7 +1290,7 @@
     webpack "^4.8.3"
     webpack-sources "^1.3.0"
 
-"@wordpress/eslint-plugin@^2.2.0", "@wordpress/eslint-plugin@^2.3.0":
+"@wordpress/eslint-plugin@^2.3.0":
   version "2.3.0"
   resolved "https://registry.yarnpkg.com/@wordpress/eslint-plugin/-/eslint-plugin-2.3.0.tgz#6dda6f912b22a6304f3beb572b9ce05bfe37cda3"
   integrity sha512-1X1uvBfwx96dxz0NmLB22JhSNaJQCYP3bYAnaR5qMV+O9t6gwbdPl+1kpYhe2sSKFm72y6Tfi8CKRWsyKRCHUg==
@@ -1310,10 +1310,10 @@
     jest-matcher-utils "^24.7.0"
     lodash "^4.17.11"
 
-"@wordpress/jest-preset-default@^4.1.0":
-  version "4.1.0"
-  resolved "https://registry.yarnpkg.com/@wordpress/jest-preset-default/-/jest-preset-default-4.1.0.tgz#c3c0e9ed77fa5847b932b62923354e4248ee5f68"
-  integrity sha512-eGV1UwfKiHNpqw78YbxXIpe0ia99Rd9Hn5IqnSJJGtQ6ObhenJC4iVKEtAPvvranHajkZGxMGvhvvH0B9KYm0Q==
+"@wordpress/jest-preset-default@^4.2.0":
+  version "4.2.0"
+  resolved "https://registry.yarnpkg.com/@wordpress/jest-preset-default/-/jest-preset-default-4.2.0.tgz#26695c6ec75e2e150c116b303357e8da7ad2ca54"
+  integrity sha512-EJUF7cwqqqpjx5H6exW4RcAZU3eTkzsPFb+Huh/R06t7D91clTQ3PG04h22sbGNDc245lG1ta3wyL04YaWo47A==
   dependencies:
     "@wordpress/jest-console" "^3.1.0"
     babel-jest "^24.7.1"
@@ -1321,21 +1321,21 @@
     enzyme-adapter-react-16 "^1.10.0"
     enzyme-to-json "^3.3.5"
 
-"@wordpress/npm-package-json-lint-config@^1.3.0":
-  version "1.3.0"
-  resolved "https://registry.yarnpkg.com/@wordpress/npm-package-json-lint-config/-/npm-package-json-lint-config-1.3.0.tgz#6f74f266805fda329170f8cf64af2d931ee232c6"
-  integrity sha512-3BlWs7FJms0AOu8vsm2VEmNcIM+tlSgich0AaDPPn/nY0j2knJNNGupDUA9/vmYssvufI/uCTJRq84FHQCOmGA==
+"@wordpress/npm-package-json-lint-config@^2.0.0":
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/@wordpress/npm-package-json-lint-config/-/npm-package-json-lint-config-2.0.0.tgz#42345750aeab948d6d7199c2b6ab74f00b3c7ced"
+  integrity sha512-PF8wU2Vwo0TXsbK1Wj//9qpfcoFxs9A2gzHGNnyyH+npGlSqSE3tBXwz+sDNCVjRWgf8bIhPKQ9EmH2eXp4Ctw==
 
-"@wordpress/scripts@^3.2.1":
-  version "3.2.1"
-  resolved "https://registry.yarnpkg.com/@wordpress/scripts/-/scripts-3.2.1.tgz#0c6c883c2c4ee648b7e078284107415a42c0d7a2"
-  integrity sha512-GrOTew6JcRKTTfy/512Wc/dX2xcTQccw04OPJHjfMmp1zU1V/Y1SODSdD5KacygYnBza1NKher6QBP6wKyBF8w==
+"@wordpress/scripts@^3.3.0":
+  version "3.3.0"
+  resolved "https://registry.yarnpkg.com/@wordpress/scripts/-/scripts-3.3.0.tgz#4678a7a182bc49daff7e3be57e209b3e23b600cf"
+  integrity sha512-kQBzYMGNhAgTaguS0IZGT9LsmaeC1wgJ8pExjc7md8i9ldp4GPOJCOxVefLkxid6vVJrOi0GzBVYqEfiwpFFCQ==
   dependencies:
-    "@wordpress/babel-preset-default" "^4.2.0"
+    "@wordpress/babel-preset-default" "^4.3.0"
     "@wordpress/dependency-extraction-webpack-plugin" "^1.0.1"
-    "@wordpress/eslint-plugin" "^2.2.0"
-    "@wordpress/jest-preset-default" "^4.1.0"
-    "@wordpress/npm-package-json-lint-config" "^1.3.0"
+    "@wordpress/eslint-plugin" "^2.3.0"
+    "@wordpress/jest-preset-default" "^4.2.0"
+    "@wordpress/npm-package-json-lint-config" "^2.0.0"
     babel-loader "^8.0.5"
     chalk "^2.4.1"
     check-node-version "^3.1.1"
@@ -1343,6 +1343,7 @@
     eslint "^5.16.0"
     jest "^24.7.1"
     jest-puppeteer "^4.0.0"
+    minimist "^1.2.0"
     npm-package-json-lint "^3.6.0"
     puppeteer "1.6.1"
     read-pkg-up "^1.0.1"
@@ -1352,7 +1353,7 @@
     stylelint-config-wordpress "^13.1.0"
     thread-loader "^2.1.2"
     webpack "4.8.3"
-    webpack-bundle-analyzer "^3.0.3"
+    webpack-bundle-analyzer "^3.3.2"
     webpack-cli "^3.1.2"
     webpack-livereload-plugin "^2.2.0"
 
@@ -10286,7 +10287,7 @@ webidl-conversions@^4.0.2:
   resolved "https://registry.yarnpkg.com/webidl-conversions/-/webidl-conversions-4.0.2.tgz#a855980b1f0b6b359ba1d5d9fb39ae941faa63ad"
   integrity sha512-YQ+BmxuTgd6UXZW3+ICGfyqRyHXVlD5GtQr5+qjiNW7bF0cqrzX500HVXPBOvgXb5YnzDd+h0zqyv61KUD7+Sg==
 
-webpack-bundle-analyzer@^3.0.3:
+webpack-bundle-analyzer@^3.3.2:
   version "3.3.2"
   resolved "https://registry.yarnpkg.com/webpack-bundle-analyzer/-/webpack-bundle-analyzer-3.3.2.tgz#3da733a900f515914e729fcebcd4c40dde71fc6f"
   integrity sha512-7qvJLPKB4rRWZGjVp5U1KEjwutbDHSKboAl0IfafnrdXMrgC0tOtZbQD6Rw0u4cmpgRN4O02Fc0t8eAT+FgGzA==

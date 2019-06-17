@@ -16,7 +16,7 @@
   "main": "Gruntfile.js",
   "devDependencies": {
     "@wordpress/eslint-plugin": "^2.3.0",
-    "@wordpress/scripts": "^3.2.1",
+    "@wordpress/scripts": "^3.3.0",
     "autoprefixer": "^9.6.0",
     "cssnano": "^4.1.10",
     "gulp": "^4.0.2",
