@@ -8,16 +8,16 @@
     "packages": [
         {
             "name": "commerceguys/addressing",
-            "version": "v1.0.4",
+            "version": "v1.0.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/commerceguys/addressing.git",
-                "reference": "0a48fc7e42f95ba69ad6260d624d9b0dd941c151"
+                "reference": "2d048bfdb3b79f2d87f5d5b078769c059eaa3eb1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/commerceguys/addressing/zipball/0a48fc7e42f95ba69ad6260d624d9b0dd941c151",
-                "reference": "0a48fc7e42f95ba69ad6260d624d9b0dd941c151",
+                "url": "https://api.github.com/repos/commerceguys/addressing/zipball/2d048bfdb3b79f2d87f5d5b078769c059eaa3eb1",
+                "reference": "2d048bfdb3b79f2d87f5d5b078769c059eaa3eb1",
                 "shasum": ""
             },
             "require": {
@@ -63,7 +63,7 @@
                 "localization",
                 "postal"
             ],
-            "time": "2019-05-31T11:00:28+00:00"
+            "time": "2019-06-27T10:43:27+00:00"
         },
         {
             "name": "davidgorges/human-name-parser",
