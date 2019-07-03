@@ -9,11 +9,11 @@ const socialLinks = registerBlockType( 'pcc/social-links', {
 	category: 'widgets',
 	attributes: {
 		label_facebook: {
-			default: __( 'Platform Cooperativism – Discussion & Linkshare', 'platformcoop-support' ),
+			default: __( 'Platform Cooperativism – Discussion & Linkshare', 'pcc-framework' ),
 			type: 'string',
 		},
 		label_twitter: {
-			default: __( 'Platform Co-op Development Kit', 'platformcoop-support' ),
+			default: __( 'Platform Co-op Development Kit', 'pcc-framework' ),
 			type: 'string',
 		},
 	},
@@ -60,12 +60,12 @@ const socialLinks = registerBlockType( 'pcc/social-links', {
 			blockUI =
 				<div className={ className }>
 					<TextControl
-						label={ __( 'Facebook Label', 'platformcoop-support' ) }
+						label={ __( 'Facebook Label', 'pcc-framework' ) }
 						value={ attributes.label_facebook }
 						onChange={ onChangeLabelFaceBook }
 					/>
 					<TextControl
-						label={ __( 'Twitter Label', 'platformcoop-support' ) }
+						label={ __( 'Twitter Label', 'pcc-framework' ) }
 						value={ attributes.label_twitter }
 						onChange={ onChangeLabelTwitter }
 					/>

@@ -60,29 +60,29 @@ registerBlockType( 'pcc/event-data', {
 		return (
 			<div className={ className }>
 				{ /* <DateTimePicker
-					label={ __( 'Start', 'platformcoop-support' ) }
+					label={ __( 'Start', 'pcc-framework' ) }
 					currentDate={ date( 'c', attributes.start ) }
 					onChange={ updateStart }
 					is12Hour={ false }
 				/>
 				<DateTimePicker
-					label={ __( 'End', 'platformcoop-support' ) }
+					label={ __( 'End', 'pcc-framework' ) }
 					currentDate={ date( 'c', attributes.end ) }
 					onChange={ updateEnd }
 					is12Hour={ false }
 				/> */ }
 				<TextControl
-					label={ __( 'Venue', 'platformcoop-support' ) }
+					label={ __( 'Venue', 'pcc-framework' ) }
 					value={ attributes.venueName }
 					onChange={ updateVenueName }
 				/>
 				<TextareaControl
-					label={ __( 'Venue Address', 'platformcoop-support' ) }
+					label={ __( 'Venue Address', 'pcc-framework' ) }
 					value={ attributes.venueAddress }
 					onChange={ updateVenueAddress }
 				/>
 				<TextControl
-					label={ __( 'Registration Link', 'platformcoop-support' ) }
+					label={ __( 'Registration Link', 'pcc-framework' ) }
 					value={ attributes.registrationUrl }
 					onChange={ updateRegistrationUrl }
 				/>

@@ -20,7 +20,7 @@ function page()
         'desc' =>
             __(
                 'Link to external donation form (used in site footer and some page templates).',
-                'platformcoop-support'
+                'pcc-framework'
             ),
         'id' => 'donate_link',
         'type' => 'text_url',
@@ -39,7 +39,7 @@ function page()
         'desc' =>
             __(
                 'Link to external newsletter signup form (used in site footer and some page templates).',
-                'platformcoop-support'
+                'pcc-framework'
             ),
         'id' => 'signup_link',
         'type' => 'text_url',

@@ -31,7 +31,7 @@ if (!function_exists('register_extended_post_type')) {
         \PCCFramework\Utils\error_handler(
             __(
                 'You must run <code>composer install</code> from the Platform Co-op Support directory.',
-                'platformcoop-support'
+                'pcc-framework'
             ),
             __('Autoloader not found.', 'pcc-framework')
         );
@@ -74,6 +74,8 @@ add_action('init', '\\PCCFramework\\Blocks\\register_block_assets');
 
 foreach ([
     'child-pages',
+    'participants-button',
+    'program-button',
     'social-links',
 ] as $block) {
     require_once dirname(__FILE__) . "/lib/blocks/$block.php";
