@@ -185,6 +185,19 @@ function data()
     ]);
 
     $cmb->add_field([
+        'name'    => __('Event Banner Video', 'pcc-framework'),
+        'desc'    => 'Upload an animated banner video for this event.',
+        'id'      => $prefix . 'banner_video',
+        'type'    => 'file',
+        'options' => [
+            'url' => false, // Hide the text input for the url
+        ],
+        'query_args' => [
+            'type' => 'video/mp4',
+        ],
+    ]);
+
+    $cmb->add_field([
         'name' => __('Participants', 'pcc-framework'),
         'id'   => $prefix . 'participants',
         'type' => 'select',
