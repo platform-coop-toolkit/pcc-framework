@@ -1,4 +1,7 @@
 # Changelog #
+## 1.1.0 ##
+* Add support for animated event banners: #49
+
 ## 1.0.0 ##
 * Bump autoprefixer from 9.6.0 to 9.6.1: #46
 * Bump lodash from 4.17.11 to 4.17.14: #47

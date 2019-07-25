@@ -5,7 +5,7 @@ License: BSD 3-Clause "New" License
 License URI: https://opensource.org/licenses/BSD-3-Clause
 Requires at least: 5.2.2
 Tested up to: 5.2.2
-Stable tag: 1.0.0
+Stable tag: 1.1.0
 
 [![License](https://badgen.net/github/license/platform-coop-toolkit/pcc-framework)](https://github.com/platform-coop-toolkit/pcc-framework/blob/master/LICENSE.md) [![Status](https://badgen.net/github/status/platform-coop-toolkit/pcc-framework)](https://circleci.com/gh/platform-coop-toolkit/pcc-framework/tree/master) [![GitHub Release](https://badgen.net/github/release/platform-coop-toolkit/pcc-framework)](https://github.com/platform-coop-toolkit/pcc-framework/releases/latest)
 
@@ -40,6 +40,9 @@ Custom Taxonomies:
 None yet.
 
 == Changelog ==
+= 1.1.0 =
+* Add support for animated event banners: #49
+
 = 1.0.0 =
 * Bump autoprefixer from 9.6.0 to 9.6.1: #46
 * Bump lodash from 4.17.11 to 4.17.14: #47
