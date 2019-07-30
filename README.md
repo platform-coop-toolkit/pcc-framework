@@ -30,5 +30,22 @@ Custom Taxonomies:
 
 
 ## Upgrade Notice ##
-### 0.6.0 ###
-The plugin has been renamed to pcc-framework. Removing and reinstalling is recommended.
+### 1.0.0 ###
+This is the plugin's first production release.
+
+## Development ##
+
+Commands for development:
+
+- `yarn`: Install CSS and JavaScript dependencies
+- `yarn build`: Build front-end assets
+- `yarn build:production`: Build front-end assets for production
+- `yarn lint`: Check CSS and JavaScript coding standards
+- `composer install`: Install PHP dependencies
+- `composer test`: Run PHP unit tests and check PHP coding standards ([WordPress PHPUnit environment](https://make.wordpress.org/cli/handbook/plugin-unit-tests/) must be set up first)
+
+This plugin uses [CSS with PostCSS](https://postcss.org/) for admin stylesheets and includes the following PHP libraries:
+
+- [johnbillion/extended-cpts](https://github.com/johnbillion/extended-cpts) for registering custom post types and taxonomies
+- [davidgorges/human-name-parser](https://github.com/davidgorges/HumanNameParser.php) for parsing human names (not used yet)
+- [commerceguys/addressing](https://github.com/commerceguys/addressing) for formatting addresses
