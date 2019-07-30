@@ -11,6 +11,7 @@
     "blocks"
   ],
   "homepage": "https://github.com/platform-coop-toolkit/pcc-framework",
+  "private": true,
   "repository": "https://github.com/platform-coop-toolkit/pcc-framework",
   "bugs": "https://github.com/platform-coop-toolkit/pcc-framework/issues",
   "main": "Gruntfile.js",
@@ -26,13 +27,15 @@
   "scripts": {
     "readme": "gulp readme",
     "start": "wp-scripts start",
-    "build": "npm run -s build:js && npm run -s build:css",
-    "build:js": "wp-scripts build",
-    "build:css": "gulp css",
-    "lint:js": "wp-scripts lint-js ./src",
-    "lint:css": "wp-scripts lint-style './src/**/*.css'",
+    "build": "npm run -s build:scripts && npm run -s build:styles",
+    "build:production": "npm run -s build",
+    "build:scripts": "wp-scripts build",
+    "build:styles": "gulp css",
+    "lint:scripts": "wp-scripts lint-js ./src",
+    "lint:styles": "wp-scripts lint-style './src/**/*.css'",
     "lint:pkg-json": "wp-scripts lint-pkg-json .",
-    "test": "npm run -s lint:js && npm run -s lint:css && npm run -s lint:pkg-json"
+    "lint": "npm run -s lint:scripts && npm run -s lint:styles && npm run -s lint:pkg-json",
+    "test": "npm run -s lint"
   },
   "browserslist": [
     "last 1 version",
