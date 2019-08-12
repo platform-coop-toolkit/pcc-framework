@@ -1257,15 +1257,15 @@
     "@webassemblyjs/wast-parser" "1.8.5"
     "@xtuc/long" "4.2.2"
 
-"@wordpress/babel-plugin-import-jsx-pragma@^2.2.0":
-  version "2.2.0"
-  resolved "https://registry.yarnpkg.com/@wordpress/babel-plugin-import-jsx-pragma/-/babel-plugin-import-jsx-pragma-2.2.0.tgz#31ddeb743efea6626c93299d11c75270f66d5f9a"
-  integrity sha512-H31qqjbXrQebue4ho8bu/vCPkVCENalxQMMAQOGulmQxOQ6IF+9uwglCR6ZiAWhZmPo6LFq0NQ+IPLSUX8IS8Q==
+"@wordpress/babel-plugin-import-jsx-pragma@^2.3.0":
+  version "2.3.0"
+  resolved "https://registry.yarnpkg.com/@wordpress/babel-plugin-import-jsx-pragma/-/babel-plugin-import-jsx-pragma-2.3.0.tgz#330b736fa383437ce1abc442f6cf61cd46437ee9"
+  integrity sha512-b45c4x1+OvQm1f6egrBruO8eVF4bRVRZ8ojM1ttDcMi+K/qXfun3J6O8xXpSnA5eeNCZaJL3DhIk/aoNBbpwzw==
 
-"@wordpress/babel-preset-default@^4.3.0":
-  version "4.3.0"
-  resolved "https://registry.yarnpkg.com/@wordpress/babel-preset-default/-/babel-preset-default-4.3.0.tgz#139f0245f11435551e96740b7801f692a6bad32d"
-  integrity sha512-yj/JEQh8SJzI3d6h531iVnKvFSYssdFb2PwpMCL5BuIXk98U+FOKSmIHj134WJ1lm4viwMIQeH3UZ93bJ0MqTQ==
+"@wordpress/babel-preset-default@^4.4.0":
+  version "4.4.0"
+  resolved "https://registry.yarnpkg.com/@wordpress/babel-preset-default/-/babel-preset-default-4.4.0.tgz#6ced34899dc41d9b072cd0487292c68282a4bc14"
+  integrity sha512-cFdzlVSYe7M4lKojBxG/TaoRAL6r/UZhvFN7R7e49qlrNlB20YTGSkpKffO1h158mlPuunFIIt+425w/xQE8/g==
   dependencies:
     "@babel/core" "^7.4.4"
     "@babel/plugin-proposal-async-generator-functions" "^7.2.0"
@@ -1274,23 +1274,24 @@
     "@babel/plugin-transform-runtime" "^7.4.4"
     "@babel/preset-env" "^7.4.4"
     "@babel/runtime" "^7.4.4"
-    "@wordpress/babel-plugin-import-jsx-pragma" "^2.2.0"
-    "@wordpress/browserslist-config" "^2.5.0"
+    "@wordpress/babel-plugin-import-jsx-pragma" "^2.3.0"
+    "@wordpress/browserslist-config" "^2.6.0"
+    core-js "^3.1.4"
 
-"@wordpress/browserslist-config@^2.5.0":
-  version "2.5.0"
-  resolved "https://registry.yarnpkg.com/@wordpress/browserslist-config/-/browserslist-config-2.5.0.tgz#f237750147b71f5a2c70bc9b43f3e3287218e9d3"
-  integrity sha512-cspE4iJ87YjweKAtnIsCxm7ZJQ/ved3TdRJWS0DX/0AOukoRhOMYh7CP1aVc0M3J1kB4LtTY7u3HOcqF2Yf2VA==
+"@wordpress/browserslist-config@^2.6.0":
+  version "2.6.0"
+  resolved "https://registry.yarnpkg.com/@wordpress/browserslist-config/-/browserslist-config-2.6.0.tgz#00074a1cb1ba979ba7ac5afc4e322bc8447035d1"
+  integrity sha512-vRgzGoxhcNVChBP30XZlyK4w6r/9ZpO+Fi1dzmButp31lUEb1pT5WBxTIQl3HE0JZ9YTEJ00WWGO5sjGi5MHZA==
 
-"@wordpress/dependency-extraction-webpack-plugin@^1.0.1":
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/@wordpress/dependency-extraction-webpack-plugin/-/dependency-extraction-webpack-plugin-1.0.1.tgz#3a4328370040202a5b147902deba0b79ad6884d0"
-  integrity sha512-Ov4IljSGSPDjQPKV79tXKk7Ljndo+f84aImKIH8mzTMRbZS+7wPzz6jHAa/FpGmf7R99QqaN4CNRpvBihu3o9Q==
+"@wordpress/dependency-extraction-webpack-plugin@^1.1.0":
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/@wordpress/dependency-extraction-webpack-plugin/-/dependency-extraction-webpack-plugin-1.1.0.tgz#dba0bf8efb3be1607a7859bd771b83665bbea2ad"
+  integrity sha512-tCyxy7hLzDdCHQ1xGPiMlE7fBp/pCuEum89gqzoiz2HQJld6F7BTNMo3XfTzxFO0SHh/C64yOZgBB8FvH+warQ==
   dependencies:
     webpack "^4.8.3"
     webpack-sources "^1.3.0"
 
-"@wordpress/eslint-plugin@^2.3.0", "@wordpress/eslint-plugin@^2.4.0":
+"@wordpress/eslint-plugin@^2.4.0":
   version "2.4.0"
   resolved "https://registry.yarnpkg.com/@wordpress/eslint-plugin/-/eslint-plugin-2.4.0.tgz#6d4dc22489c43c26b78320d830fb50cbbd708509"
   integrity sha512-FOsNM6cCKZKug/sXKAum1lceGiULm4sKZlBCHUHRNiGSbOlWs+kjoATQOuid9nGYVK/uzvQOCN1xwZJbQ9XjDw==
@@ -1301,41 +1302,42 @@
     eslint-plugin-react-hooks "^1.6.0"
     requireindex "^1.2.0"
 
-"@wordpress/jest-console@^3.1.0":
-  version "3.1.0"
-  resolved "https://registry.yarnpkg.com/@wordpress/jest-console/-/jest-console-3.1.0.tgz#9690134e14763107e86a5a9023040db5ebce3e6f"
-  integrity sha512-6ofKMrGnmDFUnc9zdxN8AfuD3IDrf4THnvJ2QEvz71FVZZbFRLlFZOGs4O/IFmPPOMa/0/lGvTEJr9THZ44wBw==
+"@wordpress/jest-console@^3.2.0":
+  version "3.2.0"
+  resolved "https://registry.yarnpkg.com/@wordpress/jest-console/-/jest-console-3.2.0.tgz#8eef3a51ccad2a73db44a8af7f151456f163b1b3"
+  integrity sha512-WZl2eJH9g+OSTrFPpAKSCT7Pl7rvwatPnBm1Z4kpPZdOQDbF3w2a6yzfpjtBBD2BVEqHsaLAxn0jC6xHkqbAxw==
   dependencies:
     "@babel/runtime" "^7.4.4"
     jest-matcher-utils "^24.7.0"
-    lodash "^4.17.11"
+    lodash "^4.17.14"
 
-"@wordpress/jest-preset-default@^4.2.0":
-  version "4.2.0"
-  resolved "https://registry.yarnpkg.com/@wordpress/jest-preset-default/-/jest-preset-default-4.2.0.tgz#26695c6ec75e2e150c116b303357e8da7ad2ca54"
-  integrity sha512-EJUF7cwqqqpjx5H6exW4RcAZU3eTkzsPFb+Huh/R06t7D91clTQ3PG04h22sbGNDc245lG1ta3wyL04YaWo47A==
+"@wordpress/jest-preset-default@^4.3.0":
+  version "4.3.0"
+  resolved "https://registry.yarnpkg.com/@wordpress/jest-preset-default/-/jest-preset-default-4.3.0.tgz#2caf00796d59e21eacffbf29f9ccca64fef2ca22"
+  integrity sha512-b8rucE3e7+VkD/gX9pB6c9ZysjUAOfNG2Lcp8OLtfzWvlzMkuJtl7+9P/D6GAWk2GEK54GdM018vl3IM5HkaHg==
   dependencies:
-    "@wordpress/jest-console" "^3.1.0"
+    "@wordpress/jest-console" "^3.2.0"
     babel-jest "^24.7.1"
     enzyme "^3.9.0"
     enzyme-adapter-react-16 "^1.10.0"
     enzyme-to-json "^3.3.5"
 
-"@wordpress/npm-package-json-lint-config@^2.0.0":
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/@wordpress/npm-package-json-lint-config/-/npm-package-json-lint-config-2.0.0.tgz#42345750aeab948d6d7199c2b6ab74f00b3c7ced"
-  integrity sha512-PF8wU2Vwo0TXsbK1Wj//9qpfcoFxs9A2gzHGNnyyH+npGlSqSE3tBXwz+sDNCVjRWgf8bIhPKQ9EmH2eXp4Ctw==
+"@wordpress/npm-package-json-lint-config@^2.1.0":
+  version "2.1.0"
+  resolved "https://registry.yarnpkg.com/@wordpress/npm-package-json-lint-config/-/npm-package-json-lint-config-2.1.0.tgz#961f42a3f047abe5463a4cb0474a4423bf8b510e"
+  integrity sha512-NSwcK7GtlmW5O5ZMG7elRKBa9sPws17Sadjlztig6ShOuhlLFeHYk99tUenpmJ/PYOZex4fSJ5e9mqjPyKunjw==
 
-"@wordpress/scripts@^3.3.0":
-  version "3.3.0"
-  resolved "https://registry.yarnpkg.com/@wordpress/scripts/-/scripts-3.3.0.tgz#4678a7a182bc49daff7e3be57e209b3e23b600cf"
-  integrity sha512-kQBzYMGNhAgTaguS0IZGT9LsmaeC1wgJ8pExjc7md8i9ldp4GPOJCOxVefLkxid6vVJrOi0GzBVYqEfiwpFFCQ==
+"@wordpress/scripts@^3.4.0":
+  version "3.4.0"
+  resolved "https://registry.yarnpkg.com/@wordpress/scripts/-/scripts-3.4.0.tgz#c59d48f1bbac4d5bc1f36667529db6044c923a4f"
+  integrity sha512-PPOXYLLnqdxc/w0BU7YpJoa2G14WbukeWZGavjiYl98l5x4QO6Ddpo31D8Ev+kBMkmIWeyO7Pmgj0flrg8Vd/w==
   dependencies:
-    "@wordpress/babel-preset-default" "^4.3.0"
-    "@wordpress/dependency-extraction-webpack-plugin" "^1.0.1"
-    "@wordpress/eslint-plugin" "^2.3.0"
-    "@wordpress/jest-preset-default" "^4.2.0"
-    "@wordpress/npm-package-json-lint-config" "^2.0.0"
+    "@wordpress/babel-preset-default" "^4.4.0"
+    "@wordpress/dependency-extraction-webpack-plugin" "^1.1.0"
+    "@wordpress/eslint-plugin" "^2.4.0"
+    "@wordpress/jest-preset-default" "^4.3.0"
+    "@wordpress/npm-package-json-lint-config" "^2.1.0"
+    babel-jest "^24.7.1"
     babel-loader "^8.0.5"
     chalk "^2.4.1"
     check-node-version "^3.1.1"
@@ -2753,6 +2755,11 @@ core-js@^2.5.7:
   version "2.6.5"
   resolved "https://registry.yarnpkg.com/core-js/-/core-js-2.6.5.tgz#44bc8d249e7fb2ff5d00e0341a7ffb94fbf67895"
   integrity sha512-klh/kDpwX8hryYL14M9w/xei6vrv6sE8gTHDG7/T/+SEovB/G4ejwcfE/CBzO6Edsu+OETZMZ3wcX/EjUkrl5A==
+
+core-js@^3.1.4:
+  version "3.2.0"
+  resolved "https://registry.yarnpkg.com/core-js/-/core-js-3.2.0.tgz#0a835fdf6aa677fff83a823a7b5276c9e7cebb76"
+  integrity sha512-gybgLzmr7SQRSF6UzGYXducx4eE10ONQlyEnQoqiGPbmbn7zLkb73tPfc4YbZN0lvcTQwoLNPjq4RuCaCumGyQ==
 
 core-util-is@1.0.2, core-util-is@~1.0.0:
   version "1.0.2"
@@ -6263,6 +6270,11 @@ lodash@^4.15.0, lodash@^4.17.10, lodash@^4.17.11, lodash@^4.17.4:
   version "4.17.14"
   resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.14.tgz#9ce487ae66c96254fe20b599f21b6816028078ba"
   integrity sha512-mmKYbW3GLuJeX+iGP+Y7Gp1AiGHGbXHCOh/jZmrawMmsE7MS4znI3RL2FsjbqOyMayHInjOeykW7PEajUk1/xw==
+
+lodash@^4.17.14:
+  version "4.17.15"
+  resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.15.tgz#b447f6670a0455bbfeedd11392eff330ea097548"
+  integrity sha512-8xOcRHvCjnocdS5cpwXQXVzmmh5e5+saE2QGoeQmbKmRS6J3VQppPOIt0MnmE+4xlZoumy0GPG0D0MVIQbNA1A==
 
 log-symbols@^2.0.0, log-symbols@^2.2.0:
   version "2.2.0"
