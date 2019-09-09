@@ -100,3 +100,10 @@ if (is_admin()) {
     add_filter('attachment_fields_to_edit', '\\PCCFramework\\PostTypes\\Attachment\\data', 10, 2);
     add_action('edit_attachment', '\\PCCFramework\\PostTypes\\Attachment\\save');
 }
+
+/**
+ * Register new embed providers.
+ */
+require_once dirname(__FILE__) . "/lib/embeds.php";
+
+PCCFramework\Embeds\init_livestream();
