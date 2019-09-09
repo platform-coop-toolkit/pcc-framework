@@ -74,7 +74,9 @@ function render_callback($attributes)
                         <a href="<?php echo get_the_permalink($recent->post) ?>"><?php echo get_the_title(); ?></a>
                     </h4>
                 </header>
-                <time class="published" datetime="<?php echo get_post_time('c'); ?>"><?php echo get_post_time('M j, Y'); ?></time>
+                <time class="published" datetime="<?php echo get_post_time('c'); ?>">
+                    <?php echo get_post_time('M j, Y'); ?>
+                </time>
             </div>
         </li>
         <?php }
