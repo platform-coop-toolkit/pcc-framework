@@ -97,7 +97,9 @@ function render_callback($attributes)
                     <?= __('Our monthly newsletters keep you updated on news about the community.', 'pcc-framework'); ?>
                 </p>
                 <p class="wp-block-button is-style-secondary">
-                    <a class="wp-block-button__link" href="<?= $newsletter_link ?>"><?= __('Sign Up', 'pcc-framework'); ?></a>
+                    <a class="wp-block-button__link" href="<?= $newsletter_link ?>">
+                        <?= __('Sign Up', 'pcc-framework'); ?>
+                    </a>
                 </p>
         </li>
         </ul>
