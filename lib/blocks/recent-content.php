@@ -81,7 +81,13 @@ function render_callback($attributes)
         </li>
         <?php }
         wp_reset_postdata();
-    ?>
+        $newsletter_link = (function_exists('\PlatformCoop\Utils\get_config_option'))
+        ? get_config_option(
+            'signup_link',
+            'https://lists.riseup.net/www/info/platformcoop-newsletter'
+        )
+        : 'https://lists.riseup.net/www/info/platformcoop-newsletter';
+        ?>
         <li class="card card--7">
             <div class="card__details">
                 <header class="text">
@@ -91,7 +97,7 @@ function render_callback($attributes)
                     <?= __('Our monthly newsletters keep you updated on news about the community.', 'pcc-framework'); ?>
                 </p>
                 <p class="wp-block-button is-style-secondary">
-                    <a class="wp-block-button__link" href="#"><?= __('Sign Up', 'pcc-framework'); ?></a>
+                    <a class="wp-block-button__link" href="<?= $newsletter_link ?>"><?= __('Sign Up', 'pcc-framework'); ?></a>
                 </p>
         </li>
         </ul>
