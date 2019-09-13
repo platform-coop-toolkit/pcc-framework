@@ -97,4 +97,13 @@ function data()
         'description' =>
             __('A hyperlink organization with which this person is primarily affiliated.', 'pcc-framework'),
     ]);
+
+    $cmb->add_field([
+        'name'        => __('Twitter Username', 'pcc-framework'),
+        'id'          => $prefix . 'twitter_username',
+        'attributes'  => [ 'placeholder' => '@twitter' ],
+        'type'        => 'text',
+        'description' =>
+            __('The person&rsquo;s Twitter username.', 'pcc-framework'),
+    ]);
 }
