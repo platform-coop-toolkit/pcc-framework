@@ -93,31 +93,17 @@ function data()
     ]);
 
     $cmb->add_field([
-        'name' => __('Project or Organization (DEPRECATED)', 'pcc-framework'),
-        'id'   => $prefix . 'organization',
+        'name' => __('City/Town', 'pcc-framework'),
+        'id'   => $prefix . 'locality',
         'type' => 'text',
-        'description' =>
-            __('The name of the organization with which this person is primarily affiliated.<br />
-            <strong>THIS FIELD IS NO LONGER USED. INCLUDE THE PROJECT OR ORGANIZATION IN THE SHORT/FULL TITLE FIELDS ABOVE.</strong>', 'pcc-framework'),
+        'description' => __('The city or town where the person resides.', 'pcc-framework'),
     ]);
 
     $cmb->add_field([
-        'name' => __('Project or Organization Link (DEPRECATED)', 'pcc-framework'),
-        'id'   => $prefix . 'organization_link',
-        'type' => 'text_url',
-        'description' =>
-            __('A hyperlink to the project/organization with which this person is primarily affiliated.<br />
-            <strong>THIS FIELD IS NO LONGER USED. ADD A LINK IN THE LINKS SECTION BELOW.</strong>', 'pcc-framework'),
-    ]);
-
-    $cmb->add_field([
-        'name'        => __('Twitter Username (DEPRECATED)', 'pcc-framework'),
-        'id'          => $prefix . 'twitter_username',
-        'attributes'  => [ 'placeholder' => '@twitter' ],
-        'type'        => 'text',
-        'description' =>
-            __('The person&rsquo;s Twitter username.<br />
-            <strong>THIS FIELD IS NO LONGER USED. ADD A LINK IN THE LINKS SECTION BELOW.</strong>', 'pcc-framework'),
+        'name' => __('Country', 'pcc-framework'),
+        'id'   => $prefix . 'country',
+        'type' => 'text',
+        'description' => __('The country where the person resides.', 'pcc-framework'),
     ]);
 
     $group_field_id = $cmb->add_field([
@@ -143,6 +129,34 @@ function data()
         'description' => __('The name of the linked website.', 'pcc-framework'),
         'id'   => 'label',
         'type' => 'text',
+    ]);
+
+    $cmb->add_field([
+        'name' => __('Project or Organization (DEPRECATED)', 'pcc-framework'),
+        'id'   => $prefix . 'organization',
+        'type' => 'text',
+        'description' =>
+            __('The name of the organization with which this person is primarily affiliated.<br />
+            <strong>THIS FIELD IS NO LONGER USED. INCLUDE THE PROJECT OR ORGANIZATION IN THE SHORT/FULL TITLE FIELDS ABOVE.</strong>', 'pcc-framework'),
+    ]);
+
+    $cmb->add_field([
+        'name' => __('Project or Organization Link (DEPRECATED)', 'pcc-framework'),
+        'id'   => $prefix . 'organization_link',
+        'type' => 'text_url',
+        'description' =>
+            __('A hyperlink to the project/organization with which this person is primarily affiliated.<br />
+            <strong>THIS FIELD IS NO LONGER USED. ADD A LINK IN THE LINKS SECTION BELOW.</strong>', 'pcc-framework'),
+    ]);
+
+    $cmb->add_field([
+        'name'        => __('Twitter Username (DEPRECATED)', 'pcc-framework'),
+        'id'          => $prefix . 'twitter_username',
+        'attributes'  => [ 'placeholder' => '@twitter' ],
+        'type'        => 'text',
+        'description' =>
+            __('The person&rsquo;s Twitter username.<br />
+            <strong>THIS FIELD IS NO LONGER USED. ADD A LINK IN THE LINKS SECTION BELOW.</strong>', 'pcc-framework'),
     ]);
 
     $cmb->add_field([
