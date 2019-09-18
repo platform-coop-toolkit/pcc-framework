@@ -75,19 +75,30 @@ function data()
     ]);
 
     $cmb->add_field([
-        'name' => __('Title or Occupation', 'pcc-framework'),
-        'id'   => $prefix . 'title',
+        'name' => __('Short Title', 'pcc-framework'),
+        'id'   => $prefix . 'short_title',
         'type' => 'text',
-        'description' =>
-            __('The job title or occupation of this person.', 'pcc-framework'),
+        'description' => // @codingStandardsIgnoreStart
+            __('A short title which describes this person&rsquo;s work and primary affiliation that will be used on their card. For example: <br />
+            &ldquo;Founding Director, Institute for the Cooperative Digital Economy&rdquo;', 'pcc-framework'), // @codingStandardsIgnoreEnd
     ]);
 
     $cmb->add_field([
-        'name' => __('Project or Organization', 'pcc-framework'),
+        'name' => __('Full Title', 'pcc-framework'),
+        'id'   => $prefix . 'title',
+        'type' => 'textarea',
+        'description' => // @codingStandardsIgnoreStart
+            __('A full title which describes this person&rsquo;s work and affiliations that will be used on their page. For example:<br />
+            &ldquo;Founding Director of Institute for the Cooperative Digital Economy, Platform Cooperativism Consortium, The New School&rdquo;', 'pcc-framework'),
+    ]);
+
+    $cmb->add_field([
+        'name' => __('Project or Organization (DEPRECATED)', 'pcc-framework'),
         'id'   => $prefix . 'organization',
         'type' => 'text',
         'description' =>
-            __('The name of the organization with which this person is primarily affiliated.', 'pcc-framework'),
+            __('The name of the organization with which this person is primarily affiliated.<br />
+            <strong>THIS FIELD IS NO LONGER USED. INCLUDE THE PROJECT OR ORGANIZATION IN THE SHORT/FULL TITLE FIELDS ABOVE.</strong>', 'pcc-framework'),
     ]);
 
     $cmb->add_field([
