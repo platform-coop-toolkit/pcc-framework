@@ -135,7 +135,7 @@ function data()
     ]);
 
     $cmb->add_field([
-        'name'        => __('Show on People', 'pcc-framework'),
+        'name'        => __('Show on People page', 'pcc-framework'),
         'id'          => $prefix . 'show_on_people',
         'type'        => 'checkbox',
         'description' =>
