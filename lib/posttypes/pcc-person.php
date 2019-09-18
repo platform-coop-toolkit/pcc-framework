@@ -133,4 +133,12 @@ function data()
         'id'   => 'label',
         'type' => 'text',
     ]);
+
+    $cmb->add_field([
+        'name'        => __('Show on People', 'pcc-framework'),
+        'id'          => $prefix . 'show_on_people',
+        'type'        => 'checkbox',
+        'description' =>
+            __('Should this person be shown on the main People page?', 'pcc-framework'),
+    ]);
 }
