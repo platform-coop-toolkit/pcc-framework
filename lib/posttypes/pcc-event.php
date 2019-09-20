@@ -198,20 +198,6 @@ function data()
     ]);
 
     $cmb->add_field([
-        'name' => __('Featured Participants', 'pcc-framework'),
-        'desc' =>
-            'Featured participants will be shown on the conference page and at the top of the participants page.',
-        'id'   => $prefix . 'featured_participants',
-        'type' => 'select',
-        'show_option_none' => true,
-        'options' => get_people(),
-        'repeatable' => true,
-        'text' => [
-            'add_row_text' => __('Add Participant', 'pcc-framework'),
-        ]
-    ]);
-
-    $cmb->add_field([
         'name' => __('Participants', 'pcc-framework'),
         'desc' =>
             'Participants will be shown alphabetically on the participants page.',
