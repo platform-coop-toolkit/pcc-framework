@@ -1,34 +1,34 @@
 {
-    "name": "platformcoop/pcc-framework",
-    "type": "wordpress-plugin",
-    "description": "Utilities, custom post types and blocks for the Platform Cooperativism Consortium website.",
-    "keywords": [
-        "wordpress",
-        "plugin",
-        "custom post types",
-        "blocks"
-    ],
-    "license": "BSD-3-Clause",
-    "authors": [
-        {
-            "name": "OCAD University",
-            "homepage": "https://ocadu.ca"
-        }
-    ],
-    "require": {
-        "commerceguys/addressing": "^1.0",
-        "davidgorges/human-name-parser": "^1.0",
-        "johnbillion/extended-cpts": "^4.2"
-    },
-    "require-dev": {
-        "phpunit/phpunit": "^6.5",
-        "squizlabs/php_codesniffer": "^2.8.0"
-    },
-    "scripts": {
-        "standards": "vendor/bin/phpcs . --extensions=php --standard=phpcs.xml.dist --ignore=node_modules,tests,vendor",
-        "test": [
-            "vendor/bin/phpunit",
-            "@standards"
-        ]
+  "name": "platformcoop/pcc-framework",
+  "type": "wordpress-plugin",
+  "description": "Utilities, custom post types and blocks for the Platform Cooperativism Consortium website.",
+  "keywords": [
+    "wordpress",
+    "plugin",
+    "custom post types",
+    "blocks"
+  ],
+  "license": "BSD-3-Clause",
+  "authors": [
+    {
+      "name": "OCAD University",
+      "homepage": "https://ocadu.ca"
     }
+  ],
+  "require": {
+    "commerceguys/addressing": "^1.0",
+    "davidgorges/human-name-parser": "^1.0",
+    "johnbillion/extended-cpts": "^4.2"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^6.5",
+    "squizlabs/php_codesniffer": "^2.8.0"
+  },
+  "scripts": {
+    "standards": "vendor/bin/phpcs . --extensions=php --standard=phpcs.xml.dist --ignore=build,node_modules,tests,vendor,wordpress",
+    "test": [
+      "vendor/bin/phpunit",
+      "@standards"
+    ]
+  }
 }
