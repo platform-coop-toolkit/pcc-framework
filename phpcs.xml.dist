@@ -2,6 +2,9 @@
 <ruleset name="Roots">
   <description>Roots Coding Standards</description>
 
+  <!-- Exclude vendor -->
+  <exclude-pattern>vendor/*</exclude-pattern>
+
   <!-- Show colors in console -->
   <arg value="-colors"/>
 

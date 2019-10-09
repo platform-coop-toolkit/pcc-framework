@@ -40,6 +40,11 @@ if (!function_exists('register_extended_post_type')) {
 }
 
 /**
+ * Load CMB2.
+ */
+require_once __DIR__ . '/vendor/cmb2/cmb2/init.php';
+
+/**
  * Load and register post types.
  */
 foreach ([
@@ -108,3 +113,8 @@ if (is_admin()) {
 require_once dirname(__FILE__) . "/lib/embeds.php";
 
 PCCFramework\Embeds\init_livestream();
+
+/**
+ * Run dependency installer.
+ */
+WP_Dependency_Installer::instance()->run(__DIR__);
