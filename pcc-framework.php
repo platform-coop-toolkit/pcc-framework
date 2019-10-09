@@ -107,6 +107,10 @@ if (is_admin()) {
     add_action('edit_attachment', '\\PCCFramework\\PostTypes\\Attachment\\save');
 }
 
+require_once dirname(__FILE__) . '/lib/intervention.php';
+add_action('init', '\\PCCFramework\\Intervention\\apply_interventions');
+
+
 /**
  * Register new embed providers.
  */
