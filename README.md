@@ -40,10 +40,10 @@ This is the plugin's first production release.
 
 Commands for development:
 
-- `yarn`: Install CSS and JavaScript dependencies
-- `yarn build`: Build front-end assets
-- `yarn build:production`: Build front-end assets for production
-- `yarn lint`: Check CSS and JavaScript coding standards
+- `npm install`: Install CSS and JavaScript dependencies
+- `npm run build`: Build front-end assets
+- `npm run build:production`: Build front-end assets for production
+- `npm run lint`: Check CSS and JavaScript coding standards
 - `composer install`: Install PHP dependencies
 - `composer test`: Run PHP unit tests and check PHP coding standards ([WordPress PHPUnit environment](https://make.wordpress.org/cli/handbook/plugin-unit-tests/) must be set up first)
 

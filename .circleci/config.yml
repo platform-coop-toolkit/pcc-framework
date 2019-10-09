@@ -31,7 +31,7 @@ jobs:
       - run:
           name: "Run asset tests"
           command: |
-            yarn
+            npm ci
             npm run test
             npm run build
   deploy_plugin_staging:
@@ -45,7 +45,7 @@ jobs:
       - run:
           name: "Build plugin"
           command: |
-            yarn
+            npm ci
             npm run build
             composer install --no-dev --optimize-autoloader
       - run: sudo apt-get install -y lftp
@@ -61,7 +61,7 @@ jobs:
       - run:
           name: "Build plugin"
           command: |
-            yarn
+            npm ci
             npm run build
             composer install --no-dev --optimize-autoloader
       - run: sudo apt-get install -y lftp
