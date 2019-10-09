@@ -1,6 +1,6 @@
 const { __ } = wp.i18n;
 const { registerBlockType } = wp.blocks;
-const { ServerSideRender } = wp.components;
+const ServerSideRender = wp.serverSideRender;
 
 /**
  * Internal dependencies
