@@ -23,7 +23,6 @@ class UtilsTest extends WP_UnitTestCase
         update_option('platformcoop_configuration', ['my_key' => 'my_value']);
         $result = get_config_option('my_key', 'my_default_value');
         $this->assertEquals('my_value', $result);
-        echo $result;
         delete_option('platformcoop_configuration');
         $result = get_config_option('my_other_key', 'my_other_default_value');
         $this->assertEquals('my_other_default_value', $result);
