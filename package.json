@@ -25,6 +25,7 @@
     "gulp-readme-to-markdown": "^0.2.1"
   },
   "scripts": {
+    "env": "wp-scripts env",
     "readme": "gulp readme",
     "start": "wp-scripts start",
     "build": "npm run -s build:scripts && npm run -s build:styles",
@@ -51,5 +52,9 @@
         ]
       ]
     }
+  },
+  "wp-env": {
+    "plugin-dir": "pcc-framework",
+    "plugin-name": "PCC Framework"
   }
 }
