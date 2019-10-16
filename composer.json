@@ -22,8 +22,7 @@
     "commerceguys/addressing": "^1.0",
     "composer/installers": "^1.7",
     "davidgorges/human-name-parser": "^1.0",
-    "johnbillion/extended-cpts": "^4.2",
-    "soberwp/intervention": "1.2.0-p"
+    "johnbillion/extended-cpts": "^4.2"
   },
   "require-dev": {
     "phpunit/phpunit": "^6.5",

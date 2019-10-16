@@ -7,6 +7,14 @@
     "optional": false
   },
   {
+    "name": "Intervention",
+    "host": "github",
+    "slug": "intervention/intervention.php",
+    "uri": "https://github.com/soberwp/intervention",
+    "branch": "master",
+    "optional": false
+  },
+  {
     "name": "Redirection",
     "host": "wordpress",
     "slug": "redirection/redirection.php",
