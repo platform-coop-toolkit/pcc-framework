@@ -210,6 +210,20 @@ function data()
             'add_row_text' => __('Add Participant', 'pcc-framework'),
         ]
     ]);
+
+    $cmb->add_field([
+        'name' => __('Featured Participants', 'pcc-framework'),
+        'desc' =>
+            'Featured participants will be shown in this order on the main event page.',
+        'id'   => $prefix . 'featured_participants',
+        'type' => 'select',
+        'show_option_none' => true,
+        'options' => get_people(),
+        'repeatable' => true,
+        'text' => [
+            'add_row_text' => __('Add Featured Participant', 'pcc-framework'),
+        ]
+    ]);
 }
 
 /**
