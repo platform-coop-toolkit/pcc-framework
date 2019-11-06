@@ -15,6 +15,7 @@ function init()
     register_extended_post_type(
         'pcc-event',
         [
+            'has_archive' => false,
             'hierarchical' => true,
             'menu_icon' => 'dashicons-calendar-alt',
             'menu_position' => 24,
