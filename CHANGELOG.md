@@ -4,10 +4,9 @@
 **Major Changes**
 
 * Add WordPress 5.3 support (resolves #77): #79
-
-**Minor Changes**
-
-* Bump autoprefixer from 9.6.1 to 9.6.4: #78
+* Switch to NPM: #80
+* Add afragen/wp-dependency-installer and bundle CMB2: #81
+* Move Intervention to plugin dependencies: #87
 
 ## 1.9.0 ##
 
