@@ -64,7 +64,6 @@ foreach ([
  */
 foreach ([
     'role',
-    'topic',
 ] as $taxonomy) {
     require_once dirname(__FILE__) . "/lib/taxonomies/pcc-$taxonomy.php";
     add_action('init', '\\PCCFramework\\Taxonomies\\' . ucfirst($taxonomy) . '\\init');

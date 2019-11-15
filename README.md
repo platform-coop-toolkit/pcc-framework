@@ -1,42 +1,41 @@
-# PCC Framework #
-
+# PCC Framework
 
 Utilities, blocks, custom post types, and taxonomies for the Platform Cooperativism Consortium website.
 
-## Description ##
+## Description
 
 This plugin adds the following custom components for the Platform Cooperativism Consortium:
 
 Blocks:
 
-* Child Pages
-* Participants Button
-* Program Button
-* Recent Content
-* Social Links
+- Child Pages
+- Participants Button
+- Program Button
+- Recent Content
+- Social Links
 
 Custom Post Types:
 
-* Events
-* People
+- Events
+- People
 
 Custom Taxonomies:
 
-* Roles
-* Topics
+- Roles
 
-## Installation ##
+## Installation
 
 1. Upload the plugin zip file via the Plugins panel in WordPress.
 2. Activate the plugin.
 3. There is no step three.
 
+## Upgrade Notice
 
-## Upgrade Notice ##
-### 1.0.0 ###
+### 1.0.0
+
 This is the plugin's first production release.
 
-## Development ##
+## Development
 
 Commands for development:
 

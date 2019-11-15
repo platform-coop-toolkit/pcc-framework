@@ -22,6 +22,7 @@ function init()
                     'taxonomy' => 'pcc-role',
                 ],
             ],
+            'taxonomies' => ['post_tag', 'pcc-role'],
         ],
         [
             'singular' => __('Person', 'pcc-framework'),

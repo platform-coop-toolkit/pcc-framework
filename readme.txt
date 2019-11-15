@@ -31,7 +31,6 @@ Custom Post Types:
 Custom Taxonomies:
 
 * Roles
-* Topics
 
 == Installation ==
 
