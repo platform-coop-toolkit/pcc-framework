@@ -17,10 +17,34 @@ function init()
             'supports' => ['title', 'editor', 'custom-fields', 'thumbnail'],
             'admin_cols' => [
                 'title',
-                'language' => [
+                'role' => [
                     'title' => __('Role', 'pcc-framework'),
                     'taxonomy' => 'pcc-role',
                 ],
+                'topics' => [
+                    'title' => __('Topics', 'pcc-framework'),
+                    'taxonomy' => 'post_tag',
+                ],
+                'shown-on-people-page' => [
+                    'title' => __('On People Page', 'pcc-framework'),
+                    'meta_key' => 'pcc_person_show_on_people',
+                    'function' => function () {
+                        global $post;
+                        if (get_post_meta($post->ID, 'pcc_person_show_on_people', true)) {
+                            echo sprintf(
+                                '<span aria-hidden="true">%1$s</span><span class="screen-reader-text">%2$s</span>',
+                                __('Yes', 'pcc-framework'),
+                                __('Shown on people page', 'pcc-framework')
+                            );
+                        } else {
+                            echo sprintf(
+                                '<span aria-hidden="true">%1$s</span><span class="screen-reader-text">%2$s</span>',
+                                '—',
+                                __('Not shown on people page', 'pcc-framework')
+                            );
+                        }
+                    }
+                ]
             ],
             'taxonomies' => ['post_tag', 'pcc-role'],
         ],
