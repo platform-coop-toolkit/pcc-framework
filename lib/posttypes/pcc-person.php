@@ -25,26 +25,6 @@ function init()
                     'title' => __('Topics', 'pcc-framework'),
                     'taxonomy' => 'post_tag',
                 ],
-                'shown-on-people-page' => [
-                    'title' => __('On People Page', 'pcc-framework'),
-                    'meta_key' => 'pcc_person_show_on_people',
-                    'function' => function () {
-                        global $post;
-                        if (get_post_meta($post->ID, 'pcc_person_show_on_people', true)) {
-                            echo sprintf(
-                                '<span aria-hidden="true">%1$s</span><span class="screen-reader-text">%2$s</span>',
-                                __('Yes', 'pcc-framework'),
-                                __('Shown on people page', 'pcc-framework')
-                            );
-                        } else {
-                            echo sprintf(
-                                '<span aria-hidden="true">%1$s</span><span class="screen-reader-text">%2$s</span>',
-                                '—',
-                                __('Not shown on people page', 'pcc-framework')
-                            );
-                        }
-                    }
-                ]
             ],
             'taxonomies' => ['post_tag', 'pcc-role'],
         ],
@@ -162,13 +142,5 @@ function data()
         'description' => __('The name of the linked website.', 'pcc-framework'),
         'id'   => 'label',
         'type' => 'text',
-    ]);
-
-    $cmb->add_field([
-        'name'        => __('Show on People page', 'pcc-framework'),
-        'id'          => $prefix . 'show_on_people',
-        'type'        => 'checkbox',
-        'description' =>
-            __('Should this person be shown on the main People page?', 'pcc-framework'),
     ]);
 }
