@@ -6,7 +6,7 @@ const participantsButton = registerBlockType( 'pcc/participants-button', {
 	title: 'Participants',
 	description: 'Link to an event’s participants page',
 	icon: 'groups',
-	category: 'widgets',
+	category: 'blocks',
 	attributes: {
 		label: {
 			default: __( 'View all participants', 'pcc-framework' ),

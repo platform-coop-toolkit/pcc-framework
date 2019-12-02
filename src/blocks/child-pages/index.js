@@ -11,7 +11,7 @@ registerBlockType( 'pcc/child-pages', {
 	title: 'Child Pages',
 	description: 'Generate a list of child pages in various formats',
 	icon: 'networking',
-	category: 'widgets',
+	category: 'blocks',
 	attributes: {
 		exclude: {
 			type: 'integer',

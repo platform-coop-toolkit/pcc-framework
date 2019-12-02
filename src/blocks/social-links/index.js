@@ -6,7 +6,7 @@ const socialLinks = registerBlockType( 'pcc/social-links', {
 	title: 'Social Links',
 	description: 'Links to Facebook and Twitter',
 	icon: 'share',
-	category: 'widgets',
+	category: 'blocks',
 	attributes: {
 		label_facebook: {
 			default: __( 'Platform Cooperativism – Discussion & Linkshare', 'pcc-framework' ),

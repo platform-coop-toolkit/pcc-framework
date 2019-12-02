@@ -6,7 +6,7 @@ registerBlockType( 'pcc/recent-content', {
 	title: __( 'Recent Content', 'pcc' ),
 	description: __( 'Generate a grid of recent content from various sources', 'pcc' ),
 	icon: 'screenoptions',
-	category: 'widgets',
+	category: 'blocks',
 	edit: () => {
 		return <ServerSideRender block="pcc/recent-content" />;
 	},

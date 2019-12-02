@@ -6,7 +6,7 @@ const programButton = registerBlockType( 'pcc/program-button', {
 	title: 'Program',
 	description: 'Link to an event’s program page',
 	icon: 'calendar',
-	category: 'widgets',
+	category: 'blocks',
 	attributes: {
 		label: {
 			default: __( 'See the full program', 'pcc-framework' ),
