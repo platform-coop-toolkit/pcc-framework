@@ -84,9 +84,9 @@ function render_callback($attributes)
         $newsletter_link = (function_exists('\PCCFramework\Utils\get_config_option'))
         ? \PCCFramework\Utils\get_config_option(
             'signup_link',
-            'https://lists.riseup.net/www/info/platformcoop-newsletter'
+            'https://mailchi.mp/platform/coop'
         )
-        : 'https://lists.riseup.net/www/info/platformcoop-newsletter';
+        : 'https://mailchi.mp/platform/coop';
         ?>
         <li class="card card--7">
             <div class="card__details">
