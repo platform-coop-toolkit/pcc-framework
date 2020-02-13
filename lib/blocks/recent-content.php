@@ -81,8 +81,8 @@ function render_callback($attributes)
         </li>
         <?php }
         wp_reset_postdata();
-        $newsletter_link = (function_exists('\PlatformCoop\Utils\get_config_option'))
-        ? get_config_option(
+        $newsletter_link = (function_exists('\PCCFramework\Utils\get_config_option'))
+        ? \PCCFramework\Utils\get_config_option(
             'signup_link',
             'https://lists.riseup.net/www/info/platformcoop-newsletter'
         )
