@@ -36,6 +36,7 @@
     "lint:styles": "wp-scripts lint-style './src/**/*.css'",
     "lint:pkg-json": "wp-scripts lint-pkg-json .",
     "lint": "npm run -s lint:scripts && npm run -s lint:styles && npm run -s lint:pkg-json",
+    "localize": "wp i18n make-pot . languages/pcc-framework.pot --headers='{\"Report-Msgid-Bugs-To\":\"https://github.com/platform-coop-toolkit/pcc-framework/issues\"}'",
     "test": "npm run -s lint"
   },
   "browserslist": [
