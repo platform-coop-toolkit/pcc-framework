@@ -16,7 +16,7 @@
   "bugs": "https://github.com/platform-coop-toolkit/pcc-framework/issues",
   "main": "Gruntfile.js",
   "devDependencies": {
-    "@wordpress/eslint-plugin": "^5.1.0",
+    "@wordpress/eslint-plugin": "^6.0.0",
     "@wordpress/scripts": "^9.1.0",
     "autoprefixer": "^9.7.6",
     "cssnano": "^4.1.10",
