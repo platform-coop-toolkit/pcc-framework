@@ -1,0 +1,530 @@
+# Copyright (C) 2020 Platform Cooperativism Consortium
+# This file is distributed under the same license as the PCC Framework plugin.
+# Translators:
+# Marc Casals Iglesias <casals.marc@gmail.com>, 2020
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: PCC Framework 2.2.1\n"
+"Report-Msgid-Bugs-To: https://github.com/platform-coop-toolkit/pcc-framework/issues\n"
+"POT-Creation-Date: 2020-06-05T22:09:32+00:00\n"
+"PO-Revision-Date: 2020-04-04 16:31+0000\n"
+"Last-Translator: Marc Casals Iglesias <casals.marc@gmail.com>, 2020\n"
+"Language-Team: Catalan (https://www.transifex.com/platform-cooperative-development-kit/teams/107673/ca/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ca\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Domain: pcc-framework\n"
+"X-Generator: WP-CLI 2.4.0\n"
+
+#. Plugin Name of the plugin
+msgid "PCC Framework"
+msgstr "Marc del PCC"
+
+#. Plugin URI of the plugin
+#. Author URI of the plugin
+msgid "https://platform.coop"
+msgstr "https://platform.coop"
+
+#. Description of the plugin
+msgid ""
+"Utilities, custom post types and blocks for the Platform Cooperativism "
+"Consortium website."
+msgstr ""
+"Einees, tipus de post personalitzats i bloquejos per al lloc web del "
+"Platform Cooperativism Consortium"
+
+#. Author of the plugin
+msgid "Platform Cooperativism Consortium"
+msgstr "Platform Cooperativism Consortium"
+
+#: lib/blocks/child-pages.php:107
+msgid "Read more"
+msgstr "Més informació"
+
+#: lib/blocks/participants-button.php:35
+#: src/blocks/participants-button/index.js:12
+msgid "View all participants"
+msgstr "Veu tots els participants"
+
+#: lib/blocks/program-button.php:35 src/blocks/program-button/index.js:12
+msgid "See the full program"
+msgstr "Consulta el programa complet"
+
+#: lib/blocks/recent-content.php:67 lib/blocks/recent-content.php:70
+msgid "Blog"
+msgstr "Blog"
+
+#: lib/blocks/recent-content.php:94
+msgid "Never miss an update!"
+msgstr "No us perdeu ni una actualització!"
+
+#: lib/blocks/recent-content.php:97
+msgid "Our monthly newsletters keep you updated on news about the community."
+msgstr ""
+"Els nostres butlletins mensuals us informen de les novetats relacionades amb"
+" la comunitat."
+
+#: lib/blocks/recent-content.php:101
+msgid "Sign Up"
+msgstr "Registra't"
+
+#: lib/blocks/social-links.php:45 src/blocks/social-links/index.js:12
+msgid "Platform Cooperativism – Discussion & Linkshare"
+msgstr "El cooperativismee de plataforma: explicació i enllaços"
+
+#: lib/blocks/social-links.php:53 src/blocks/social-links/index.js:19
+msgid "Platform Co-op Development Kit"
+msgstr "Joc d'eines de desenvolupament de les cooperatives de plataforma"
+
+#: lib/posttypes/pcc-attachment.php:20
+msgid "Creator Name"
+msgstr "Nom del creador"
+
+#: lib/posttypes/pcc-attachment.php:22
+msgid "The name of the person who created this image or video."
+msgstr "Nom de la persona que ha creat aquesta imatge o vídeo"
+
+#: lib/posttypes/pcc-attachment.php:26
+msgid "Creator Link"
+msgstr "Enllaç del creador"
+
+#: lib/posttypes/pcc-attachment.php:28
+msgid ""
+"A hyperlink to the website of the person who created this image or video."
+msgstr ""
+"Hiperenllaç al lloc web de la persona que ha creat aquesta imatge o vídeo"
+
+#: lib/posttypes/pcc-attachment.php:38
+msgid "Organization Name"
+msgstr "Nom de l'organització"
+
+#: lib/posttypes/pcc-attachment.php:40
+msgid "The name of the organization who created this image or video."
+msgstr "Nom de l'organització que ha creat aquesta imatge o vídeo"
+
+#: lib/posttypes/pcc-attachment.php:44
+msgid "Organization Link"
+msgstr "Enllaç de l'organització"
+
+#: lib/posttypes/pcc-attachment.php:47
+msgid ""
+"A hyperlink to the website of the organization who created this image or "
+"video."
+msgstr ""
+"Hiperenllaç al lloc web de l'organització que va crear aquesta imatge o "
+"vídeo"
+
+#: lib/posttypes/pcc-event.php:26
+msgid "Event"
+msgstr "Esdeveniment"
+
+#: lib/posttypes/pcc-event.php:27
+msgid "Events"
+msgstr "Esdeveniments"
+
+#: lib/posttypes/pcc-event.php:88
+msgid "Event Data"
+msgstr "Dades sobre l'esdeveniment"
+
+#: lib/posttypes/pcc-event.php:96
+msgid "Start"
+msgstr "Inici"
+
+#: lib/posttypes/pcc-event.php:100
+msgid "The date and time at which the event begins."
+msgstr "Data i hora a les quals comença l'esdeveniment."
+
+#: lib/posttypes/pcc-event.php:104
+msgid "End"
+msgstr "Final"
+
+#: lib/posttypes/pcc-event.php:108
+msgid "The date and time at which the event ends."
+msgstr "Data i hora a les quals acaba l'esdeveniment."
+
+#: lib/posttypes/pcc-event.php:112
+msgid "Venue Name"
+msgstr "Nom del recinte"
+
+#: lib/posttypes/pcc-event.php:116
+msgid "The name of the event&rsquo;s principal venue."
+msgstr "Nom del recinte principal&rsquo; de l'esdeveniment."
+
+#: lib/posttypes/pcc-event.php:120
+msgid "Venue Street Address"
+msgstr "Adreça del recinte"
+
+#: lib/posttypes/pcc-event.php:124
+msgid "The street address of the event&rsquo;s principal venue."
+msgstr "Adreça del recinte principal&rsquo; de l'esdeveniment."
+
+#: lib/posttypes/pcc-event.php:128
+msgid "Venue Town/City"
+msgstr "Població del recinte"
+
+#: lib/posttypes/pcc-event.php:132
+msgid "The town or city of the event&rsquo;s principal venue."
+msgstr "Població&rsquo; del recinte princnipal"
+
+#: lib/posttypes/pcc-event.php:136
+msgid "Venue Region"
+msgstr "Regió del recinte"
+
+#: lib/posttypes/pcc-event.php:140
+msgid "The province, state, or region of the event&rsquo;s principal venue."
+msgstr ""
+"Província, estat o regió del recinte principal&rsquo; de l'esdeveniment."
+
+#: lib/posttypes/pcc-event.php:144
+msgid "Venue Postal Code"
+msgstr "Codi postal del recinte"
+
+#: lib/posttypes/pcc-event.php:148
+msgid "The postal code of the event&rsquo;s principal venue."
+msgstr "Codi postal del recinte principal&rsquo; de l'esdeveniment."
+
+#: lib/posttypes/pcc-event.php:152
+msgid "Venue Country"
+msgstr "País del recinte"
+
+#: lib/posttypes/pcc-event.php:158
+msgid "The country of the event&rsquo;s principal venue."
+msgstr "País del recinte principal&rsquo; de l'esdeveniment."
+
+#: lib/posttypes/pcc-event.php:162
+msgid "Registration Link"
+msgstr "Enllaç de registre"
+
+#: lib/posttypes/pcc-event.php:168
+msgid "A hyperlink to the event&rsquo;s external registration page."
+msgstr "Hiperenllaç&rsquo a la pàgina de registre extern."
+
+#: lib/posttypes/pcc-event.php:172
+msgid "Event Type"
+msgstr "Tipus d'esdeveniment"
+
+#: lib/posttypes/pcc-event.php:178
+msgid "Community Event"
+msgstr "Esdeveniment de la comunitat"
+
+#: lib/posttypes/pcc-event.php:179
+msgid "PCC Conference"
+msgstr "Conferència de PCC"
+
+#: lib/posttypes/pcc-event.php:180
+msgid "PCC Event"
+msgstr "Esdeveniment del PCC"
+
+#: lib/posttypes/pcc-event.php:181
+msgid "ICDE Event"
+msgstr "Esdeveniment del l'ICDE"
+
+#: lib/posttypes/pcc-event.php:185
+msgid "The type of event."
+msgstr "El tipus d'esdeveniment."
+
+#: lib/posttypes/pcc-event.php:189
+msgid "Event Banner Video"
+msgstr "Vídeo de bàner d'esdeveniment"
+
+#: lib/posttypes/pcc-event.php:202
+msgid "Participants"
+msgstr "Participants"
+
+#: lib/posttypes/pcc-event.php:211
+msgid "Add Participant"
+msgstr "Afegeix participant"
+
+#: lib/posttypes/pcc-event.php:216
+msgid "Featured Participants"
+msgstr "Partipants inclosos"
+
+#: lib/posttypes/pcc-event.php:225
+msgid "Add Featured Participant"
+msgstr "Afegeix participant inclòs"
+
+#: lib/posttypes/pcc-event.php:241
+msgid "Event Sponsors"
+msgstr "Patrocinadors de l'esdeveniment"
+
+#: lib/posttypes/pcc-event.php:253
+msgid "Sponsor {#}"
+msgstr "Patrocinador {#}"
+
+#: lib/posttypes/pcc-event.php:254
+msgid "Add Sponsor"
+msgstr "Afegeix patrocinador"
+
+#: lib/posttypes/pcc-event.php:255
+msgid "Remove Sponsor"
+msgstr "Elimina patrocinador"
+
+#: lib/posttypes/pcc-event.php:261
+msgid "Sponsor Name"
+msgstr "Nom del patrocinador"
+
+#: lib/posttypes/pcc-event.php:267
+msgid "Sponsor Link"
+msgstr "Enllaç del patrocinador"
+
+#: lib/posttypes/pcc-event.php:274
+msgid "Sponsor Logo"
+msgstr "Logotip del patrocinador"
+
+#: lib/posttypes/pcc-event.php:281
+msgid "Add/Upload Logo"
+msgstr "Afegeix/penja logotip"
+
+#: lib/posttypes/pcc-person.php:21 lib/taxonomies/pcc-role.php:18
+msgid "Role"
+msgstr "Rol"
+
+#: lib/posttypes/pcc-person.php:25
+msgid "Topics"
+msgstr "Temes"
+
+#: lib/posttypes/pcc-person.php:32
+msgid "Person"
+msgstr "Persona"
+
+#: lib/posttypes/pcc-person.php:33
+msgid "People"
+msgstr "Persones"
+
+#: lib/posttypes/pcc-person.php:83
+msgid "Person Data"
+msgstr "Dades sobre la persona"
+
+#: lib/posttypes/pcc-person.php:91
+msgid "Short Title"
+msgstr "Càrrec escurçat"
+
+#: lib/posttypes/pcc-person.php:95
+msgid ""
+"A short title which describes this person&rsquo;s work and primary affiliation that will be used on their card. For example: <br />\n"
+"            &ldquo;Founding Director, Institute for the Cooperative Digital Economy&rdquo;"
+msgstr ""
+"Títol breu que descriula feina&rsquo; d'aquesta persona i l'afiliació primària que s'emprarà a la seva targeta. Per exemple: <br />\n"
+"            &ldquo;Director fundador, Institute for the Cooperative Digital Economy&rdquo;"
+
+#: lib/posttypes/pcc-person.php:100
+msgid "Full Title"
+msgstr "Càrrec complet"
+
+#: lib/posttypes/pcc-person.php:104
+msgid ""
+"A full title which describes this person&rsquo;s work and affiliations that will be used on their page. For example:<br />\n"
+"            &ldquo;Founding Director of Institute for the Cooperative Digital Economy, Platform Cooperativism Consortium, The New School&rdquo;"
+msgstr ""
+"Càrrec complet que descriu la feina&rsquo; d'aquesta persona i les afiliacions que es faran servir a la seva pàgina. Per exemple:<br />\n"
+"            &ldquo;Director Fundador de l'Institute for the Cooperative Digital Economy, Platform Cooperativism Consortium, The New School&rdquo;"
+
+#: lib/posttypes/pcc-person.php:109
+msgid "City/Town"
+msgstr "Població"
+
+#: lib/posttypes/pcc-person.php:112
+msgid "The city or town where the person resides."
+msgstr "Población on viu la persona."
+
+#: lib/posttypes/pcc-person.php:116
+msgid "Country"
+msgstr "País"
+
+#: lib/posttypes/pcc-person.php:119
+msgid "The country where the person resides."
+msgstr "País on viu la persona."
+
+#: lib/posttypes/pcc-person.php:125
+msgid "Links which should be displayed on this person&rsquo;s profile."
+msgstr "Enllaços que han de sortir al perfil&rsquo; d'aquesta persona."
+
+#: lib/posttypes/pcc-person.php:127
+msgid "Link {#}"
+msgstr "Enllaç {#}"
+
+#: lib/posttypes/pcc-person.php:128
+msgid "Add Another Link"
+msgstr "Afegeix un altre enllaç"
+
+#: lib/posttypes/pcc-person.php:129
+msgid "Remove Link"
+msgstr "Elimina enllaç"
+
+#: lib/posttypes/pcc-person.php:135
+msgid "Link"
+msgstr "Enllaç"
+
+#: lib/posttypes/pcc-person.php:141
+msgid "Link Label (Optional)"
+msgstr "Etiqueta de l'enllaç (opcional)"
+
+#: lib/posttypes/pcc-person.php:142
+msgid "The name of the linked website."
+msgstr "Nom del lloc web enllaçat."
+
+#: lib/posttypes/pcc-post.php:36
+msgid "Post Data"
+msgstr "Dades del post"
+
+#: lib/posttypes/pcc-post.php:44
+msgid "Custom Post Author"
+msgstr "Personalitza autor del post"
+
+#: lib/posttypes/pcc-post.php:50
+msgid ""
+"The author of this post (use this if they do not have a WordPress account)."
+msgstr "Autor d'aquest post (feu-lo servir si no tenen compte de WordPress)."
+
+#: lib/settings.php:12
+msgid "Site Configuration"
+msgstr "Configuració del lloc web"
+
+#: lib/settings.php:13
+msgid "Configuration"
+msgstr "Configuració"
+
+#: lib/settings.php:19
+msgid "Donate Link"
+msgstr "Dona enllaç"
+
+#: lib/settings.php:21
+msgid ""
+"Link to external donation form (used in site footer and some page "
+"templates)."
+msgstr "Text de subscripció al butlletí"
+
+#: lib/settings.php:31
+msgid "Newsletter Signup Text"
+msgstr "Text de subscripció al butlletí"
+
+#: lib/settings.php:32
+msgid "Prompt for newsletter signup call to action (use in site footer)."
+msgstr ""
+"Missatge convidant a subscriure's al butlletí (cal fer servir la nota a peu "
+"de pàgina del lloc web)"
+
+#: lib/settings.php:38
+msgid "Newsletter Signup Link"
+msgstr "Enllaç de subscripció al butlletí"
+
+#: lib/settings.php:40
+msgid ""
+"Link to external newsletter signup form (used in site footer and some page "
+"templates)."
+msgstr ""
+"Formulari de subscripció a un butlletí extern (utilizat a la nota a peu de "
+"pàgina del lloc web i algunes plantilles de pàgina)"
+
+#: lib/taxonomies/pcc-role.php:19
+msgid "Roles"
+msgstr "Rols"
+
+#: lib/taxonomies/pcc-role.php:20
+msgid "role"
+msgstr "rol"
+
+#: lib/taxonomies/pcc-role.php:36
+msgid "Role added."
+msgstr "Rol afegit."
+
+#: lib/taxonomies/pcc-role.php:37
+msgid "Role deleted."
+msgstr "Rol eliminat."
+
+#: lib/taxonomies/pcc-role.php:38
+msgid "Role updated."
+msgstr "Rol actualitzat."
+
+#: lib/taxonomies/pcc-role.php:39
+msgid "Role not added."
+msgstr "Rol no afegit."
+
+#: lib/taxonomies/pcc-role.php:40
+msgid "Role not updated."
+msgstr "Rol no actualitzat."
+
+#: lib/taxonomies/pcc-role.php:41
+msgid "Roles deleted."
+msgstr "Rols eliminats."
+
+#: pcc-framework.php:32
+msgid ""
+"You must run <code>composer install</code> from the Platform Co-op Support "
+"directory."
+msgstr ""
+"Heu d'executar <code>composer install</code> des del directori de Suport de "
+"Cooperatives de Plataforma"
+
+#: pcc-framework.php:36
+msgid "Autoloader not found."
+msgstr "No s'ha trobat l'autocarregador."
+
+#: src/blocks/child-pages/components/select-page.js:12
+msgid "-- Select Page --"
+msgstr "-- Selecciona la pàgina --"
+
+#: src/blocks/child-pages/components/select-page.js:27
+msgid "No page title"
+msgstr "La pàgina no té títol."
+
+#: src/blocks/child-pages/components/select-page.js:56
+msgid "No pages found."
+msgstr "No s'han trobat pàgines."
+
+#: src/blocks/child-pages/components/select-page.js:65
+msgid "Parent Page"
+msgstr "Pàgina mare"
+
+#: src/blocks/child-pages/index.js:26
+msgid "Card"
+msgstr "Targeta"
+
+#: src/blocks/child-pages/index.js:30
+msgid "Card with Excerpt"
+msgstr "Targeta amb fragment"
+
+#: src/blocks/child-pages/index.js:35
+msgid "Text Only"
+msgstr "Només text"
+
+#: src/blocks/participants-button/index.js:19
+#: src/blocks/program-button/index.js:19 src/blocks/social-links/index.js:26
+msgid "Default"
+msgstr "Preestablert"
+
+#: src/blocks/participants-button/index.js:38
+#: src/blocks/program-button/index.js:36
+msgid "Label"
+msgstr "Etiqueta"
+
+#: src/blocks/recent-content/index.js:6
+msgid "Recent Content"
+msgstr "Contingut recent"
+
+#: src/blocks/recent-content/index.js:7
+msgid "Generate a grid of recent content from various sources"
+msgstr "Genera una xarxa de contingut recent provinent de diverses fonts"
+
+#: src/blocks/social-links/index.js:31
+msgid "Icon Only"
+msgstr "Només icona"
+
+#: src/blocks/social-links/index.js:98
+msgid "Facebook Label"
+msgstr "Etiqueta de Facebook"
+
+#: src/blocks/social-links/index.js:103
+msgid "Twitter Label"
+msgstr "Etiqueta de Twitter"
+
+#: src/editor/index.js:71
+msgid "Solid"
+msgstr "Sòlid"
+
+#: src/editor/index.js:72
+msgid "Outline"
+msgstr "Contorn"
