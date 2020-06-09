@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PCC Framework 2.2.1\n"
 "Report-Msgid-Bugs-To: https://github.com/platform-coop-toolkit/pcc-framework/issues\n"
-"POT-Creation-Date: 2020-05-19T14:54:54+00:00\n"
+"POT-Creation-Date: 2020-06-05T22:09:32+00:00\n"
 "PO-Revision-Date: 2020-04-04 16:31+0000\n"
 "Last-Translator: Maja Zupanc <maya.gz@gmail.com>, 2020\n"
 "Language-Team: Swedish (Sweden) (https://www.transifex.com/platform-cooperative-development-kit/teams/107673/sv_SE/)\n"
@@ -21,7 +21,7 @@ msgstr ""
 
 #. Plugin Name of the plugin
 msgid "PCC Framework"
-msgstr "PCC Framework"
+msgstr "PCC-ramverk"
 
 #. Plugin URI of the plugin
 #. Author URI of the plugin
@@ -33,8 +33,8 @@ msgid ""
 "Utilities, custom post types and blocks for the Platform Cooperativism "
 "Consortium website."
 msgstr ""
-"Utilities, custom post types and blocks for the Platform Cooperativism "
-"Consortium website."
+"Verktyg, egna posttyper och block för Platform Cooperativism Consortium "
+"webbplats."
 
 #. Author of the plugin
 msgid "Platform Cooperativism Consortium"
@@ -42,86 +42,86 @@ msgstr "Platform Cooperativism Consortium"
 
 #: lib/blocks/child-pages.php:107
 msgid "Read more"
-msgstr "Read more"
+msgstr "Läs mer"
 
 #: lib/blocks/participants-button.php:35
 #: src/blocks/participants-button/index.js:12
 msgid "View all participants"
-msgstr "View all participants"
+msgstr "Visa alla deltagare"
 
 #: lib/blocks/program-button.php:35 src/blocks/program-button/index.js:12
 msgid "See the full program"
-msgstr "See the full program"
+msgstr "Se det fullständiga programmet"
 
 #: lib/blocks/recent-content.php:67 lib/blocks/recent-content.php:70
 msgid "Blog"
-msgstr "Blog"
+msgstr "Blogg"
 
 #: lib/blocks/recent-content.php:94
 msgid "Never miss an update!"
-msgstr "Never miss an update!"
+msgstr "Aldrig missa en uppdatering!"
 
 #: lib/blocks/recent-content.php:97
 msgid "Our monthly newsletters keep you updated on news about the community."
-msgstr "Our monthly newsletters keep you updated on news about the community."
+msgstr ""
+"Våra månatliga nyhetsbrev håller dig uppdaterad med nyheter om gemenskapen."
 
 #: lib/blocks/recent-content.php:101
 msgid "Sign Up"
-msgstr "Sign Up"
+msgstr "Anmäl dig"
 
 #: lib/blocks/social-links.php:45 src/blocks/social-links/index.js:12
 msgid "Platform Cooperativism – Discussion & Linkshare"
-msgstr "Platform Cooperativism – Discussion & Linkshare"
+msgstr "Plattformskooperativism – diskussion och länkdelning"
 
 #: lib/blocks/social-links.php:53 src/blocks/social-links/index.js:19
 msgid "Platform Co-op Development Kit"
-msgstr "Platform Co-op Development Kit"
+msgstr "Utvecklingskit för plattformskooperativ"
 
 #: lib/posttypes/pcc-attachment.php:20
 msgid "Creator Name"
-msgstr "Creator Name"
+msgstr "Skaparens namn"
 
 #: lib/posttypes/pcc-attachment.php:22
 msgid "The name of the person who created this image or video."
-msgstr "The name of the person who created this image or video."
+msgstr "Namnet på den person som skapade bilden eller videon."
 
 #: lib/posttypes/pcc-attachment.php:26
 msgid "Creator Link"
-msgstr "Creator Link"
+msgstr "Skaparens länk"
 
 #: lib/posttypes/pcc-attachment.php:28
 msgid ""
 "A hyperlink to the website of the person who created this image or video."
 msgstr ""
-"A hyperlink to the website of the person who created this image or video."
+"En hyperlänk till webbplatsen av den person som skapade bilden eller videon."
 
 #: lib/posttypes/pcc-attachment.php:38
 msgid "Organization Name"
-msgstr "Organization Name"
+msgstr "Organisationens namn"
 
 #: lib/posttypes/pcc-attachment.php:40
 msgid "The name of the organization who created this image or video."
-msgstr "The name of the organization who created this image or video."
+msgstr "Namnet på den organisation som skapade bilden eller videon."
 
 #: lib/posttypes/pcc-attachment.php:44
 msgid "Organization Link"
-msgstr "Organization Link"
+msgstr "Organisationslänk"
 
 #: lib/posttypes/pcc-attachment.php:47
 msgid ""
 "A hyperlink to the website of the organization who created this image or "
 "video."
 msgstr ""
-"A hyperlink to the website of the organization who created this image or "
-"video."
+"En hyperlänk till organisationens webbplats som skapade bilden eller videon."
 
 #: lib/posttypes/pcc-event.php:26
 msgid "Event"
-msgstr "Event"
+msgstr "Evenemang"
 
 #: lib/posttypes/pcc-event.php:27
 msgid "Events"
-msgstr "Events"
+msgstr "Evenemang"
 
 #: lib/posttypes/pcc-event.php:88
 msgid "Event Data"
