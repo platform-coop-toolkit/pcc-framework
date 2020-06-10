@@ -9,7 +9,7 @@
  * Domain Path:     /languages
  * License:         BSD 3-Clause "New" License
  * License URI:     https://opensource.org/licenses/BSD-3-Clause
- * Version:         2.2.1
+ * Version:         2.2.2
  *
  * @package         PCCFramework
  */
@@ -124,8 +124,3 @@ add_action('init', '\\PCCFramework\\Intervention\\apply_interventions');
 require_once dirname(__FILE__) . "/lib/embeds.php";
 
 PCCFramework\Embeds\init_livestream();
-
-/**
- * Run dependency installer.
- */
-WP_Dependency_Installer::instance()->run(__DIR__);

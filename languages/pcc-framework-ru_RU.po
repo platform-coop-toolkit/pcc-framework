@@ -1,0 +1,534 @@
+# Copyright (C) 2020 Platform Cooperativism Consortium
+# This file is distributed under the same license as the PCC Framework plugin.
+# Translators:
+# Maryna Krajnc <maryna.krajnc@svet-jezikov.si>, 2020
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: PCC Framework 2.2.1\n"
+"Report-Msgid-Bugs-To: https://github.com/platform-coop-toolkit/pcc-framework/issues\n"
+"POT-Creation-Date: 2020-06-05T22:09:32+00:00\n"
+"PO-Revision-Date: 2020-04-04 16:31+0000\n"
+"Last-Translator: Maryna Krajnc <maryna.krajnc@svet-jezikov.si>, 2020\n"
+"Language-Team: Russian (Russia) (https://www.transifex.com/platform-cooperative-development-kit/teams/107673/ru_RU/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ru_RU\n"
+"Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n%100>=11 && n%100<=14)? 2 : 3);\n"
+"X-Domain: pcc-framework\n"
+"X-Generator: WP-CLI 2.4.0\n"
+
+#. Plugin Name of the plugin
+msgid "PCC Framework"
+msgstr "Структура КПК"
+
+#. Plugin URI of the plugin
+#. Author URI of the plugin
+msgid "https://platform.coop"
+msgstr "https://platform.coop"
+
+#. Description of the plugin
+msgid ""
+"Utilities, custom post types and blocks for the Platform Cooperativism "
+"Consortium website."
+msgstr ""
+"Утилиты, пользовательские типы постов и блоки для веб-сайта Консорциума "
+"Платформенного Кооперативизма."
+
+#. Author of the plugin
+msgid "Platform Cooperativism Consortium"
+msgstr "Консорциум Платформенного Кооперативизма"
+
+#: lib/blocks/child-pages.php:107
+msgid "Read more"
+msgstr "Читать далее"
+
+#: lib/blocks/participants-button.php:35
+#: src/blocks/participants-button/index.js:12
+msgid "View all participants"
+msgstr "Посмотреть всех участников"
+
+#: lib/blocks/program-button.php:35 src/blocks/program-button/index.js:12
+msgid "See the full program"
+msgstr "Посмотреть полную программу"
+
+#: lib/blocks/recent-content.php:67 lib/blocks/recent-content.php:70
+msgid "Blog"
+msgstr "Блог"
+
+#: lib/blocks/recent-content.php:94
+msgid "Never miss an update!"
+msgstr "Не пропустите обновления!"
+
+#: lib/blocks/recent-content.php:97
+msgid "Our monthly newsletters keep you updated on news about the community."
+msgstr ""
+"Наши ежемесячные информационные бюллетени проинформируют вас о новостях "
+"сообщества."
+
+#: lib/blocks/recent-content.php:101
+msgid "Sign Up"
+msgstr "Подписаться"
+
+#: lib/blocks/social-links.php:45 src/blocks/social-links/index.js:12
+msgid "Platform Cooperativism – Discussion & Linkshare"
+msgstr "Платформенный кооперативизм – Обсуждение и обмен ссылками"
+
+#: lib/blocks/social-links.php:53 src/blocks/social-links/index.js:19
+msgid "Platform Co-op Development Kit"
+msgstr "Комплект для разработки платформенного кооператива"
+
+#: lib/posttypes/pcc-attachment.php:20
+msgid "Creator Name"
+msgstr "Имя создателя"
+
+#: lib/posttypes/pcc-attachment.php:22
+msgid "The name of the person who created this image or video."
+msgstr "Имя человека, который создал это изображение или видео."
+
+#: lib/posttypes/pcc-attachment.php:26
+msgid "Creator Link"
+msgstr "Ссылка создателя"
+
+#: lib/posttypes/pcc-attachment.php:28
+msgid ""
+"A hyperlink to the website of the person who created this image or video."
+msgstr ""
+"Гиперссылка на сайт человека, который создал это изображение или видео."
+
+#: lib/posttypes/pcc-attachment.php:38
+msgid "Organization Name"
+msgstr "Название организации"
+
+#: lib/posttypes/pcc-attachment.php:40
+msgid "The name of the organization who created this image or video."
+msgstr "Название организации, создавшей это изображение или видео."
+
+#: lib/posttypes/pcc-attachment.php:44
+msgid "Organization Link"
+msgstr "Ссылка организации"
+
+#: lib/posttypes/pcc-attachment.php:47
+msgid ""
+"A hyperlink to the website of the organization who created this image or "
+"video."
+msgstr "Гиперссылка на сайт организации, создавшей это изображение или видео."
+
+#: lib/posttypes/pcc-event.php:26
+msgid "Event"
+msgstr "Событие"
+
+#: lib/posttypes/pcc-event.php:27
+msgid "Events"
+msgstr "События"
+
+#: lib/posttypes/pcc-event.php:88
+msgid "Event Data"
+msgstr "Данные о событии"
+
+#: lib/posttypes/pcc-event.php:96
+msgid "Start"
+msgstr "Начало"
+
+#: lib/posttypes/pcc-event.php:100
+msgid "The date and time at which the event begins."
+msgstr "Дата и время начала события."
+
+#: lib/posttypes/pcc-event.php:104
+msgid "End"
+msgstr "Окончание"
+
+#: lib/posttypes/pcc-event.php:108
+msgid "The date and time at which the event ends."
+msgstr "Дата и время окончания события."
+
+#: lib/posttypes/pcc-event.php:112
+msgid "Venue Name"
+msgstr "Место проведения"
+
+#: lib/posttypes/pcc-event.php:116
+msgid "The name of the event&rsquo;s principal venue."
+msgstr "Основное место проведения события &rsquo;."
+
+#: lib/posttypes/pcc-event.php:120
+msgid "Venue Street Address"
+msgstr "Адрес места проведения"
+
+#: lib/posttypes/pcc-event.php:124
+msgid "The street address of the event&rsquo;s principal venue."
+msgstr "Адрес основного места проведения события &rsquo;."
+
+#: lib/posttypes/pcc-event.php:128
+msgid "Venue Town/City"
+msgstr "Город, в котором будет проводиться событие"
+
+#: lib/posttypes/pcc-event.php:132
+msgid "The town or city of the event&rsquo;s principal venue."
+msgstr "Город, в котором будет основное место проведения события."
+
+#: lib/posttypes/pcc-event.php:136
+msgid "Venue Region"
+msgstr "Регион, в котором будет проводиться событие"
+
+#: lib/posttypes/pcc-event.php:140
+msgid "The province, state, or region of the event&rsquo;s principal venue."
+msgstr ""
+"Область, край или регион, в котором будет основное место проведения события."
+
+#: lib/posttypes/pcc-event.php:144
+msgid "Venue Postal Code"
+msgstr "Почтовый индекс места проведения события"
+
+#: lib/posttypes/pcc-event.php:148
+msgid "The postal code of the event&rsquo;s principal venue."
+msgstr "Почтовый индекс основного места проведения события."
+
+#: lib/posttypes/pcc-event.php:152
+msgid "Venue Country"
+msgstr "Страна, в которой будет проводиться событие"
+
+#: lib/posttypes/pcc-event.php:158
+msgid "The country of the event&rsquo;s principal venue."
+msgstr "Страна, в которой будет основное место проведения события."
+
+#: lib/posttypes/pcc-event.php:162
+msgid "Registration Link"
+msgstr "Ссылка для регистрации"
+
+#: lib/posttypes/pcc-event.php:168
+msgid "A hyperlink to the event&rsquo;s external registration page."
+msgstr "Гиперссылка на страницу внешней регистрации на событие."
+
+#: lib/posttypes/pcc-event.php:172
+msgid "Event Type"
+msgstr "Тип события"
+
+#: lib/posttypes/pcc-event.php:178
+msgid "Community Event"
+msgstr "Событие сообщества"
+
+#: lib/posttypes/pcc-event.php:179
+msgid "PCC Conference"
+msgstr "Конференция КПК"
+
+#: lib/posttypes/pcc-event.php:180
+msgid "PCC Event"
+msgstr "Событие КПК"
+
+#: lib/posttypes/pcc-event.php:181
+msgid "ICDE Event"
+msgstr "Событие ICDE"
+
+#: lib/posttypes/pcc-event.php:185
+msgid "The type of event."
+msgstr "Тип события."
+
+#: lib/posttypes/pcc-event.php:189
+msgid "Event Banner Video"
+msgstr "Видео баннер события"
+
+#: lib/posttypes/pcc-event.php:202
+msgid "Participants"
+msgstr "Участники"
+
+#: lib/posttypes/pcc-event.php:211
+msgid "Add Participant"
+msgstr "Добавить участника"
+
+#: lib/posttypes/pcc-event.php:216
+msgid "Featured Participants"
+msgstr "Избранные участники"
+
+#: lib/posttypes/pcc-event.php:225
+msgid "Add Featured Participant"
+msgstr "Добавить избранного участника"
+
+#: lib/posttypes/pcc-event.php:241
+msgid "Event Sponsors"
+msgstr "Спонсоры события"
+
+#: lib/posttypes/pcc-event.php:253
+msgid "Sponsor {#}"
+msgstr "Спонсор {№}"
+
+#: lib/posttypes/pcc-event.php:254
+msgid "Add Sponsor"
+msgstr "Добавить спонсора"
+
+#: lib/posttypes/pcc-event.php:255
+msgid "Remove Sponsor"
+msgstr "Удалить спонсора"
+
+#: lib/posttypes/pcc-event.php:261
+msgid "Sponsor Name"
+msgstr "Название спонсора "
+
+#: lib/posttypes/pcc-event.php:267
+msgid "Sponsor Link"
+msgstr "Ссылка спонсора"
+
+#: lib/posttypes/pcc-event.php:274
+msgid "Sponsor Logo"
+msgstr "Логотип спонсора"
+
+#: lib/posttypes/pcc-event.php:281
+msgid "Add/Upload Logo"
+msgstr "Добавить/загрузить логотип"
+
+#: lib/posttypes/pcc-person.php:21 lib/taxonomies/pcc-role.php:18
+msgid "Role"
+msgstr "Роль"
+
+#: lib/posttypes/pcc-person.php:25
+msgid "Topics"
+msgstr "Темы"
+
+#: lib/posttypes/pcc-person.php:32
+msgid "Person"
+msgstr "Человек"
+
+#: lib/posttypes/pcc-person.php:33
+msgid "People"
+msgstr "Люди"
+
+#: lib/posttypes/pcc-person.php:83
+msgid "Person Data"
+msgstr "Персональные данные"
+
+#: lib/posttypes/pcc-person.php:91
+msgid "Short Title"
+msgstr "Краткое название"
+
+#: lib/posttypes/pcc-person.php:95
+msgid ""
+"A short title which describes this person&rsquo;s work and primary affiliation that will be used on their card. For example: <br />\n"
+"            &ldquo;Founding Director, Institute for the Cooperative Digital Economy&rdquo;"
+msgstr ""
+"Краткое название, описывающее должность и функции людей, которое будет использоваться на их карточке. Например: <br />\n"
+"            &ldquo;Директор-основатель Института кооперативной цифровой экономики&rdquo;"
+
+#: lib/posttypes/pcc-person.php:100
+msgid "Full Title"
+msgstr "Полное название"
+
+#: lib/posttypes/pcc-person.php:104
+msgid ""
+"A full title which describes this person&rsquo;s work and affiliations that will be used on their page. For example:<br />\n"
+"            &ldquo;Founding Director of Institute for the Cooperative Digital Economy, Platform Cooperativism Consortium, The New School&rdquo;"
+msgstr ""
+"Полное название, описывающее должность и функцию людей, которое будут "
+"использоваться на их странице. Например: Директор-основатель Института "
+"кооперативной цифровой экономики, Консорциум платформенного кооперативизма, "
+"Новая школа"
+
+#: lib/posttypes/pcc-person.php:109
+msgid "City/Town"
+msgstr "Город"
+
+#: lib/posttypes/pcc-person.php:112
+msgid "The city or town where the person resides."
+msgstr "Город, где проживает человек."
+
+#: lib/posttypes/pcc-person.php:116
+msgid "Country"
+msgstr "Страна"
+
+#: lib/posttypes/pcc-person.php:119
+msgid "The country where the person resides."
+msgstr "Страна проживания человека."
+
+#: lib/posttypes/pcc-person.php:125
+msgid "Links which should be displayed on this person&rsquo;s profile."
+msgstr "Ссылки, которые должны отображаться в профиле этого человека."
+
+#: lib/posttypes/pcc-person.php:127
+msgid "Link {#}"
+msgstr "Ссылка {№}"
+
+#: lib/posttypes/pcc-person.php:128
+msgid "Add Another Link"
+msgstr "Добавить еще одну ссылку"
+
+#: lib/posttypes/pcc-person.php:129
+msgid "Remove Link"
+msgstr "Удалить ссылку"
+
+#: lib/posttypes/pcc-person.php:135
+msgid "Link"
+msgstr "Ссылка"
+
+#: lib/posttypes/pcc-person.php:141
+msgid "Link Label (Optional)"
+msgstr "Ярлык ссылки (необязательно)"
+
+#: lib/posttypes/pcc-person.php:142
+msgid "The name of the linked website."
+msgstr "Название веб-сайта."
+
+#: lib/posttypes/pcc-post.php:36
+msgid "Post Data"
+msgstr "Опубликовать данные"
+
+#: lib/posttypes/pcc-post.php:44
+msgid "Custom Post Author"
+msgstr "Автор пользовательского поста"
+
+#: lib/posttypes/pcc-post.php:50
+msgid ""
+"The author of this post (use this if they do not have a WordPress account)."
+msgstr ""
+"Автор этого поста (используйте это, если у них нет учетной записи "
+"WordPress)."
+
+#: lib/settings.php:12
+msgid "Site Configuration"
+msgstr "Конфигурация сайта"
+
+#: lib/settings.php:13
+msgid "Configuration"
+msgstr "Конфигурация "
+
+#: lib/settings.php:19
+msgid "Donate Link"
+msgstr "Cсылка на добровольные пожертвования"
+
+#: lib/settings.php:21
+msgid ""
+"Link to external donation form (used in site footer and some page "
+"templates)."
+msgstr ""
+"Ссылка на внешнюю форму для добровольных пожертвований (используется в "
+"нижнем колонтитуле сайта и некоторых шаблонах страниц)."
+
+#: lib/settings.php:31
+msgid "Newsletter Signup Text"
+msgstr "Текст для регистрации на рассылку"
+
+#: lib/settings.php:32
+msgid "Prompt for newsletter signup call to action (use in site footer)."
+msgstr ""
+"Запрашивать подписку на рассылку с призывом к действию (используйте в нижнем"
+" колонтитуле сайта)."
+
+#: lib/settings.php:38
+msgid "Newsletter Signup Link"
+msgstr "Ссылка на подписку на рассылку "
+
+#: lib/settings.php:40
+msgid ""
+"Link to external newsletter signup form (used in site footer and some page "
+"templates)."
+msgstr ""
+"Ссылка на внешнюю форму подписки на рассылку (используется в нижнем "
+"колонтитуле сайта и некоторых шаблонах страниц)."
+
+#: lib/taxonomies/pcc-role.php:19
+msgid "Roles"
+msgstr "Роли"
+
+#: lib/taxonomies/pcc-role.php:20
+msgid "role"
+msgstr "роль"
+
+#: lib/taxonomies/pcc-role.php:36
+msgid "Role added."
+msgstr "Роль добавлена."
+
+#: lib/taxonomies/pcc-role.php:37
+msgid "Role deleted."
+msgstr "Роль удалена."
+
+#: lib/taxonomies/pcc-role.php:38
+msgid "Role updated."
+msgstr "Роль обновлена."
+
+#: lib/taxonomies/pcc-role.php:39
+msgid "Role not added."
+msgstr "Роль не добавлена."
+
+#: lib/taxonomies/pcc-role.php:40
+msgid "Role not updated."
+msgstr "Роль не обновлена."
+
+#: lib/taxonomies/pcc-role.php:41
+msgid "Roles deleted."
+msgstr "Роли удалены."
+
+#: pcc-framework.php:32
+msgid ""
+"You must run <code>composer install</code> from the Platform Co-op Support "
+"directory."
+msgstr ""
+"Вы должны запустить <code>composer install</code> из каталога поддержки "
+"платформенного кооператива."
+
+#: pcc-framework.php:36
+msgid "Autoloader not found."
+msgstr "Автозагрузчик не найден."
+
+#: src/blocks/child-pages/components/select-page.js:12
+msgid "-- Select Page --"
+msgstr "- Выберите страницу -"
+
+#: src/blocks/child-pages/components/select-page.js:27
+msgid "No page title"
+msgstr "Нет заголовка страницы"
+
+#: src/blocks/child-pages/components/select-page.js:56
+msgid "No pages found."
+msgstr "Страницы не найдены."
+
+#: src/blocks/child-pages/components/select-page.js:65
+msgid "Parent Page"
+msgstr "Родительская страница"
+
+#: src/blocks/child-pages/index.js:26
+msgid "Card"
+msgstr "Карточка"
+
+#: src/blocks/child-pages/index.js:30
+msgid "Card with Excerpt"
+msgstr "Карточка с выдержкой"
+
+#: src/blocks/child-pages/index.js:35
+msgid "Text Only"
+msgstr "Только текст"
+
+#: src/blocks/participants-button/index.js:19
+#: src/blocks/program-button/index.js:19 src/blocks/social-links/index.js:26
+msgid "Default"
+msgstr "По умолчанию"
+
+#: src/blocks/participants-button/index.js:38
+#: src/blocks/program-button/index.js:36
+msgid "Label"
+msgstr "Ярлык"
+
+#: src/blocks/recent-content/index.js:6
+msgid "Recent Content"
+msgstr "Недавний контент"
+
+#: src/blocks/recent-content/index.js:7
+msgid "Generate a grid of recent content from various sources"
+msgstr "Генерировать сетку недавнего контента из различных источников"
+
+#: src/blocks/social-links/index.js:31
+msgid "Icon Only"
+msgstr "Только значок"
+
+#: src/blocks/social-links/index.js:98
+msgid "Facebook Label"
+msgstr "Ярлык Facebook"
+
+#: src/blocks/social-links/index.js:103
+msgid "Twitter Label"
+msgstr "Ярлык Twitter"
+
+#: src/editor/index.js:71
+msgid "Solid"
+msgstr "Плотный"
+
+#: src/editor/index.js:72
+msgid "Outline"
+msgstr "План"

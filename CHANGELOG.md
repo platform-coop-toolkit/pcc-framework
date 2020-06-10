@@ -1,4 +1,9 @@
 # Changelog #
+## 2.2.2 ##
+**Bug Fixes**
+
+* Remove dependency installer ([40be36b](https://github.com/platform-coop-toolkit/pcc-framework/commit/40be36bcfaf2c613e44acbfee64becdfb870d0bc))
+
 ## 2.2.1 ##
 
 **Bug Fixes**

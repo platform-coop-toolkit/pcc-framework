@@ -5,7 +5,7 @@ License: BSD 3-Clause "New" License
 License URI: https://opensource.org/licenses/BSD-3-Clause
 Requires at least: 5.3
 Tested up to: 5.3
-Stable tag: 2.2.1
+Stable tag: 2.2.2
 
 [![License](https://badgen.net/github/license/platform-coop-toolkit/pcc-framework)](https://github.com/platform-coop-toolkit/pcc-framework/blob/master/LICENSE.md) [![Status](https://badgen.net/github/status/platform-coop-toolkit/pcc-framework)](https://circleci.com/gh/platform-coop-toolkit/pcc-framework/tree/master) [![GitHub Release](https://badgen.net/github/release/platform-coop-toolkit/pcc-framework)](https://github.com/platform-coop-toolkit/pcc-framework/releases/latest)
 
@@ -32,6 +32,19 @@ Custom Taxonomies:
 
 * Roles
 
+The following plugins are required:
+
+- Contact Form 7
+- Disable Comments
+- [Intervention](https://github.com/soberwp/intervention/)
+- Simple Page Ordering
+
+The following plugins are recommended:
+
+- Koko Analytics
+- The SEO Framework
+- WP Toolbelt
+
 == Installation ==
 
 1. Upload the plugin zip file via the Plugins panel in WordPress.
@@ -42,6 +55,11 @@ Custom Taxonomies:
 None yet.
 
 == Changelog ==
+= 2.2.2 =
+**Bug Fixes**
+
+* Remove dependency installer ([40be36b](https://github.com/platform-coop-toolkit/pcc-framework/commit/40be36bcfaf2c613e44acbfee64becdfb870d0bc))
+
 = 2.2.1 =
 
 **Bug Fixes**
