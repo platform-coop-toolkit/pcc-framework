@@ -1,0 +1,536 @@
+# Copyright (C) 2020 Platform Cooperativism Consortium
+# This file is distributed under the same license as the PCC Framework plugin.
+# Translators:
+# Priya Ponmalai <priiyap@gmail.com>, 2020
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: PCC Framework 2.2.1\n"
+"Report-Msgid-Bugs-To: https://github.com/platform-coop-toolkit/pcc-framework/issues\n"
+"POT-Creation-Date: 2020-06-10T03:02:50+00:00\n"
+"PO-Revision-Date: 2020-04-04 16:31+0000\n"
+"Last-Translator: Priya Ponmalai <priiyap@gmail.com>, 2020\n"
+"Language-Team: Malayalam (https://www.transifex.com/platform-cooperative-development-kit/teams/107673/ml/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ml\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Domain: pcc-framework\n"
+"X-Generator: WP-CLI 2.4.0\n"
+
+#. Plugin Name of the plugin
+msgid "PCC Framework"
+msgstr "പിസിസി ചട്ടക്കൂട്"
+
+#. Plugin URI of the plugin
+#. Author URI of the plugin
+msgid "https://platform.coop"
+msgstr "https://platform.coop"
+
+#. Description of the plugin
+msgid ""
+"Utilities, custom post types and blocks for the Platform Cooperativism "
+"Consortium website."
+msgstr ""
+"കോപ്പറേറ്റിവിസം കൺസോർഷ്യം വെബ്സൈറ്റ് പ്ലാറ്റ്ഫോമിനുള്ള യൂട്ടിലിറ്റികൾ, "
+"കസ്റ്റം പോസ്റ്റ് തരങ്ങൾ, ബ്ലോക്കുകൾ."
+
+#. Author of the plugin
+msgid "Platform Cooperativism Consortium"
+msgstr "പ്ലാറ്റ്ഫോം കോപ്പറേറ്റിവിസം കൺസോർഷ്യം"
+
+#: lib/blocks/child-pages.php:107
+msgid "Read more"
+msgstr "കൂടുതൽ വായിക്കുക"
+
+#: lib/blocks/participants-button.php:35
+#: src/blocks/participants-button/index.js:12
+msgid "View all participants"
+msgstr "എല്ലാ പങ്കാളികളെയും കാണുക"
+
+#: lib/blocks/program-button.php:35 src/blocks/program-button/index.js:12
+msgid "See the full program"
+msgstr "മുഴുവൻ പ്രോഗ്രാമും കാണുക"
+
+#: lib/blocks/recent-content.php:67 lib/blocks/recent-content.php:70
+msgid "Blog"
+msgstr "ബ്ലോഗ്"
+
+#: lib/blocks/recent-content.php:94
+msgid "Never miss an update!"
+msgstr "ഒരു അപ്ഡേറ്റും നഷ്ടമാകരുത്!"
+
+#: lib/blocks/recent-content.php:97
+msgid "Our monthly newsletters keep you updated on news about the community."
+msgstr ""
+"നമ്മുടെ പ്രതിമാസ ന്യൂസ് ലെറ്ററുകൾ സമൂഹത്തെക്കുറിച്ചുള്ള വാർത്തകൾ നിങ്ങളെ "
+"അറിയിച്ചുകൊണ്ടിരിക്കും."
+
+#: lib/blocks/recent-content.php:101
+msgid "Sign Up"
+msgstr "സൈൻ അപ്പ്"
+
+#: lib/blocks/social-links.php:45 src/blocks/social-links/index.js:12
+msgid "Platform Cooperativism – Discussion & Linkshare"
+msgstr "പ്ലാറ്റ്ഫോം കോപ്പറേറ്റിവിസം- ചർച്ചയും ലിങ്ക് ഷെയറും"
+
+#: lib/blocks/social-links.php:53 src/blocks/social-links/index.js:19
+msgid "Platform Co-op Development Kit"
+msgstr "പ്ലാറ്റ്ഫോം കോഓപ്പറേറ്റീവ് ഡെവലപ്മെന്റ് കിറ്റ്"
+
+#: lib/posttypes/pcc-attachment.php:20
+msgid "Creator Name"
+msgstr "സൃഷ്ടാവിന്റെ പേര്"
+
+#: lib/posttypes/pcc-attachment.php:22
+msgid "The name of the person who created this image or video."
+msgstr "ഈ ചിത്രം അല്ലെങ്കിൽ വീഡിയോ സൃഷ്ടിച്ച വ്യക്തിയുടെ പേര്."
+
+#: lib/posttypes/pcc-attachment.php:26
+msgid "Creator Link"
+msgstr "സൃഷ്ടാവിന്റെ ലിങ്ക്"
+
+#: lib/posttypes/pcc-attachment.php:28
+msgid ""
+"A hyperlink to the website of the person who created this image or video."
+msgstr ""
+"ഈ ചിത്രം അല്ലെങ്കിൽ വീഡിയോ സൃഷ്ടിച്ച വ്യക്തിയുടെ വെബ്സൈറ്റിലേക്കുള്ള ഒരു "
+"ഹൈപ്പർലിങ്ക്."
+
+#: lib/posttypes/pcc-attachment.php:38
+msgid "Organization Name"
+msgstr "സ്ഥാപനത്തിന്റെ പേര്"
+
+#: lib/posttypes/pcc-attachment.php:40
+msgid "The name of the organization who created this image or video."
+msgstr "ഈ ചിത്രം അല്ലെങ്കിൽ വീഡിയോ സൃഷ്ടിച്ച വ്യക്തിയുടെ സ്ഥാപനത്തിന്റെ പേര്."
+
+#: lib/posttypes/pcc-attachment.php:44
+msgid "Organization Link"
+msgstr "സ്ഥാപനത്തിന്റെ ലിങ്ക്"
+
+#: lib/posttypes/pcc-attachment.php:47
+msgid ""
+"A hyperlink to the website of the organization who created this image or "
+"video."
+msgstr ""
+"ഈ ചിത്രം അല്ലെങ്കിൽ വീഡിയോ സൃഷ്ടിച്ച വ്യക്തിയുടെ സ്ഥാപനത്തിന്റെ "
+"വെബ്സൈറ്റിലേക്കുള്ള ഒരു ഹൈപ്പർലിങ്ക്."
+
+#: lib/posttypes/pcc-event.php:26
+msgid "Event"
+msgstr "ഇവന്റ്"
+
+#: lib/posttypes/pcc-event.php:27
+msgid "Events"
+msgstr "ഇവന്റുകൾ"
+
+#: lib/posttypes/pcc-event.php:88
+msgid "Event Data"
+msgstr "ഇവന്റ് ഡാറ്റ"
+
+#: lib/posttypes/pcc-event.php:96
+msgid "Start"
+msgstr "ആരംഭിക്കുക"
+
+#: lib/posttypes/pcc-event.php:100
+msgid "The date and time at which the event begins."
+msgstr "ഇവന്റ് ആരംഭിക്കുന്ന തീയതിയും സമയവും."
+
+#: lib/posttypes/pcc-event.php:104
+msgid "End"
+msgstr "അവസാനിക്കുന്നു"
+
+#: lib/posttypes/pcc-event.php:108
+msgid "The date and time at which the event ends."
+msgstr "ഇവന്റ് അവസാനിക്കുന്ന തീയതിയും സമയവും."
+
+#: lib/posttypes/pcc-event.php:112
+msgid "Venue Name"
+msgstr "വേദിയുടെ പേര്"
+
+#: lib/posttypes/pcc-event.php:116
+msgid "The name of the event&rsquo;s principal venue."
+msgstr "ഇവന്റിന്റെയും പ്രധാന വേദിയുടെയും പേര്."
+
+#: lib/posttypes/pcc-event.php:120
+msgid "Venue Street Address"
+msgstr "വേദിയുടെ സ്ട്രീറ്റ് വിലാസം"
+
+#: lib/posttypes/pcc-event.php:124
+msgid "The street address of the event&rsquo;s principal venue."
+msgstr "ഇവന്റിന്റെ പ്രധാന വേദിയുടെ സ്ട്രീറ്റ് വിലാസം."
+
+#: lib/posttypes/pcc-event.php:128
+msgid "Venue Town/City"
+msgstr "വേദിയായ ടൗൺ/നഗരം"
+
+#: lib/posttypes/pcc-event.php:132
+msgid "The town or city of the event&rsquo;s principal venue."
+msgstr "ഇവന്റിന്റെയും പ്രധാന വേദിയുടെ ടൗൺ അല്ലെങ്കിൽ നഗരം."
+
+#: lib/posttypes/pcc-event.php:136
+msgid "Venue Region"
+msgstr "വേദിയുടെ പ്രദേശം"
+
+#: lib/posttypes/pcc-event.php:140
+msgid "The province, state, or region of the event&rsquo;s principal venue."
+msgstr "ഇവന്റിന്റെ പ്രധാന വേദിയുടെ പ്രോവിൻസ്, സംസ്ഥാനം അല്ലെങ്കിൽ പ്രദേശം."
+
+#: lib/posttypes/pcc-event.php:144
+msgid "Venue Postal Code"
+msgstr "വേദിയുടെ പോസ്റ്റൽ കോഡ്"
+
+#: lib/posttypes/pcc-event.php:148
+msgid "The postal code of the event&rsquo;s principal venue."
+msgstr "ഇവന്റിന്റെ പ്രധാന വേദിയുടെ പോസ്റ്റൽ കോഡ്."
+
+#: lib/posttypes/pcc-event.php:152
+msgid "Venue Country"
+msgstr "വേദിയായ രാജ്യം"
+
+#: lib/posttypes/pcc-event.php:158
+msgid "The country of the event&rsquo;s principal venue."
+msgstr "ഇവന്റിന്റെ പ്രധാന വേദിയുള്ള രാജ്യം."
+
+#: lib/posttypes/pcc-event.php:162
+msgid "Registration Link"
+msgstr "രജിസ്ട്രേഷൻ ലിങ്ക്"
+
+#: lib/posttypes/pcc-event.php:168
+msgid "A hyperlink to the event&rsquo;s external registration page."
+msgstr "ഇവന്റിന്റെ പുറമേയുള്ള രജിസ്ട്രേഷൻ പേജിലേക്കുള്ള ഒരു ഹൈപ്പർ ലിങ്ക്."
+
+#: lib/posttypes/pcc-event.php:172
+msgid "Event Type"
+msgstr "ഇവന്റ് തരം"
+
+#: lib/posttypes/pcc-event.php:178
+msgid "Community Event"
+msgstr "കമ്യൂണിറ്റി ഇവന്റ്"
+
+#: lib/posttypes/pcc-event.php:179
+msgid "PCC Conference"
+msgstr "PCC കോൺഫറൻസ്"
+
+#: lib/posttypes/pcc-event.php:180
+msgid "PCC Event"
+msgstr "PCC ഇവന്റ്"
+
+#: lib/posttypes/pcc-event.php:181
+msgid "ICDE Event"
+msgstr "ICDE ഇവന്റ്"
+
+#: lib/posttypes/pcc-event.php:185
+msgid "The type of event."
+msgstr "ഇവന്റിന്റെ തരം."
+
+#: lib/posttypes/pcc-event.php:189
+msgid "Event Banner Video"
+msgstr "ഇവന്റിന്റെ ബാനർ വീഡിയോ"
+
+#: lib/posttypes/pcc-event.php:202
+msgid "Participants"
+msgstr "പങ്കെടുക്കുന്നവർ"
+
+#: lib/posttypes/pcc-event.php:211
+msgid "Add Participant"
+msgstr "പങ്കാളിയെ ചേർക്കുക"
+
+#: lib/posttypes/pcc-event.php:216
+msgid "Featured Participants"
+msgstr "ഫീച്ചേർഡ് പങ്കാളികൾ"
+
+#: lib/posttypes/pcc-event.php:225
+msgid "Add Featured Participant"
+msgstr "ഫീച്ചേർഡ് പങ്കാളിയെ ചേർക്കുക"
+
+#: lib/posttypes/pcc-event.php:241
+msgid "Event Sponsors"
+msgstr "ഇവന്റ് സ്പോൺസർമാർ"
+
+#: lib/posttypes/pcc-event.php:253
+msgid "Sponsor {#}"
+msgstr "സ്പോൺസർ {#}"
+
+#: lib/posttypes/pcc-event.php:254
+msgid "Add Sponsor"
+msgstr "സ്പോൺസറെ ചേർക്കുക"
+
+#: lib/posttypes/pcc-event.php:255
+msgid "Remove Sponsor"
+msgstr "സ്പോൺസറെ നീക്കം ചെയ്യുക"
+
+#: lib/posttypes/pcc-event.php:261
+msgid "Sponsor Name"
+msgstr "സ്പോൺസറുടെ പേര്"
+
+#: lib/posttypes/pcc-event.php:267
+msgid "Sponsor Link"
+msgstr "സ്പോൺസറുടെ ലിങ്ക്"
+
+#: lib/posttypes/pcc-event.php:274
+msgid "Sponsor Logo"
+msgstr "സ്പോൺസറുടെ ലോഗോ"
+
+#: lib/posttypes/pcc-event.php:281
+msgid "Add/Upload Logo"
+msgstr "ഫോട്ടോ ചേർക്കുക/അപ്ലോഡ് ചെയ്യുക"
+
+#: lib/posttypes/pcc-person.php:21 lib/taxonomies/pcc-role.php:18
+msgid "Role"
+msgstr "ചുമതല"
+
+#: lib/posttypes/pcc-person.php:25
+msgid "Topics"
+msgstr "വിഷയങ്ങൾ"
+
+#: lib/posttypes/pcc-person.php:32
+msgid "Person"
+msgstr "വ്യക്തി"
+
+#: lib/posttypes/pcc-person.php:33
+msgid "People"
+msgstr "ആളുകൾ"
+
+#: lib/posttypes/pcc-person.php:83
+msgid "Person Data"
+msgstr "വ്യക്തിയുടെ ഡാറ്റ"
+
+#: lib/posttypes/pcc-person.php:91
+msgid "Short Title"
+msgstr "ഹ്രസ്വമായ ശീർഷകം"
+
+#: lib/posttypes/pcc-person.php:95
+msgid ""
+"A short title which describes this person&rsquo;s work and primary affiliation that will be used on their card. For example: <br />\n"
+"            &ldquo;Founding Director, Institute for the Cooperative Digital Economy&rdquo;"
+msgstr ""
+"അവരുടെ കാർഡിൽ ഉപയോഗിക്കുന്നതിനുള്ള വ്യക്തിയുടെ ജോലിയും പ്രാഥമികമായ അഫിലിയേഷനും വിശദീകരിക്കുന്ന ഒരു ഹ്രസ്വമായ ശീർഷകം.<br />\n"
+" സ്ഥാപക ഡയറക്ടർ, ഇൻസ്റ്റിറ്റ്യൂട്ട് ഫോർ ദി കോപ്പറേറ്റീവ് ഡിജിറ്റൽ ഇക്കോണമി;"
+
+#: lib/posttypes/pcc-person.php:100
+msgid "Full Title"
+msgstr "പൂർ‌ണ്ണമായ ശീർഷകം"
+
+#: lib/posttypes/pcc-person.php:104
+msgid ""
+"A full title which describes this person&rsquo;s work and affiliations that will be used on their page. For example:<br />\n"
+"            &ldquo;Founding Director of Institute for the Cooperative Digital Economy, Platform Cooperativism Consortium, The New School&rdquo;"
+msgstr ""
+"അവരുടെ പേജിൽ ഉപയോഗിക്കുന്നതിനുള്ള വ്യക്തിയുടെ ജോലിയും പ്രാഥമികമായ അഫിലിയേഷനും വിശദീകരിക്കുന്ന ഒരു പൂർണ്ണമായ ശീർഷകം.<br />\n"
+" സ്ഥാപക ഡയറക്ടർ, ഇൻസ്റ്റിറ്റ്യൂട്ട് ഫോർ ദി കോപ്പറേറ്റീവ് ഡിജിറ്റൽ ഇക്കോണമി, പ്ലാറ്റ്ഫോം കോപ്പറേറ്റിവിസം കൺസോർഷ്യം, ദി ന്യു സ്കൂൾ;"
+
+#: lib/posttypes/pcc-person.php:109
+msgid "City/Town"
+msgstr "നഗരം/ടൗൺ"
+
+#: lib/posttypes/pcc-person.php:112
+msgid "The city or town where the person resides."
+msgstr "വ്യക്തി താമസിക്കുന്ന നഗരം അല്ലെങ്കിൽ ടൗൺ."
+
+#: lib/posttypes/pcc-person.php:116
+msgid "Country"
+msgstr "രാജ്യം"
+
+#: lib/posttypes/pcc-person.php:119
+msgid "The country where the person resides."
+msgstr "വ്യക്തി താമസിക്കുന്ന രാജ്യം."
+
+#: lib/posttypes/pcc-person.php:125
+msgid "Links which should be displayed on this person&rsquo;s profile."
+msgstr "വ്യക്തിയുടെ പ്രൊഫൈലിൽ പ്രദർശിപ്പിക്കുന്ന ലിങ്കുകൾ."
+
+#: lib/posttypes/pcc-person.php:127
+msgid "Link {#}"
+msgstr "ലിങ്ക് {#}"
+
+#: lib/posttypes/pcc-person.php:128
+msgid "Add Another Link"
+msgstr "മറ്റൊരു ലിങ്ക് ചേർക്കുക"
+
+#: lib/posttypes/pcc-person.php:129
+msgid "Remove Link"
+msgstr "ലിങ്ക് നീക്കം ചെയ്യുക"
+
+#: lib/posttypes/pcc-person.php:135
+msgid "Link"
+msgstr "ലിങ്ക്"
+
+#: lib/posttypes/pcc-person.php:141
+msgid "Link Label (Optional)"
+msgstr "ലിങ്ക് ലേബൽ (ഐച്ഛികം)"
+
+#: lib/posttypes/pcc-person.php:142
+msgid "The name of the linked website."
+msgstr "ലിങ്ക് ചെയ്ത വെബ്സൈറ്റിന്റെ പേര്."
+
+#: lib/posttypes/pcc-post.php:36
+msgid "Post Data"
+msgstr "പോസ്റ്റ് ഡാറ്റ"
+
+#: lib/posttypes/pcc-post.php:44
+msgid "Custom Post Author"
+msgstr "കസ്റ്റം പോസ്റ്റ് സൃഷ്ടാവ്"
+
+#: lib/posttypes/pcc-post.php:50
+msgid ""
+"The author of this post (use this if they do not have a WordPress account)."
+msgstr ""
+"ഈ പോസ്റ്റിന്റെ സൃഷ്ടാവ് (അവർക്ക് WordPress അക്കൗണ്ട് ഇല്ലെങ്കിൽ ഇത് "
+"ഉപയോഗിക്കുക)"
+
+#: lib/settings.php:12
+msgid "Site Configuration"
+msgstr "സൈറ്റ് കോൺഫിഗറേഷൻ"
+
+#: lib/settings.php:13
+msgid "Configuration"
+msgstr "കോൺഫിഗറേഷൻ"
+
+#: lib/settings.php:19
+msgid "Donate Link"
+msgstr "സംഭാവന ലിങ്ക്"
+
+#: lib/settings.php:21
+msgid ""
+"Link to external donation form (used in site footer and some page "
+"templates)."
+msgstr ""
+"ബാഹ്യ സംഭാവന ഫോമിലേക്കുള്ള ലിങ്ക് (സൈറ്റ് ഫൂട്ടറുകളിലും ചില പേജ് "
+"ടെംപ്ലേറ്റുകളിലും ഉപയോഗിക്കുന്നത്)."
+
+#: lib/settings.php:31
+msgid "Newsletter Signup Text"
+msgstr "ന്യൂസ് ലെറ്റർ സൈൻഅപ്പ് ടെക്സ്റ്റ്"
+
+#: lib/settings.php:32
+msgid "Prompt for newsletter signup call to action (use in site footer)."
+msgstr ""
+"പ്രവർത്തനത്തിന് വേണ്ടി ന്യൂസ് ലെറ്റർ സൈൻഅപ്പ് കോളിനുള്ള പ്രോംപ്റ്റ് (സൈറ്റ് "
+"ഫൂട്ടറിൽ ഉപയോഗിക്കുന്നത്)"
+
+#: lib/settings.php:38
+msgid "Newsletter Signup Link"
+msgstr "ന്യൂസ് ലെറ്റർ സൈൻഅപ്പ് ലിങ്ക്"
+
+#: lib/settings.php:40
+msgid ""
+"Link to external newsletter signup form (used in site footer and some page "
+"templates)."
+msgstr ""
+"ബാഹ്യന്യൂസ് ലെറ്റർ സൈൻ അപ്പിലേക്കുള്ള ലിങ്ക് (സൈറ്റ് ഫൂട്ടറുകളിലും ചില പേജ് "
+"ടെംപ്ലേറ്റുകളിലും ഉപയോഗിക്കുന്നത്)."
+
+#: lib/taxonomies/pcc-role.php:19
+msgid "Roles"
+msgstr "ചുമതലകൾ"
+
+#: lib/taxonomies/pcc-role.php:20
+msgid "role"
+msgstr "ചുമതല"
+
+#: lib/taxonomies/pcc-role.php:36
+msgid "Role added."
+msgstr "ചുമതല ചേർത്തു."
+
+#: lib/taxonomies/pcc-role.php:37
+msgid "Role deleted."
+msgstr "ചുമതല ഇല്ലാതാക്കി."
+
+#: lib/taxonomies/pcc-role.php:38
+msgid "Role updated."
+msgstr "ചുമതല അപ്ഡേറ്റ് ചെയ്തു."
+
+#: lib/taxonomies/pcc-role.php:39
+msgid "Role not added."
+msgstr "ചുമതല ചേർത്തില്ല."
+
+#: lib/taxonomies/pcc-role.php:40
+msgid "Role not updated."
+msgstr "ചുമതല അപ്ഡേറ്റ് ചെയ്തില്ല."
+
+#: lib/taxonomies/pcc-role.php:41
+msgid "Roles deleted."
+msgstr "ചുമതലകൾ ഇല്ലാതാക്കി."
+
+#: pcc-framework.php:32
+msgid ""
+"You must run <code>composer install</code> from the Platform Co-op Support "
+"directory."
+msgstr ""
+"നിങ്ങൾ പ്ലാറ്റ്ഫോം കോ-ഓപ്പ് സപ്പോർട്ട് ഡയറക്ടറിയിൽ നിന്ന് <code>കംപോസർ "
+"ഇൻസ്റ്റാൾ</code> പ്രവർത്തിപ്പിക്കണം."
+
+#: pcc-framework.php:36
+msgid "Autoloader not found."
+msgstr "ഓട്ടോലോഡർ‌ കണ്ടെത്തിയില്ല."
+
+#: src/blocks/child-pages/components/select-page.js:12
+msgid "-- Select Page --"
+msgstr "--പേജ് തിരഞ്ഞെടുക്കുക--"
+
+#: src/blocks/child-pages/components/select-page.js:27
+msgid "No page title"
+msgstr "പേജിന് ശീർഷകം ഇല്ല"
+
+#: src/blocks/child-pages/components/select-page.js:56
+msgid "No pages found."
+msgstr "ഒരു പേജും കണ്ടെത്തിയില്ല."
+
+#: src/blocks/child-pages/components/select-page.js:65
+msgid "Parent Page"
+msgstr "പേരന്റ് പേജ്"
+
+#: src/blocks/child-pages/index.js:26
+msgid "Card"
+msgstr "കാർഡ്"
+
+#: src/blocks/child-pages/index.js:30
+msgid "Card with Excerpt"
+msgstr "ഉദ്ധരണി ഉള്ള കാർഡ്"
+
+#: src/blocks/child-pages/index.js:35
+msgid "Text Only"
+msgstr "ടെക്സ്റ്റ് മാത്രം"
+
+#: src/blocks/participants-button/index.js:19
+#: src/blocks/program-button/index.js:19 src/blocks/social-links/index.js:26
+msgid "Default"
+msgstr "ഡിഫോൾട്ട്"
+
+#: src/blocks/participants-button/index.js:38
+#: src/blocks/program-button/index.js:36
+msgid "Label"
+msgstr "ലേബൽ"
+
+#: src/blocks/recent-content/index.js:6
+msgid "Recent Content"
+msgstr "സമീപകാലത്തെ ഉള്ളടക്കം"
+
+#: src/blocks/recent-content/index.js:7
+msgid "Generate a grid of recent content from various sources"
+msgstr ""
+"വിവിധ സ്രോതസ്സുകളിൽ നിന്നുള്ള സമീപകാലത്തെ ഉള്ളടക്കത്തിന്റെ ഒരു ഗ്രിഡ് "
+"സൃഷ്ടിക്കുക"
+
+#: src/blocks/social-links/index.js:31
+msgid "Icon Only"
+msgstr "ഐക്കൺ മാത്രം"
+
+#: src/blocks/social-links/index.js:98
+msgid "Facebook Label"
+msgstr "Facebook ലേബൽ"
+
+#: src/blocks/social-links/index.js:103
+msgid "Twitter Label"
+msgstr "Twitter ലേബൽ"
+
+#: src/editor/index.js:71
+msgid "Solid"
+msgstr "ഉറപ്പുള്ളത്"
+
+#: src/editor/index.js:72
+msgid "Outline"
+msgstr "രൂപരേഖ"
