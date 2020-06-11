@@ -24,6 +24,19 @@ Custom Taxonomies:
 
 * Roles
 
+The following plugins are required:
+
+- Contact Form 7
+- Disable Comments
+- [Intervention](https://github.com/soberwp/intervention/)
+- Simple Page Ordering
+
+The following plugins are recommended:
+
+- Koko Analytics
+- The SEO Framework
+- WP Toolbelt
+
 ## Installation ##
 
 1. Upload the plugin zip file via the Plugins panel in WordPress.

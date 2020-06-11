@@ -1,501 +1,516 @@
 # Copyright (C) 2020 Platform Cooperativism Consortium
 # This file is distributed under the same license as the PCC Framework plugin.
+# Translators:
+# Kanako Fujiwara <kftranslation@madameroses.com>, 2020
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PCC Framework 2.2.1\n"
 "Report-Msgid-Bugs-To: https://github.com/platform-coop-toolkit/pcc-framework/issues\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"POT-Creation-Date: 2020-05-19T14:54:54+00:00\n"
+"PO-Revision-Date: 2020-04-04 16:31+0000\n"
+"Last-Translator: Kanako Fujiwara <kftranslation@madameroses.com>, 2020\n"
+"Language-Team: Japanese (https://www.transifex.com/platform-cooperative-development-kit/teams/107673/ja/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2020-06-10T03:02:50+00:00\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"X-Generator: WP-CLI 2.4.0\n"
+"Language: ja\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
 "X-Domain: pcc-framework\n"
+"X-Generator: WP-CLI 2.4.0\n"
 
 #. Plugin Name of the plugin
 msgid "PCC Framework"
-msgstr ""
+msgstr "PCC フレームワーク"
 
 #. Plugin URI of the plugin
 #. Author URI of the plugin
 msgid "https://platform.coop"
-msgstr ""
+msgstr "https://platform.coop"
 
 #. Description of the plugin
-msgid "Utilities, custom post types and blocks for the Platform Cooperativism Consortium website."
-msgstr ""
+msgid ""
+"Utilities, custom post types and blocks for the Platform Cooperativism "
+"Consortium website."
+msgstr "プラットフォーム協同組合コンソーシアムWebサイトのユーティリティ、カスタム投稿タイプ、ブロック。"
 
 #. Author of the plugin
 msgid "Platform Cooperativism Consortium"
-msgstr ""
+msgstr "プラットフォーム協同組合コンソーシアム"
 
 #: lib/blocks/child-pages.php:107
 msgid "Read more"
-msgstr ""
+msgstr "もっと読む"
 
 #: lib/blocks/participants-button.php:35
 #: src/blocks/participants-button/index.js:12
 msgid "View all participants"
-msgstr ""
+msgstr "すべての参加者を表示する"
 
-#: lib/blocks/program-button.php:35
-#: src/blocks/program-button/index.js:12
+#: lib/blocks/program-button.php:35 src/blocks/program-button/index.js:12
 msgid "See the full program"
-msgstr ""
+msgstr "全プログラムを見る"
 
-#: lib/blocks/recent-content.php:67
-#: lib/blocks/recent-content.php:70
+#: lib/blocks/recent-content.php:67 lib/blocks/recent-content.php:70
 msgid "Blog"
-msgstr ""
+msgstr "ブログ"
 
 #: lib/blocks/recent-content.php:94
 msgid "Never miss an update!"
-msgstr ""
+msgstr "更新をお見逃しなく！"
 
 #: lib/blocks/recent-content.php:97
 msgid "Our monthly newsletters keep you updated on news about the community."
-msgstr ""
+msgstr "プラットフォーム協同組合コンソーシアムWebサイトのユーティリティ、カスタム投稿タイプ、ブロック。"
 
 #: lib/blocks/recent-content.php:101
 msgid "Sign Up"
-msgstr ""
+msgstr "サインアップ"
 
-#: lib/blocks/social-links.php:45
-#: src/blocks/social-links/index.js:12
+#: lib/blocks/social-links.php:45 src/blocks/social-links/index.js:12
 msgid "Platform Cooperativism – Discussion & Linkshare"
-msgstr ""
+msgstr "プラットフォーム協同主義 – ディスカッション &リンクシェア"
 
-#: lib/blocks/social-links.php:53
-#: src/blocks/social-links/index.js:19
+#: lib/blocks/social-links.php:53 src/blocks/social-links/index.js:19
 msgid "Platform Co-op Development Kit"
-msgstr ""
+msgstr "プラットフォーム協同組合開発キット"
 
 #: lib/posttypes/pcc-attachment.php:20
 msgid "Creator Name"
-msgstr ""
+msgstr "作成者名"
 
 #: lib/posttypes/pcc-attachment.php:22
 msgid "The name of the person who created this image or video."
-msgstr ""
+msgstr "この画像またはビデオの作成者名。"
 
 #: lib/posttypes/pcc-attachment.php:26
 msgid "Creator Link"
-msgstr ""
+msgstr "作成者リンク"
 
 #: lib/posttypes/pcc-attachment.php:28
-msgid "A hyperlink to the website of the person who created this image or video."
-msgstr ""
+msgid ""
+"A hyperlink to the website of the person who created this image or video."
+msgstr "この画像またはビデオの作成者のWebサイトへのハイパーリンク。"
 
 #: lib/posttypes/pcc-attachment.php:38
 msgid "Organization Name"
-msgstr ""
+msgstr "組織名"
 
 #: lib/posttypes/pcc-attachment.php:40
 msgid "The name of the organization who created this image or video."
-msgstr ""
+msgstr "この画像または動画を作成した組織の名前。"
 
 #: lib/posttypes/pcc-attachment.php:44
 msgid "Organization Link"
-msgstr ""
+msgstr "組織のリンク"
 
 #: lib/posttypes/pcc-attachment.php:47
-msgid "A hyperlink to the website of the organization who created this image or video."
-msgstr ""
+msgid ""
+"A hyperlink to the website of the organization who created this image or "
+"video."
+msgstr "この画像またはビデオを作成した組織のWebサイトへのハイパーリンク。"
 
 #: lib/posttypes/pcc-event.php:26
 msgid "Event"
-msgstr ""
+msgstr "イベント"
 
 #: lib/posttypes/pcc-event.php:27
 msgid "Events"
-msgstr ""
+msgstr "イベント"
 
 #: lib/posttypes/pcc-event.php:88
 msgid "Event Data"
-msgstr ""
+msgstr "イベント日"
 
 #: lib/posttypes/pcc-event.php:96
 msgid "Start"
-msgstr ""
+msgstr "開始"
 
 #: lib/posttypes/pcc-event.php:100
 msgid "The date and time at which the event begins."
-msgstr ""
+msgstr "イベントが開始する日時。"
 
 #: lib/posttypes/pcc-event.php:104
 msgid "End"
-msgstr ""
+msgstr "終了"
 
 #: lib/posttypes/pcc-event.php:108
 msgid "The date and time at which the event ends."
-msgstr ""
+msgstr "イベントが終了する日時。"
 
 #: lib/posttypes/pcc-event.php:112
 msgid "Venue Name"
-msgstr ""
+msgstr "会場名"
 
 #: lib/posttypes/pcc-event.php:116
 msgid "The name of the event&rsquo;s principal venue."
-msgstr ""
+msgstr "イベントの主な会場"
 
 #: lib/posttypes/pcc-event.php:120
 msgid "Venue Street Address"
-msgstr ""
+msgstr "会場の住所"
 
 #: lib/posttypes/pcc-event.php:124
 msgid "The street address of the event&rsquo;s principal venue."
-msgstr ""
+msgstr "イベントの主な会場の住所。"
 
 #: lib/posttypes/pcc-event.php:128
 msgid "Venue Town/City"
-msgstr ""
+msgstr "会場の市町村"
 
 #: lib/posttypes/pcc-event.php:132
 msgid "The town or city of the event&rsquo;s principal venue."
-msgstr ""
+msgstr "イベントの主な会場の市町村"
 
 #: lib/posttypes/pcc-event.php:136
 msgid "Venue Region"
-msgstr ""
+msgstr "会場の地域"
 
 #: lib/posttypes/pcc-event.php:140
 msgid "The province, state, or region of the event&rsquo;s principal venue."
-msgstr ""
+msgstr "イベントの主要な会場の都道府県または地域。"
 
 #: lib/posttypes/pcc-event.php:144
 msgid "Venue Postal Code"
-msgstr ""
+msgstr "会場の郵便番号"
 
 #: lib/posttypes/pcc-event.php:148
 msgid "The postal code of the event&rsquo;s principal venue."
-msgstr ""
+msgstr "イベントの主な会場の郵便番号。"
 
 #: lib/posttypes/pcc-event.php:152
 msgid "Venue Country"
-msgstr ""
+msgstr "会場国"
 
 #: lib/posttypes/pcc-event.php:158
 msgid "The country of the event&rsquo;s principal venue."
-msgstr ""
+msgstr "イベントの主な会場のある国。"
 
 #: lib/posttypes/pcc-event.php:162
 msgid "Registration Link"
-msgstr ""
+msgstr "登録のリンク"
 
 #: lib/posttypes/pcc-event.php:168
 msgid "A hyperlink to the event&rsquo;s external registration page."
-msgstr ""
+msgstr "イベントの外部登録ページへのハイパーリンク。"
 
 #: lib/posttypes/pcc-event.php:172
 msgid "Event Type"
-msgstr ""
+msgstr "イベントタイプ"
 
 #: lib/posttypes/pcc-event.php:178
 msgid "Community Event"
-msgstr ""
+msgstr "コミュニティイベント"
 
 #: lib/posttypes/pcc-event.php:179
 msgid "PCC Conference"
-msgstr ""
+msgstr "PCC 会議"
 
 #: lib/posttypes/pcc-event.php:180
 msgid "PCC Event"
-msgstr ""
+msgstr "PCC イベント"
 
 #: lib/posttypes/pcc-event.php:181
 msgid "ICDE Event"
-msgstr ""
+msgstr "ICDE イベント"
 
 #: lib/posttypes/pcc-event.php:185
 msgid "The type of event."
-msgstr ""
+msgstr "イベントの種類"
 
 #: lib/posttypes/pcc-event.php:189
 msgid "Event Banner Video"
-msgstr ""
+msgstr "イベントバナーの動画"
 
 #: lib/posttypes/pcc-event.php:202
 msgid "Participants"
-msgstr ""
+msgstr "参加者"
 
 #: lib/posttypes/pcc-event.php:211
 msgid "Add Participant"
-msgstr ""
+msgstr "参加者を追加する"
 
 #: lib/posttypes/pcc-event.php:216
 msgid "Featured Participants"
-msgstr ""
+msgstr "注目の参加者"
 
 #: lib/posttypes/pcc-event.php:225
 msgid "Add Featured Participant"
-msgstr ""
+msgstr "注目の参加者を追加する"
 
 #: lib/posttypes/pcc-event.php:241
 msgid "Event Sponsors"
-msgstr ""
+msgstr "イベントスポンサー"
 
 #: lib/posttypes/pcc-event.php:253
 msgid "Sponsor {#}"
-msgstr ""
+msgstr "スポンサー {#}"
 
 #: lib/posttypes/pcc-event.php:254
 msgid "Add Sponsor"
-msgstr ""
+msgstr "スポンサーを追加する"
 
 #: lib/posttypes/pcc-event.php:255
 msgid "Remove Sponsor"
-msgstr ""
+msgstr "スポンサーを削除する"
 
 #: lib/posttypes/pcc-event.php:261
 msgid "Sponsor Name"
-msgstr ""
+msgstr "スポンサー名"
 
 #: lib/posttypes/pcc-event.php:267
 msgid "Sponsor Link"
-msgstr ""
+msgstr "スポンサーリンク"
 
 #: lib/posttypes/pcc-event.php:274
 msgid "Sponsor Logo"
-msgstr ""
+msgstr "スポンサーロゴ"
 
 #: lib/posttypes/pcc-event.php:281
 msgid "Add/Upload Logo"
-msgstr ""
+msgstr "ロゴを追加/アップロードする"
 
-#: lib/posttypes/pcc-person.php:21
-#: lib/taxonomies/pcc-role.php:18
+#: lib/posttypes/pcc-person.php:21 lib/taxonomies/pcc-role.php:18
 msgid "Role"
-msgstr ""
+msgstr "役割"
 
 #: lib/posttypes/pcc-person.php:25
 msgid "Topics"
-msgstr ""
+msgstr "トピック"
 
 #: lib/posttypes/pcc-person.php:32
 msgid "Person"
-msgstr ""
+msgstr "人物"
 
 #: lib/posttypes/pcc-person.php:33
 msgid "People"
-msgstr ""
+msgstr "人物"
 
 #: lib/posttypes/pcc-person.php:83
 msgid "Person Data"
-msgstr ""
+msgstr "人物データ"
 
 #: lib/posttypes/pcc-person.php:91
 msgid "Short Title"
-msgstr ""
+msgstr "短いタイトル"
 
 #: lib/posttypes/pcc-person.php:95
 msgid ""
 "A short title which describes this person&rsquo;s work and primary affiliation that will be used on their card. For example: <br />\n"
 "            &ldquo;Founding Director, Institute for the Cooperative Digital Economy&rdquo;"
 msgstr ""
+"カードで使用されるこの人物の仕事と主な所属を説明する短いタイトル。例：<br />\n"
+"            共同デジタル経済研究所の創設ディレクター＆rdquo;"
 
 #: lib/posttypes/pcc-person.php:100
 msgid "Full Title"
-msgstr ""
+msgstr "フルタイトル"
 
 #: lib/posttypes/pcc-person.php:104
 msgid ""
 "A full title which describes this person&rsquo;s work and affiliations that will be used on their page. For example:<br />\n"
 "            &ldquo;Founding Director of Institute for the Cooperative Digital Economy, Platform Cooperativism Consortium, The New School&rdquo;"
 msgstr ""
+"このページで使用されるこの人物の仕事と所属を説明する完全なタイトル。例えば：<br "
+"/>＆ldquo;共同デジタル経済研究所、プラットフォーム新協同組合コンソーシアム創設ディレクター、ニュースクール＆rdquo;"
 
 #: lib/posttypes/pcc-person.php:109
 msgid "City/Town"
-msgstr ""
+msgstr "市町村"
 
 #: lib/posttypes/pcc-person.php:112
 msgid "The city or town where the person resides."
-msgstr ""
+msgstr "人物が居住する市町村。"
 
 #: lib/posttypes/pcc-person.php:116
 msgid "Country"
-msgstr ""
+msgstr "国"
 
 #: lib/posttypes/pcc-person.php:119
 msgid "The country where the person resides."
-msgstr ""
+msgstr "人物が居住する国"
 
 #: lib/posttypes/pcc-person.php:125
 msgid "Links which should be displayed on this person&rsquo;s profile."
-msgstr ""
+msgstr "この人物のプロフィールに表示する必要のあるリンク。"
 
 #: lib/posttypes/pcc-person.php:127
 msgid "Link {#}"
-msgstr ""
+msgstr "リンク {#}"
 
 #: lib/posttypes/pcc-person.php:128
 msgid "Add Another Link"
-msgstr ""
+msgstr "別のリンクを追加する"
 
 #: lib/posttypes/pcc-person.php:129
 msgid "Remove Link"
-msgstr ""
+msgstr "リンクを削除する"
 
 #: lib/posttypes/pcc-person.php:135
 msgid "Link"
-msgstr ""
+msgstr "リンク"
 
 #: lib/posttypes/pcc-person.php:141
 msgid "Link Label (Optional)"
-msgstr ""
+msgstr "リンクラベル (オプション)"
 
 #: lib/posttypes/pcc-person.php:142
 msgid "The name of the linked website."
-msgstr ""
+msgstr "リンクされたwebの名前"
 
 #: lib/posttypes/pcc-post.php:36
 msgid "Post Data"
-msgstr ""
+msgstr "投稿日"
 
 #: lib/posttypes/pcc-post.php:44
 msgid "Custom Post Author"
-msgstr ""
+msgstr "投稿作成者をカスタム"
 
 #: lib/posttypes/pcc-post.php:50
-msgid "The author of this post (use this if they do not have a WordPress account)."
-msgstr ""
+msgid ""
+"The author of this post (use this if they do not have a WordPress account)."
+msgstr "この投稿の作成者（WordPressアカウントを持っていない場合はこれを使用してください）。"
 
 #: lib/settings.php:12
 msgid "Site Configuration"
-msgstr ""
+msgstr "サイトの構成"
 
 #: lib/settings.php:13
 msgid "Configuration"
-msgstr ""
+msgstr "構成"
 
 #: lib/settings.php:19
 msgid "Donate Link"
-msgstr ""
+msgstr "寄付のリンク"
 
 #: lib/settings.php:21
-msgid "Link to external donation form (used in site footer and some page templates)."
-msgstr ""
+msgid ""
+"Link to external donation form (used in site footer and some page "
+"templates)."
+msgstr "外部寄付フォームへのリンク（サイトフッターと一部のページテンプレートで使用）。"
 
 #: lib/settings.php:31
 msgid "Newsletter Signup Text"
-msgstr ""
+msgstr "ニューズレターサインアップのテキスト"
 
 #: lib/settings.php:32
 msgid "Prompt for newsletter signup call to action (use in site footer)."
-msgstr ""
+msgstr "ニューズレターにサインアップするように促す（サイトのフッターで使用）。"
 
 #: lib/settings.php:38
 msgid "Newsletter Signup Link"
-msgstr ""
+msgstr "ニューズレターサインアップのリンク"
 
 #: lib/settings.php:40
-msgid "Link to external newsletter signup form (used in site footer and some page templates)."
-msgstr ""
+msgid ""
+"Link to external newsletter signup form (used in site footer and some page "
+"templates)."
+msgstr "外部ニューズレター登録フォームへのリンク（サイトフッターおよび一部のページテンプレートで使用）。"
 
 #: lib/taxonomies/pcc-role.php:19
 msgid "Roles"
-msgstr ""
+msgstr "役割"
 
 #: lib/taxonomies/pcc-role.php:20
 msgid "role"
-msgstr ""
+msgstr "役割"
 
 #: lib/taxonomies/pcc-role.php:36
 msgid "Role added."
-msgstr ""
+msgstr "役割が追加されました。"
 
 #: lib/taxonomies/pcc-role.php:37
 msgid "Role deleted."
-msgstr ""
+msgstr "役割が追加されました。"
 
 #: lib/taxonomies/pcc-role.php:38
 msgid "Role updated."
-msgstr ""
+msgstr "役割が更新されました。"
 
 #: lib/taxonomies/pcc-role.php:39
 msgid "Role not added."
-msgstr ""
+msgstr "役割が追加されませんでした。"
 
 #: lib/taxonomies/pcc-role.php:40
 msgid "Role not updated."
-msgstr ""
+msgstr "役割が更新されませんでした。"
 
 #: lib/taxonomies/pcc-role.php:41
 msgid "Roles deleted."
-msgstr ""
+msgstr "役割が削除されました。"
 
 #: pcc-framework.php:32
-msgid "You must run <code>composer install</code> from the Platform Co-op Support directory."
-msgstr ""
+msgid ""
+"You must run <code>composer install</code> from the Platform Co-op Support "
+"directory."
+msgstr "<code>コンポーザーインストール</code>をプラットフォーム協同組合サポートディレクトリから動作させなければなりません。"
 
 #: pcc-framework.php:36
 msgid "Autoloader not found."
-msgstr ""
+msgstr "オートローダが見つかりませんでした。"
 
 #: src/blocks/child-pages/components/select-page.js:12
 msgid "-- Select Page --"
-msgstr ""
+msgstr "-- ページを選択する --"
 
 #: src/blocks/child-pages/components/select-page.js:27
 msgid "No page title"
-msgstr ""
+msgstr "ページタイトルなし"
 
 #: src/blocks/child-pages/components/select-page.js:56
 msgid "No pages found."
-msgstr ""
+msgstr "ページが見つかりませんでした。"
 
 #: src/blocks/child-pages/components/select-page.js:65
 msgid "Parent Page"
-msgstr ""
+msgstr "ペアレントページ"
 
 #: src/blocks/child-pages/index.js:26
 msgid "Card"
-msgstr ""
+msgstr "カード"
 
 #: src/blocks/child-pages/index.js:30
 msgid "Card with Excerpt"
-msgstr ""
+msgstr "抜粋付きカード"
 
 #: src/blocks/child-pages/index.js:35
 msgid "Text Only"
-msgstr ""
+msgstr "テキストのみ"
 
 #: src/blocks/participants-button/index.js:19
-#: src/blocks/program-button/index.js:19
-#: src/blocks/social-links/index.js:26
+#: src/blocks/program-button/index.js:19 src/blocks/social-links/index.js:26
 msgid "Default"
-msgstr ""
+msgstr "デフォルト"
 
 #: src/blocks/participants-button/index.js:38
 #: src/blocks/program-button/index.js:36
 msgid "Label"
-msgstr ""
+msgstr "ラベル"
 
 #: src/blocks/recent-content/index.js:6
 msgid "Recent Content"
-msgstr ""
+msgstr "最近のコンテンツ"
 
 #: src/blocks/recent-content/index.js:7
 msgid "Generate a grid of recent content from various sources"
-msgstr ""
+msgstr "さまざまなソースから最近のコンテンツのグリッドを生成します"
 
 #: src/blocks/social-links/index.js:31
 msgid "Icon Only"
-msgstr ""
+msgstr "アイコンのみ"
 
 #: src/blocks/social-links/index.js:98
 msgid "Facebook Label"
-msgstr ""
+msgstr "Facebook ラベル"
 
 #: src/blocks/social-links/index.js:103
 msgid "Twitter Label"
-msgstr ""
+msgstr "Twitter ラベル"
 
 #: src/editor/index.js:71
 msgid "Solid"
-msgstr ""
+msgstr "ソリッド"
 
 #: src/editor/index.js:72
 msgid "Outline"
-msgstr ""
+msgstr "アウトライン"

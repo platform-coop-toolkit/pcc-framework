@@ -1,501 +1,532 @@
 # Copyright (C) 2020 Platform Cooperativism Consortium
 # This file is distributed under the same license as the PCC Framework plugin.
+# Translators:
+# Trias Noverdi <triasnoverdi@beyondbahasa.com>, 2020
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PCC Framework 2.2.1\n"
 "Report-Msgid-Bugs-To: https://github.com/platform-coop-toolkit/pcc-framework/issues\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"POT-Creation-Date: 2020-06-05T22:09:32+00:00\n"
+"PO-Revision-Date: 2020-04-04 16:31+0000\n"
+"Last-Translator: Trias Noverdi <triasnoverdi@beyondbahasa.com>, 2020\n"
+"Language-Team: Indonesian (Indonesia) (https://www.transifex.com/platform-cooperative-development-kit/teams/107673/id_ID/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2020-06-10T03:02:50+00:00\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"X-Generator: WP-CLI 2.4.0\n"
+"Language: id_ID\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
 "X-Domain: pcc-framework\n"
+"X-Generator: WP-CLI 2.4.0\n"
 
 #. Plugin Name of the plugin
 msgid "PCC Framework"
-msgstr ""
+msgstr "Kerangka PCC"
 
 #. Plugin URI of the plugin
 #. Author URI of the plugin
 msgid "https://platform.coop"
-msgstr ""
+msgstr "https://platform.coop"
 
 #. Description of the plugin
-msgid "Utilities, custom post types and blocks for the Platform Cooperativism Consortium website."
+msgid ""
+"Utilities, custom post types and blocks for the Platform Cooperativism "
+"Consortium website."
 msgstr ""
+"Utilitas, blok dan jenis postingan kustom untuk situs web Konsorsium "
+"Koperativisme Platform."
 
 #. Author of the plugin
 msgid "Platform Cooperativism Consortium"
-msgstr ""
+msgstr "Konsorsium Koperativisme Platform"
 
 #: lib/blocks/child-pages.php:107
 msgid "Read more"
-msgstr ""
+msgstr "Baca selengkapnya"
 
 #: lib/blocks/participants-button.php:35
 #: src/blocks/participants-button/index.js:12
 msgid "View all participants"
-msgstr ""
+msgstr "Lihat semua pesera"
 
-#: lib/blocks/program-button.php:35
-#: src/blocks/program-button/index.js:12
+#: lib/blocks/program-button.php:35 src/blocks/program-button/index.js:12
 msgid "See the full program"
-msgstr ""
+msgstr "Lihat program lengkap"
 
-#: lib/blocks/recent-content.php:67
-#: lib/blocks/recent-content.php:70
+#: lib/blocks/recent-content.php:67 lib/blocks/recent-content.php:70
 msgid "Blog"
-msgstr ""
+msgstr "Blog"
 
 #: lib/blocks/recent-content.php:94
 msgid "Never miss an update!"
-msgstr ""
+msgstr "Jangan pernah lewatkan pembaruan!"
 
 #: lib/blocks/recent-content.php:97
 msgid "Our monthly newsletters keep you updated on news about the community."
 msgstr ""
+"Nawala (newsletter) bulanan kami akan membuat Anda tetap terinformasikan "
+"akan berita mengenai komunitas."
 
 #: lib/blocks/recent-content.php:101
 msgid "Sign Up"
-msgstr ""
+msgstr "Mendaftar"
 
-#: lib/blocks/social-links.php:45
-#: src/blocks/social-links/index.js:12
+#: lib/blocks/social-links.php:45 src/blocks/social-links/index.js:12
 msgid "Platform Cooperativism – Discussion & Linkshare"
-msgstr ""
+msgstr "Koperativisme Platform – Diskusi & Berbagi Tautan"
 
-#: lib/blocks/social-links.php:53
-#: src/blocks/social-links/index.js:19
+#: lib/blocks/social-links.php:53 src/blocks/social-links/index.js:19
 msgid "Platform Co-op Development Kit"
-msgstr ""
+msgstr "Perangkat Pengembangan Koperasi Platform"
 
 #: lib/posttypes/pcc-attachment.php:20
 msgid "Creator Name"
-msgstr ""
+msgstr "Nama Pembuat"
 
 #: lib/posttypes/pcc-attachment.php:22
 msgid "The name of the person who created this image or video."
-msgstr ""
+msgstr "Nama orang yang membuat gambar atau video ini."
 
 #: lib/posttypes/pcc-attachment.php:26
 msgid "Creator Link"
-msgstr ""
+msgstr "Tautan Pembuat"
 
 #: lib/posttypes/pcc-attachment.php:28
-msgid "A hyperlink to the website of the person who created this image or video."
+msgid ""
+"A hyperlink to the website of the person who created this image or video."
 msgstr ""
+"Sebuah hyperlink ke situs web orang yang membuat gambar atau video ini."
 
 #: lib/posttypes/pcc-attachment.php:38
 msgid "Organization Name"
-msgstr ""
+msgstr "Nama Organisasi"
 
 #: lib/posttypes/pcc-attachment.php:40
 msgid "The name of the organization who created this image or video."
-msgstr ""
+msgstr "Nama organisasi yang membuat gambar atau video ini."
 
 #: lib/posttypes/pcc-attachment.php:44
 msgid "Organization Link"
-msgstr ""
+msgstr "Tautan Organisasi"
 
 #: lib/posttypes/pcc-attachment.php:47
-msgid "A hyperlink to the website of the organization who created this image or video."
+msgid ""
+"A hyperlink to the website of the organization who created this image or "
+"video."
 msgstr ""
+"Sebuah hyperlink ke situs web organisasi yang membuat gambar atau video ini."
 
 #: lib/posttypes/pcc-event.php:26
 msgid "Event"
-msgstr ""
+msgstr "Acara"
 
 #: lib/posttypes/pcc-event.php:27
 msgid "Events"
-msgstr ""
+msgstr "Acara"
 
 #: lib/posttypes/pcc-event.php:88
 msgid "Event Data"
-msgstr ""
+msgstr "Data Acara"
 
 #: lib/posttypes/pcc-event.php:96
 msgid "Start"
-msgstr ""
+msgstr "Mulai"
 
 #: lib/posttypes/pcc-event.php:100
 msgid "The date and time at which the event begins."
-msgstr ""
+msgstr "Tanggal dan waktu acara dimulai."
 
 #: lib/posttypes/pcc-event.php:104
 msgid "End"
-msgstr ""
+msgstr "Berakhir"
 
 #: lib/posttypes/pcc-event.php:108
 msgid "The date and time at which the event ends."
-msgstr ""
+msgstr "Tanggal dan waktu acara berakhir."
 
 #: lib/posttypes/pcc-event.php:112
 msgid "Venue Name"
-msgstr ""
+msgstr "Nama Tempat"
 
 #: lib/posttypes/pcc-event.php:116
 msgid "The name of the event&rsquo;s principal venue."
-msgstr ""
+msgstr "Nama acara&rsquo;s tempat utama."
 
 #: lib/posttypes/pcc-event.php:120
 msgid "Venue Street Address"
-msgstr ""
+msgstr "Alamat Jalan Tempat"
 
 #: lib/posttypes/pcc-event.php:124
 msgid "The street address of the event&rsquo;s principal venue."
-msgstr ""
+msgstr "Alamat jalan acara&rsquo;s tempat utama."
 
 #: lib/posttypes/pcc-event.php:128
 msgid "Venue Town/City"
-msgstr ""
+msgstr "Kota Tempat Acara"
 
 #: lib/posttypes/pcc-event.php:132
 msgid "The town or city of the event&rsquo;s principal venue."
-msgstr ""
+msgstr "Kota tempat acara&rsquo;s tempat utama."
 
 #: lib/posttypes/pcc-event.php:136
 msgid "Venue Region"
-msgstr ""
+msgstr "Wilayah Tempat Acara"
 
 #: lib/posttypes/pcc-event.php:140
 msgid "The province, state, or region of the event&rsquo;s principal venue."
 msgstr ""
+"Provinsi, negara bagian, atau wilayah tempat acara&rsquo;s tempat utama."
 
 #: lib/posttypes/pcc-event.php:144
 msgid "Venue Postal Code"
-msgstr ""
+msgstr "Kode Pos Tempat"
 
 #: lib/posttypes/pcc-event.php:148
 msgid "The postal code of the event&rsquo;s principal venue."
-msgstr ""
+msgstr "Kode pos acara&rsquo;s tempat utama."
 
 #: lib/posttypes/pcc-event.php:152
 msgid "Venue Country"
-msgstr ""
+msgstr "Negara Tempat Acara"
 
 #: lib/posttypes/pcc-event.php:158
 msgid "The country of the event&rsquo;s principal venue."
-msgstr ""
+msgstr "Negara tempat acara&rsquo;s tempat utama."
 
 #: lib/posttypes/pcc-event.php:162
 msgid "Registration Link"
-msgstr ""
+msgstr "Tautan Registrasi"
 
 #: lib/posttypes/pcc-event.php:168
 msgid "A hyperlink to the event&rsquo;s external registration page."
-msgstr ""
+msgstr "Sebuah hyperlink ke acara&rsquo;s halaman registrasi eksternal."
 
 #: lib/posttypes/pcc-event.php:172
 msgid "Event Type"
-msgstr ""
+msgstr "Jenis Acara"
 
 #: lib/posttypes/pcc-event.php:178
 msgid "Community Event"
-msgstr ""
+msgstr "Acara Komunitas"
 
 #: lib/posttypes/pcc-event.php:179
 msgid "PCC Conference"
-msgstr ""
+msgstr "Konferensi PCC"
 
 #: lib/posttypes/pcc-event.php:180
 msgid "PCC Event"
-msgstr ""
+msgstr "Acara PCC"
 
 #: lib/posttypes/pcc-event.php:181
 msgid "ICDE Event"
-msgstr ""
+msgstr "Acara ICDE"
 
 #: lib/posttypes/pcc-event.php:185
 msgid "The type of event."
-msgstr ""
+msgstr "Jenis acara."
 
 #: lib/posttypes/pcc-event.php:189
 msgid "Event Banner Video"
-msgstr ""
+msgstr "Video Spanduk Acara"
 
 #: lib/posttypes/pcc-event.php:202
 msgid "Participants"
-msgstr ""
+msgstr "Peserta"
 
 #: lib/posttypes/pcc-event.php:211
 msgid "Add Participant"
-msgstr ""
+msgstr "Tambah Peserta"
 
 #: lib/posttypes/pcc-event.php:216
 msgid "Featured Participants"
-msgstr ""
+msgstr "Peserta yang Ditampilkan"
 
 #: lib/posttypes/pcc-event.php:225
 msgid "Add Featured Participant"
-msgstr ""
+msgstr "Tambah Peserta yang Ditampilkan"
 
 #: lib/posttypes/pcc-event.php:241
 msgid "Event Sponsors"
-msgstr ""
+msgstr "Sponsor Acara"
 
 #: lib/posttypes/pcc-event.php:253
 msgid "Sponsor {#}"
-msgstr ""
+msgstr "Sponsor {#}"
 
 #: lib/posttypes/pcc-event.php:254
 msgid "Add Sponsor"
-msgstr ""
+msgstr "Tambah Sponsor"
 
 #: lib/posttypes/pcc-event.php:255
 msgid "Remove Sponsor"
-msgstr ""
+msgstr "Hapus Sponsor"
 
 #: lib/posttypes/pcc-event.php:261
 msgid "Sponsor Name"
-msgstr ""
+msgstr "Nama Sponsor"
 
 #: lib/posttypes/pcc-event.php:267
 msgid "Sponsor Link"
-msgstr ""
+msgstr "Tautan Sponsor"
 
 #: lib/posttypes/pcc-event.php:274
 msgid "Sponsor Logo"
-msgstr ""
+msgstr "Logo Sponsor"
 
 #: lib/posttypes/pcc-event.php:281
 msgid "Add/Upload Logo"
-msgstr ""
+msgstr "Tambah/Unggah Logo"
 
-#: lib/posttypes/pcc-person.php:21
-#: lib/taxonomies/pcc-role.php:18
+#: lib/posttypes/pcc-person.php:21 lib/taxonomies/pcc-role.php:18
 msgid "Role"
-msgstr ""
+msgstr "Peran"
 
 #: lib/posttypes/pcc-person.php:25
 msgid "Topics"
-msgstr ""
+msgstr "Topik"
 
 #: lib/posttypes/pcc-person.php:32
 msgid "Person"
-msgstr ""
+msgstr "Orang"
 
 #: lib/posttypes/pcc-person.php:33
 msgid "People"
-msgstr ""
+msgstr "Orang"
 
 #: lib/posttypes/pcc-person.php:83
 msgid "Person Data"
-msgstr ""
+msgstr "Data Orang"
 
 #: lib/posttypes/pcc-person.php:91
 msgid "Short Title"
-msgstr ""
+msgstr "Judul Singkat"
 
 #: lib/posttypes/pcc-person.php:95
 msgid ""
 "A short title which describes this person&rsquo;s work and primary affiliation that will be used on their card. For example: <br />\n"
 "            &ldquo;Founding Director, Institute for the Cooperative Digital Economy&rdquo;"
 msgstr ""
+"Judul singkat yang menggambarkan &rsquo;s pekerjaan dan afiliasi utama orang ini yang akan digunakan di kartu mereka. Misalnya: <br />\n"
+"            &ldquo;Direktur Pendiri, Institute for the Cooperative Digital Economy&rdquo;"
 
 #: lib/posttypes/pcc-person.php:100
 msgid "Full Title"
-msgstr ""
+msgstr "Judul Lengkap"
 
 #: lib/posttypes/pcc-person.php:104
 msgid ""
 "A full title which describes this person&rsquo;s work and affiliations that will be used on their page. For example:<br />\n"
 "            &ldquo;Founding Director of Institute for the Cooperative Digital Economy, Platform Cooperativism Consortium, The New School&rdquo;"
 msgstr ""
+"Judul lengkap yang menggambarkan&rsquo;s pekerjaan dan afiliasi utama orang ini yang akan digunakan di halaman mereka. Misalnya:<br />\n"
+"            &ldquo;Direktur Pendiri Institute for the Cooperative Digital Economy, Konsorsium Koperativisme Platform, The New School&rdquo;"
 
 #: lib/posttypes/pcc-person.php:109
 msgid "City/Town"
-msgstr ""
+msgstr "Kota"
 
 #: lib/posttypes/pcc-person.php:112
 msgid "The city or town where the person resides."
-msgstr ""
+msgstr "Kota tempat orang bersangkutan tinggal."
 
 #: lib/posttypes/pcc-person.php:116
 msgid "Country"
-msgstr ""
+msgstr "Negara"
 
 #: lib/posttypes/pcc-person.php:119
 msgid "The country where the person resides."
-msgstr ""
+msgstr "Negara tempat orang bersangkutan tinggal."
 
 #: lib/posttypes/pcc-person.php:125
 msgid "Links which should be displayed on this person&rsquo;s profile."
-msgstr ""
+msgstr "Tautan yang harus ditampilkan di profile&rsquo;s orang ini."
 
 #: lib/posttypes/pcc-person.php:127
 msgid "Link {#}"
-msgstr ""
+msgstr "Tautan {#}"
 
 #: lib/posttypes/pcc-person.php:128
 msgid "Add Another Link"
-msgstr ""
+msgstr "Tambah Tautan Lain"
 
 #: lib/posttypes/pcc-person.php:129
 msgid "Remove Link"
-msgstr ""
+msgstr "Hapus Tautan"
 
 #: lib/posttypes/pcc-person.php:135
 msgid "Link"
-msgstr ""
+msgstr "Tautan"
 
 #: lib/posttypes/pcc-person.php:141
 msgid "Link Label (Optional)"
-msgstr ""
+msgstr "Label Tautan (Opsional)"
 
 #: lib/posttypes/pcc-person.php:142
 msgid "The name of the linked website."
-msgstr ""
+msgstr "Nama situs web yang ditautkan."
 
 #: lib/posttypes/pcc-post.php:36
 msgid "Post Data"
-msgstr ""
+msgstr "Data Postingan"
 
 #: lib/posttypes/pcc-post.php:44
 msgid "Custom Post Author"
-msgstr ""
+msgstr "Penulis Postingan Kustom"
 
 #: lib/posttypes/pcc-post.php:50
-msgid "The author of this post (use this if they do not have a WordPress account)."
+msgid ""
+"The author of this post (use this if they do not have a WordPress account)."
 msgstr ""
+"Penulis postingan ini (gunakan ini jika mereka tidak memiliki akun "
+"WordPress)."
 
 #: lib/settings.php:12
 msgid "Site Configuration"
-msgstr ""
+msgstr "Konfigurasi Situs"
 
 #: lib/settings.php:13
 msgid "Configuration"
-msgstr ""
+msgstr "Konfigurasi"
 
 #: lib/settings.php:19
 msgid "Donate Link"
-msgstr ""
+msgstr "Tautan Donasi"
 
 #: lib/settings.php:21
-msgid "Link to external donation form (used in site footer and some page templates)."
+msgid ""
+"Link to external donation form (used in site footer and some page "
+"templates)."
 msgstr ""
+"Tautan ke formulir donasi eksternal (digunakan di footer situs dan di "
+"beberapa templat halaman)."
 
 #: lib/settings.php:31
 msgid "Newsletter Signup Text"
-msgstr ""
+msgstr "Teks Pendaftaran Nawala (Newsletter)"
 
 #: lib/settings.php:32
 msgid "Prompt for newsletter signup call to action (use in site footer)."
 msgstr ""
+"Pesan untuk ajakan mendaftar nawala/newsletter (gunakan di footer situs)."
 
 #: lib/settings.php:38
 msgid "Newsletter Signup Link"
-msgstr ""
+msgstr "Tautan Pendaftaran Nawala (Newsletter)"
 
 #: lib/settings.php:40
-msgid "Link to external newsletter signup form (used in site footer and some page templates)."
+msgid ""
+"Link to external newsletter signup form (used in site footer and some page "
+"templates)."
 msgstr ""
+"Tautan ke formulir pendaftaran nawala (newsletter) eksternal (digunakan di "
+"footer situs dan di beberapa templat halaman)."
 
 #: lib/taxonomies/pcc-role.php:19
 msgid "Roles"
-msgstr ""
+msgstr "Peran"
 
 #: lib/taxonomies/pcc-role.php:20
 msgid "role"
-msgstr ""
+msgstr "peran"
 
 #: lib/taxonomies/pcc-role.php:36
 msgid "Role added."
-msgstr ""
+msgstr "Peran ditambahkan."
 
 #: lib/taxonomies/pcc-role.php:37
 msgid "Role deleted."
-msgstr ""
+msgstr "Peran dihapus."
 
 #: lib/taxonomies/pcc-role.php:38
 msgid "Role updated."
-msgstr ""
+msgstr "Peran diperbarui."
 
 #: lib/taxonomies/pcc-role.php:39
 msgid "Role not added."
-msgstr ""
+msgstr "Peran tidak ditambahkan."
 
 #: lib/taxonomies/pcc-role.php:40
 msgid "Role not updated."
-msgstr ""
+msgstr "Peran tidak diperbarui."
 
 #: lib/taxonomies/pcc-role.php:41
 msgid "Roles deleted."
-msgstr ""
+msgstr "Peran dihapus."
 
 #: pcc-framework.php:32
-msgid "You must run <code>composer install</code> from the Platform Co-op Support directory."
+msgid ""
+"You must run <code>composer install</code> from the Platform Co-op Support "
+"directory."
 msgstr ""
+"Anda harus menjalankan <code>penginstalan komposer</code> dari direktori "
+"Dukungan Koperasi Platform."
 
 #: pcc-framework.php:36
 msgid "Autoloader not found."
-msgstr ""
+msgstr "Pemuat otomatis tidak ditemukan."
 
 #: src/blocks/child-pages/components/select-page.js:12
 msgid "-- Select Page --"
-msgstr ""
+msgstr "-- Pilih Halaman --"
 
 #: src/blocks/child-pages/components/select-page.js:27
 msgid "No page title"
-msgstr ""
+msgstr "Tidak ada judul halaman"
 
 #: src/blocks/child-pages/components/select-page.js:56
 msgid "No pages found."
-msgstr ""
+msgstr "Halaman tidak ditemukan."
 
 #: src/blocks/child-pages/components/select-page.js:65
 msgid "Parent Page"
-msgstr ""
+msgstr "Halaman Induk."
 
 #: src/blocks/child-pages/index.js:26
 msgid "Card"
-msgstr ""
+msgstr "Kartu"
 
 #: src/blocks/child-pages/index.js:30
 msgid "Card with Excerpt"
-msgstr ""
+msgstr "Kartu dengan Kutipan"
 
 #: src/blocks/child-pages/index.js:35
 msgid "Text Only"
-msgstr ""
+msgstr "Hanya Teks"
 
 #: src/blocks/participants-button/index.js:19
-#: src/blocks/program-button/index.js:19
-#: src/blocks/social-links/index.js:26
+#: src/blocks/program-button/index.js:19 src/blocks/social-links/index.js:26
 msgid "Default"
-msgstr ""
+msgstr "Default"
 
 #: src/blocks/participants-button/index.js:38
 #: src/blocks/program-button/index.js:36
 msgid "Label"
-msgstr ""
+msgstr "Label"
 
 #: src/blocks/recent-content/index.js:6
 msgid "Recent Content"
-msgstr ""
+msgstr "Konten Terbaru"
 
 #: src/blocks/recent-content/index.js:7
 msgid "Generate a grid of recent content from various sources"
-msgstr ""
+msgstr "Hasilkan kisi konten terbaru dari berbagai sumber"
 
 #: src/blocks/social-links/index.js:31
 msgid "Icon Only"
-msgstr ""
+msgstr "Hanya Ikon"
 
 #: src/blocks/social-links/index.js:98
 msgid "Facebook Label"
-msgstr ""
+msgstr "Label Facebook"
 
 #: src/blocks/social-links/index.js:103
 msgid "Twitter Label"
-msgstr ""
+msgstr "Label Twitter"
 
 #: src/editor/index.js:71
 msgid "Solid"
-msgstr ""
+msgstr "Solid"
 
 #: src/editor/index.js:72
 msgid "Outline"
-msgstr ""
+msgstr "Kerangka"

@@ -1,0 +1,532 @@
+# Copyright (C) 2020 Platform Cooperativism Consortium
+# This file is distributed under the same license as the PCC Framework plugin.
+# Translators:
+# Souren Laha <sourenlaha@yahoo.com>, 2020
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: PCC Framework 2.2.1\n"
+"Report-Msgid-Bugs-To: https://github.com/platform-coop-toolkit/pcc-framework/issues\n"
+"POT-Creation-Date: 2020-06-05T22:09:32+00:00\n"
+"PO-Revision-Date: 2020-04-04 16:31+0000\n"
+"Last-Translator: Souren Laha <sourenlaha@yahoo.com>, 2020\n"
+"Language-Team: Bengali (India) (https://www.transifex.com/platform-cooperative-development-kit/teams/107673/bn_IN/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: bn_IN\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Domain: pcc-framework\n"
+"X-Generator: WP-CLI 2.4.0\n"
+
+#. Plugin Name of the plugin
+msgid "PCC Framework"
+msgstr "PCC পরিকাঠামো"
+
+#. Plugin URI of the plugin
+#. Author URI of the plugin
+msgid "https://platform.coop"
+msgstr "https://platform.coop"
+
+#. Description of the plugin
+msgid ""
+"Utilities, custom post types and blocks for the Platform Cooperativism "
+"Consortium website."
+msgstr ""
+"প্ল্যাটফর্ম কো-অপারেটিভজম কনসোর্টিয়ামের উপযোগিতা, পোস্ট স্বনির্ধারণ ও "
+"প্রতিরোধ গঠনের বিভিন্ন ধরন।"
+
+#. Author of the plugin
+msgid "Platform Cooperativism Consortium"
+msgstr "প্ল্যাটফর্ম কো-অপারেটিভইজম কনসর্টিয়াম"
+
+#: lib/blocks/child-pages.php:107
+msgid "Read more"
+msgstr "আরও পড়ুন"
+
+#: lib/blocks/participants-button.php:35
+#: src/blocks/participants-button/index.js:12
+msgid "View all participants"
+msgstr "সমস্ত অংশগ্রহণকারীদের দেখুন"
+
+#: lib/blocks/program-button.php:35 src/blocks/program-button/index.js:12
+msgid "See the full program"
+msgstr "সমগ্র অনুষ্ঠানটা দেখুন"
+
+#: lib/blocks/recent-content.php:67 lib/blocks/recent-content.php:70
+msgid "Blog"
+msgstr "ব্লগ"
+
+#: lib/blocks/recent-content.php:94
+msgid "Never miss an update!"
+msgstr "কখনোই কোনো আপডেট মিস করবেন না!"
+
+#: lib/blocks/recent-content.php:97
+msgid "Our monthly newsletters keep you updated on news about the community."
+msgstr ""
+"আমাদের মাসিক নিউজলেটারগুলি আপনাকে কমিউনিটির কার্যকলাপের খবরগুলির আপডেট দিতে "
+"থাকবে"
+
+#: lib/blocks/recent-content.php:101
+msgid "Sign Up"
+msgstr "সাইন আপ করুন"
+
+#: lib/blocks/social-links.php:45 src/blocks/social-links/index.js:12
+msgid "Platform Cooperativism – Discussion & Linkshare"
+msgstr "প্ল্যাটফর্ম সমবায়িকতা (কো-অপারেটিভিজম) – আলোচনা আর লিংক শেয়ার করা"
+
+#: lib/blocks/social-links.php:53 src/blocks/social-links/index.js:19
+msgid "Platform Co-op Development Kit"
+msgstr "প্ল্যাটফর্ম কো-অপারেটিভ ডেভলপমেন্ট কিট"
+
+#: lib/posttypes/pcc-attachment.php:20
+msgid "Creator Name"
+msgstr "স্রষ্টার নাম"
+
+#: lib/posttypes/pcc-attachment.php:22
+msgid "The name of the person who created this image or video."
+msgstr "যে ব্যক্তি এই ছবি বা ভিডিও তৈরী করেছিলেন তার নাম।"
+
+#: lib/posttypes/pcc-attachment.php:26
+msgid "Creator Link"
+msgstr "স্রষ্টার লিংক"
+
+#: lib/posttypes/pcc-attachment.php:28
+msgid ""
+"A hyperlink to the website of the person who created this image or video."
+msgstr ""
+"যে ব্যক্তি এই ছবি বা ভিডিও তৈরী করেছিলেন তার ওয়েবসাইটের একটা হাইপারলিংক।"
+
+#: lib/posttypes/pcc-attachment.php:38
+msgid "Organization Name"
+msgstr "সংগঠনের নাম"
+
+#: lib/posttypes/pcc-attachment.php:40
+msgid "The name of the organization who created this image or video."
+msgstr "যে সংগঠনএই ছবি বা ভিডিও তৈরী করেছিলেন তার নাম।"
+
+#: lib/posttypes/pcc-attachment.php:44
+msgid "Organization Link"
+msgstr "সংগঠনের লিংক"
+
+#: lib/posttypes/pcc-attachment.php:47
+msgid ""
+"A hyperlink to the website of the organization who created this image or "
+"video."
+msgstr ""
+"যে সংগঠন এই ছবি বা ভিডিও তৈরী করেছিলেন তার ওয়েবসাইটের একটা হাইপারলিংক।"
+
+#: lib/posttypes/pcc-event.php:26
+msgid "Event"
+msgstr "ইভেন্ট"
+
+#: lib/posttypes/pcc-event.php:27
+msgid "Events"
+msgstr "ইভেন্টসমূহ"
+
+#: lib/posttypes/pcc-event.php:88
+msgid "Event Data"
+msgstr "ইভেন্টের ডেটা"
+
+#: lib/posttypes/pcc-event.php:96
+msgid "Start"
+msgstr "শুরু"
+
+#: lib/posttypes/pcc-event.php:100
+msgid "The date and time at which the event begins."
+msgstr "ইভেন্ট যখন শুরু হবে তার তারিখ ও সময়।"
+
+#: lib/posttypes/pcc-event.php:104
+msgid "End"
+msgstr "শেষ"
+
+#: lib/posttypes/pcc-event.php:108
+msgid "The date and time at which the event ends."
+msgstr "ইভেন্টি যখন শেষ হবে তার তারিখ ও সময়।"
+
+#: lib/posttypes/pcc-event.php:112
+msgid "Venue Name"
+msgstr "অনুষ্ঠানস্থলের নাম"
+
+#: lib/posttypes/pcc-event.php:116
+msgid "The name of the event&rsquo;s principal venue."
+msgstr "event&rsquo;s;-টির মুখ্য অনুষ্ঠানস্থলের নাম।"
+
+#: lib/posttypes/pcc-event.php:120
+msgid "Venue Street Address"
+msgstr "অনুষ্ঠানস্থলের পাশের রাস্তার ঠিকানা"
+
+#: lib/posttypes/pcc-event.php:124
+msgid "The street address of the event&rsquo;s principal venue."
+msgstr "event&rsquo;s;-টির মুখ্য অনুষ্ঠানস্থলের পাশের রাস্তার ঠিকানা।"
+
+#: lib/posttypes/pcc-event.php:128
+msgid "Venue Town/City"
+msgstr "অনুষ্ঠানস্থলের টাউন/শহরের নাম"
+
+#: lib/posttypes/pcc-event.php:132
+msgid "The town or city of the event&rsquo;s principal venue."
+msgstr "event&rsquo;s-টির মুখ্য অনুষ্ঠানস্থলের টাউন বা শহরের নাম।"
+
+#: lib/posttypes/pcc-event.php:136
+msgid "Venue Region"
+msgstr "অনুষ্ঠানস্থলের আঞ্চলিক অবস্থান"
+
+#: lib/posttypes/pcc-event.php:140
+msgid "The province, state, or region of the event&rsquo;s principal venue."
+msgstr ""
+"event&rsquo;s-টির মুখ্য অনুষ্ঠানস্থলের প্রদেশ, রাজ্য বা আঞ্চলিক অবস্থান।"
+
+#: lib/posttypes/pcc-event.php:144
+msgid "Venue Postal Code"
+msgstr "অনুষ্ঠানস্থলটির পোস্টাল কোড"
+
+#: lib/posttypes/pcc-event.php:148
+msgid "The postal code of the event&rsquo;s principal venue."
+msgstr "event&rsquo;s -টির মুখ্য অনুষ্ঠানস্থলের পোস্টাল কোড।"
+
+#: lib/posttypes/pcc-event.php:152
+msgid "Venue Country"
+msgstr "অনুষ্ঠানস্থলের দেশের নাম"
+
+#: lib/posttypes/pcc-event.php:158
+msgid "The country of the event&rsquo;s principal venue."
+msgstr "event&rsquo;s -টির মুখ্য অনুষ্ঠানস্থলের দেশের নাম।"
+
+#: lib/posttypes/pcc-event.php:162
+msgid "Registration Link"
+msgstr "নথিভুক্তকরণের লিংক"
+
+#: lib/posttypes/pcc-event.php:168
+msgid "A hyperlink to the event&rsquo;s external registration page."
+msgstr "event&rsquo;s-টির বাহ্যিক নথিভুক্তকরণের পৃষ্ঠার হাইপারলিংক।"
+
+#: lib/posttypes/pcc-event.php:172
+msgid "Event Type"
+msgstr "ইভেন্টের ধরন"
+
+#: lib/posttypes/pcc-event.php:178
+msgid "Community Event"
+msgstr "কমিউনিটি ইভেন্ট (অনুষ্ঠান)"
+
+#: lib/posttypes/pcc-event.php:179
+msgid "PCC Conference"
+msgstr "PCC সম্মেলন"
+
+#: lib/posttypes/pcc-event.php:180
+msgid "PCC Event"
+msgstr "PCC ইভেন্ট"
+
+#: lib/posttypes/pcc-event.php:181
+msgid "ICDE Event"
+msgstr "ICDE ইভেন্ট"
+
+#: lib/posttypes/pcc-event.php:185
+msgid "The type of event."
+msgstr "ইভেন্টের ধরন।"
+
+#: lib/posttypes/pcc-event.php:189
+msgid "Event Banner Video"
+msgstr "ইভেন্টের ব্যানার ভিডিও"
+
+#: lib/posttypes/pcc-event.php:202
+msgid "Participants"
+msgstr "অংশগ্রহণকারীগণ"
+
+#: lib/posttypes/pcc-event.php:211
+msgid "Add Participant"
+msgstr "অংশগ্রহণকারীকে যুক্ত করুন"
+
+#: lib/posttypes/pcc-event.php:216
+msgid "Featured Participants"
+msgstr "বৈশিষ্ট্যসূচক ধরনের অংশগ্রহণকারীগণ"
+
+#: lib/posttypes/pcc-event.php:225
+msgid "Add Featured Participant"
+msgstr "বৈশিষ্ট্যসূচক ধরনের অংশগ্রহণকারীকে যুক্ত করুন"
+
+#: lib/posttypes/pcc-event.php:241
+msgid "Event Sponsors"
+msgstr "ইভেন্টের স্পনসর"
+
+#: lib/posttypes/pcc-event.php:253
+msgid "Sponsor {#}"
+msgstr "স্পনসর{#}"
+
+#: lib/posttypes/pcc-event.php:254
+msgid "Add Sponsor"
+msgstr "স্পনসর যুক্ত করুন"
+
+#: lib/posttypes/pcc-event.php:255
+msgid "Remove Sponsor"
+msgstr "স্পনসর সরিয়ে ফেলুন"
+
+#: lib/posttypes/pcc-event.php:261
+msgid "Sponsor Name"
+msgstr "স্পনসরের নাম"
+
+#: lib/posttypes/pcc-event.php:267
+msgid "Sponsor Link"
+msgstr "স্পনসরের লিংক"
+
+#: lib/posttypes/pcc-event.php:274
+msgid "Sponsor Logo"
+msgstr "স্পনসরের লোগো"
+
+#: lib/posttypes/pcc-event.php:281
+msgid "Add/Upload Logo"
+msgstr "লোগো যুক্ত/আপলোড করুন"
+
+#: lib/posttypes/pcc-person.php:21 lib/taxonomies/pcc-role.php:18
+msgid "Role"
+msgstr "ভূমিকা"
+
+#: lib/posttypes/pcc-person.php:25
+msgid "Topics"
+msgstr "বিষয়বস্তুসমূহ"
+
+#: lib/posttypes/pcc-person.php:32
+msgid "Person"
+msgstr "ব্যক্তি"
+
+#: lib/posttypes/pcc-person.php:33
+msgid "People"
+msgstr "জনগণ"
+
+#: lib/posttypes/pcc-person.php:83
+msgid "Person Data"
+msgstr "ব্যক্তির ডেটা"
+
+#: lib/posttypes/pcc-person.php:91
+msgid "Short Title"
+msgstr "সংক্ষিপ্ত শিরোনাম"
+
+#: lib/posttypes/pcc-person.php:95
+msgid ""
+"A short title which describes this person&rsquo;s work and primary affiliation that will be used on their card. For example: <br />\n"
+"            &ldquo;Founding Director, Institute for the Cooperative Digital Economy&rdquo;"
+msgstr ""
+"একটা সংক্ষিপ্ত শিরোনাম যেটা এই person&rsquo;-টির কাজ আর প্রাথমিক অধিভুক্ত প্রতিষ্ঠানসমূহর বিষয়ে বর্ণনা করে যেটা তাদের কার্ডে ব্যবহার করা হবে। উদাহরণস্বরূপ: <br />\n"
+"            &ldquo;প্রতিষ্ঠাতা ডাইরেক্টর, ইনস্টিটিউট ফর দ্য কো-অপারেটিভ ডিজিটাল ইকনমি&rdquo;"
+
+#: lib/posttypes/pcc-person.php:100
+msgid "Full Title"
+msgstr "সম্পূর্ণ শিরোনাম"
+
+#: lib/posttypes/pcc-person.php:104
+msgid ""
+"A full title which describes this person&rsquo;s work and affiliations that will be used on their page. For example:<br />\n"
+"            &ldquo;Founding Director of Institute for the Cooperative Digital Economy, Platform Cooperativism Consortium, The New School&rdquo;"
+msgstr ""
+"একটা সম্পূর্ণ শিরোনাম যেটা এই person&rsquo;-টির কাজ আর প্রাথমিক অধিভুক্ত প্রতিষ্ঠানসমূহর বিষয়ে বর্ণনা করে যেটা তাদের পৃষ্ঠায় ব্যবহার করা হবে। উদাহরণস্বরূপ:<br />\n"
+"            &ldquo;প্রতিষ্ঠাতা ডাইরেক্টর, ইনস্টিটিউট ফর দ্য কো-অপারেটিভ ডিজিটাল ইকনমি, প্ল্যাটফর্ম কো-অপারেটিভজম কনসোর্টিয়াম, দ্য নিউ স্কুল&rdquo;"
+
+#: lib/posttypes/pcc-person.php:109
+msgid "City/Town"
+msgstr "টাউন/শহর"
+
+#: lib/posttypes/pcc-person.php:112
+msgid "The city or town where the person resides."
+msgstr "এমন টাউন বা শহর যেখানে ব্যক্তিটি থাকেন।"
+
+#: lib/posttypes/pcc-person.php:116
+msgid "Country"
+msgstr "দেশ"
+
+#: lib/posttypes/pcc-person.php:119
+msgid "The country where the person resides."
+msgstr "এমন দেশ যেখানে ব্যক্তিটি থাকেন।"
+
+#: lib/posttypes/pcc-person.php:125
+msgid "Links which should be displayed on this person&rsquo;s profile."
+msgstr "এই person&rsquo;s-টির প্রোফাইলে যেসব লিংক প্রদর্শিত হবে।"
+
+#: lib/posttypes/pcc-person.php:127
+msgid "Link {#}"
+msgstr "লিংক {#}"
+
+#: lib/posttypes/pcc-person.php:128
+msgid "Add Another Link"
+msgstr "আরেকটা লিংক যুক্ত করুন"
+
+#: lib/posttypes/pcc-person.php:129
+msgid "Remove Link"
+msgstr "লিংক সরিয়ে ফেলুন"
+
+#: lib/posttypes/pcc-person.php:135
+msgid "Link"
+msgstr "লিংক"
+
+#: lib/posttypes/pcc-person.php:141
+msgid "Link Label (Optional)"
+msgstr "লিংক লেবেল (ঐচ্ছিক)"
+
+#: lib/posttypes/pcc-person.php:142
+msgid "The name of the linked website."
+msgstr "লিংক করা ওয়েবসাইটের নাম।"
+
+#: lib/posttypes/pcc-post.php:36
+msgid "Post Data"
+msgstr "ডেটা পোস্ট করুন"
+
+#: lib/posttypes/pcc-post.php:44
+msgid "Custom Post Author"
+msgstr "  পোস্ট করা লেখক কাষ্টম করুন"
+
+#: lib/posttypes/pcc-post.php:50
+msgid ""
+"The author of this post (use this if they do not have a WordPress account)."
+msgstr ""
+"এই পোস্টের লেখক (আপনার যদি একটা WordPress অ্যাকাউন্ট থাকে তাহলে এটা ব্যবহার "
+"করুন)।"
+
+#: lib/settings.php:12
+msgid "Site Configuration"
+msgstr "সাইটের কনফিগারেশন"
+
+#: lib/settings.php:13
+msgid "Configuration"
+msgstr "কনফিগারেশন"
+
+#: lib/settings.php:19
+msgid "Donate Link"
+msgstr "অনুদান করার লিংক"
+
+#: lib/settings.php:21
+msgid ""
+"Link to external donation form (used in site footer and some page "
+"templates)."
+msgstr ""
+"বাহ্যিক অনুদান ফর্মের লিংক (সাইটের ফুটারে এবং কিছু কিছু পেজের ট্যামপ্লেটে "
+"ব্যবহার করা হয়)।"
+
+#: lib/settings.php:31
+msgid "Newsletter Signup Text"
+msgstr "নিউজলেটারে সাইনআপ করার টেক্সট"
+
+#: lib/settings.php:32
+msgid "Prompt for newsletter signup call to action (use in site footer)."
+msgstr ""
+"নিউজলেটারে সাইনআপ কল কাজ করার জন্য  প্রম্পট করুন (সাইট ফুটারে ব্যবহার করুন)।"
+
+#: lib/settings.php:38
+msgid "Newsletter Signup Link"
+msgstr "নিউজলেটারে সাইনআপ করার লিংক"
+
+#: lib/settings.php:40
+msgid ""
+"Link to external newsletter signup form (used in site footer and some page "
+"templates)."
+msgstr ""
+"বাহ্যিক নিউজলেটারে সাইনআপ করার ফর্মের লিংক (সাইটের ফুটারে আর কিছু কিছু "
+"পৃষ্ঠার ট্যামপ্লেটে ব্যবহার করা হয়)।"
+
+#: lib/taxonomies/pcc-role.php:19
+msgid "Roles"
+msgstr "ভূমিকাসমূহ"
+
+#: lib/taxonomies/pcc-role.php:20
+msgid "role"
+msgstr "ভূমিকা"
+
+#: lib/taxonomies/pcc-role.php:36
+msgid "Role added."
+msgstr "ভূমিকা সংযুক্ত হয়েছে।"
+
+#: lib/taxonomies/pcc-role.php:37
+msgid "Role deleted."
+msgstr "ভূমিকা বাতিল হয়েছে।"
+
+#: lib/taxonomies/pcc-role.php:38
+msgid "Role updated."
+msgstr "ভূমিকা আপডেট করা হয়েছে।"
+
+#: lib/taxonomies/pcc-role.php:39
+msgid "Role not added."
+msgstr "ভূমিকা সংযুক্ত হয়নি।"
+
+#: lib/taxonomies/pcc-role.php:40
+msgid "Role not updated."
+msgstr "ভূমিকা আপডেট করা হয়নি।"
+
+#: lib/taxonomies/pcc-role.php:41
+msgid "Roles deleted."
+msgstr "ভূমিকাগুলি বাতিল হয়েছে।"
+
+#: pcc-framework.php:32
+msgid ""
+"You must run <code>composer install</code> from the Platform Co-op Support "
+"directory."
+msgstr ""
+"আপনাকে অবশ্যই প্ল্যাটফর্ম সমবায় (কো-অপারেটিভ) সাপোর্ট ডাইরেক্টরির থেকে "
+"<code>কম্পোজার ইন্সটল</code> রান করতে হবে।"
+
+#: pcc-framework.php:36
+msgid "Autoloader not found."
+msgstr "অটোলোডার উপলব্ধ নয়।"
+
+#: src/blocks/child-pages/components/select-page.js:12
+msgid "-- Select Page --"
+msgstr "-- পেজ নির্বাচন করুন --"
+
+#: src/blocks/child-pages/components/select-page.js:27
+msgid "No page title"
+msgstr "পেজের শিরোনাম নেই"
+
+#: src/blocks/child-pages/components/select-page.js:56
+msgid "No pages found."
+msgstr "কোন পেজ উপলব্ধ নেই।"
+
+#: src/blocks/child-pages/components/select-page.js:65
+msgid "Parent Page"
+msgstr "প্যারেন্ট পেজ"
+
+#: src/blocks/child-pages/index.js:26
+msgid "Card"
+msgstr "কার্ড"
+
+#: src/blocks/child-pages/index.js:30
+msgid "Card with Excerpt"
+msgstr "উদ্ধৃতাংশ সংশ্লিষ্ট কার্ড"
+
+#: src/blocks/child-pages/index.js:35
+msgid "Text Only"
+msgstr "কেবলমাত্র টেক্সট"
+
+#: src/blocks/participants-button/index.js:19
+#: src/blocks/program-button/index.js:19 src/blocks/social-links/index.js:26
+msgid "Default"
+msgstr "ডিফল্ট"
+
+#: src/blocks/participants-button/index.js:38
+#: src/blocks/program-button/index.js:36
+msgid "Label"
+msgstr "লেবেল"
+
+#: src/blocks/recent-content/index.js:6
+msgid "Recent Content"
+msgstr "সাম্প্রতিক লিখিত বিষয়বস্তু"
+
+#: src/blocks/recent-content/index.js:7
+msgid "Generate a grid of recent content from various sources"
+msgstr "বিভিন্ন উৎস থেকে সাম্প্রতিক লিখিত বিষয়বস্তুর একটা গ্রিড জেনারেট করুন"
+
+#: src/blocks/social-links/index.js:31
+msgid "Icon Only"
+msgstr "কেবলমাত্র আইকন"
+
+#: src/blocks/social-links/index.js:98
+msgid "Facebook Label"
+msgstr "ফেসবুক লেবেল"
+
+#: src/blocks/social-links/index.js:103
+msgid "Twitter Label"
+msgstr "টুইটার লেবেল"
+
+#: src/editor/index.js:71
+msgid "Solid"
+msgstr "স্থূল"
+
+#: src/editor/index.js:72
+msgid "Outline"
+msgstr "আউটলাইন"
