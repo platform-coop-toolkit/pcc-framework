@@ -2,6 +2,9 @@
 
 namespace PCCFramework\PostTypes\Story;
 
+// use function Altis\Workflow\PublicationChecklist\register_prepublish_check;
+// use Altis\Workflow\PublicationChecklist\Status;
+
 /**
  * Registers the `pcc-story` post type.
  */
@@ -23,16 +26,24 @@ function init()
             'template_lock' => 'all',
             'admin_cols' => [
                 'title',
-                'topics' => [
-                    'title' => __('Topics', 'pcc-framework'),
-                    'taxonomy' => 'post_tag',
+                'name' => [
+                    'title' => __('Name', 'pcc-framework'),
+                    'meta_key' => 'pcc_story_name',
+                ],
+                'sector' => [
+                    'sector' => __('Sector', 'pcc-framework'),
+                    'taxonomy' => 'pcc-sector',
                 ],
                 'regions' => [
                     'title' => __('Regions', 'pcc-framework'),
                     'taxonomy' => 'pcc-region',
                 ],
+                'tags' => [
+                    'title' => __('Tags', 'pcc-framework'),
+                    'taxonomy' => 'post_tag',
+                ]
             ],
-            'taxonomies' => ['post_tag'],
+            'taxonomies' => ['post_tag', 'pcc-sector', 'pcc-region'],
         ],
         [
             'singular' => __('Story', 'pcc-framework'),
@@ -63,9 +74,33 @@ function register_meta()
         'show_in_rest' => true,
         'single' => true,
         'type' => 'string',
+        'sanitize_callback' => 'wp_http_validate_url',
+        'auth_callback' => function () {
+            return current_user_can('edit_posts');
+        }
+    ]);
+
+    register_post_meta('pcc-story', 'pcc_story_name', [
+        'show_in_rest' => true,
+        'single' => true,
+        'type' => 'string',
         'sanitize_callback' => 'sanitize_text_field',
         'auth_callback' => function () {
             return current_user_can('edit_posts');
         }
     ]);
 }
+//
+// function prepublish_check ($key) {
+//     if (function_exists('\Altis\Workflow\PublicationChecklist\register_prepublish_check')) {
+//         register_prepublish_check( '', [
+//             'run_check' => function ( array $post, array $meta ) : Status {
+//                 if ( isset( $meta[$key] ) ) {
+//                     return new Status( Status::COMPLETE, $key + ' completed' );
+//                 }
+//
+//                 return new Status( Status::INCOMPLETE, $key + 'missing' );
+//             },
+//         ] );
+//     }
+// }

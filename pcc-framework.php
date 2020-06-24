@@ -9,7 +9,7 @@
  * Domain Path:     /languages
  * License:         BSD 3-Clause "New" License
  * License URI:     https://opensource.org/licenses/BSD-3-Clause
- * Version:         2.2.2
+ * Version:         2.2.1
  *
  * @package         PCCFramework
  */
@@ -112,6 +112,7 @@ if (is_admin()) {
     add_action('cmb2_admin_init', '\\PCCFramework\\Settings\\page');
     add_filter('attachment_fields_to_edit', '\\PCCFramework\\PostTypes\\Attachment\\data', 10, 2);
     add_action('edit_attachment', '\\PCCFramework\\PostTypes\\Attachment\\save');
+    // add_action('altis.publication-checklist.register_prepublish_checks', '\\PCCFramework\\PostTypes\\Story\\prepublish_check');
 }
 
 require_once dirname(__FILE__) . '/lib/intervention.php';

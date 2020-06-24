@@ -13,6 +13,7 @@ function init()
         'pcc-story',
         [
             'show_in_rest' => true,
+            'required' => true,
         ],
         [
             'singular' => __('Sector', 'pcc-framework'),
