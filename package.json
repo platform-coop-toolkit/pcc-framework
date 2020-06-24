@@ -16,7 +16,6 @@
   "bugs": "https://github.com/platform-coop-toolkit/pcc-framework/issues",
   "main": "Gruntfile.js",
   "dependencies": {
-    "@platform-coop-toolkit/pinecone": "^1.0.0-alpha.14",
     "@wordpress/components": "^9.3.0",
     "@wordpress/edit-post": "^3.14.0",
     "@wordpress/i18n": "^3.10.0",
