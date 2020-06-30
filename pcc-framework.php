@@ -70,6 +70,7 @@ foreach ([
     'region',
     'role',
     'sector',
+    'organization',
 ] as $taxonomy) {
     require_once dirname(__FILE__) . "/lib/taxonomies/pcc-$taxonomy.php";
     add_action('init', '\\PCCFramework\\Taxonomies\\' . ucfirst($taxonomy) . '\\init');
@@ -109,10 +110,10 @@ if (is_admin()) {
     add_action('cmb2_admin_init', '\\PCCFramework\\PostTypes\\Event\\sponsors');
     add_action('cmb2_admin_init', '\\PCCFramework\\PostTypes\\Person\\data');
     add_action('cmb2_admin_init', '\\PCCFramework\\PostTypes\\Post\\data');
+    add_action('cmb2_admin_init', '\\PCCFramework\\PostTypes\\Story\\data');
     add_action('cmb2_admin_init', '\\PCCFramework\\Settings\\page');
     add_filter('attachment_fields_to_edit', '\\PCCFramework\\PostTypes\\Attachment\\data', 10, 2);
     add_action('edit_attachment', '\\PCCFramework\\PostTypes\\Attachment\\save');
-    // add_action('altis.publication-checklist.register_prepublish_checks', '\\PCCFramework\\PostTypes\\Story\\prepublish_check');
 }
 
 require_once dirname(__FILE__) . '/lib/intervention.php';

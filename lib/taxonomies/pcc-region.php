@@ -3,7 +3,7 @@
 namespace PCCFramework\Taxonomies\Region;
 
 /**
- * Registers the `pcc_region` taxonomy,
+ * Registers the `pcc-region` taxonomy,
  * for use with 'pcc-story'.
  */
 function init()
@@ -12,7 +12,8 @@ function init()
         'pcc-region',
         'pcc-story',
         [
-            'show_in_rest' => true,
+            'show_in_rest' => false,
+            'required' => true,
         ],
         [
             'singular' => __('Region', 'pcc-framework'),
@@ -23,7 +24,7 @@ function init()
 }
 
 /**
- * Sets the post updated messages for the `pcc_region` taxonomy.
+ * Sets the post updated messages for the `pcc-region` taxonomy.
  *
  * @param  array $messages Post updated messages.
  * @return array Messages for the `pcc_region` taxonomy.

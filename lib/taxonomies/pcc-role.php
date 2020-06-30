@@ -3,7 +3,7 @@
 namespace PCCFramework\Taxonomies\Role;
 
 /**
- * Registers the `pcc_role` taxonomy,
+ * Registers the `pcc-role` taxonomy,
  * for use with 'pcc-person'.
  */
 function init()
@@ -12,7 +12,8 @@ function init()
         'pcc-role',
         'pcc-person',
         [
-            'show_in_rest' => true,
+            'show_in_rest' => false,
+            'required' => true,
         ],
         [
             'singular' => __('Role', 'pcc-framework'),
@@ -23,10 +24,10 @@ function init()
 }
 
 /**
- * Sets the post updated messages for the `pcc_role` taxonomy.
+ * Sets the post updated messages for the `pcc-role` taxonomy.
  *
  * @param  array $messages Post updated messages.
- * @return array Messages for the `pcc_role` taxonomy.
+ * @return array Messages for the `pcc-role` taxonomy.
  */
 function updated_messages($messages)
 {

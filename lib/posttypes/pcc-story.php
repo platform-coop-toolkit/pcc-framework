@@ -1,9 +1,7 @@
 <?php
 
 namespace PCCFramework\PostTypes\Story;
-
-// use function Altis\Workflow\PublicationChecklist\register_prepublish_check;
-// use Altis\Workflow\PublicationChecklist\Status;
+use function PCCFramework\PostTypes\Person\get_people;
 
 /**
  * Registers the `pcc-story` post type.
@@ -26,10 +24,6 @@ function init()
             'template_lock' => 'all',
             'admin_cols' => [
                 'title',
-                'name' => [
-                    'title' => __('Name', 'pcc-framework'),
-                    'meta_key' => 'pcc_story_name',
-                ],
                 'sector' => [
                     'sector' => __('Sector', 'pcc-framework'),
                     'taxonomy' => 'pcc-sector',
@@ -38,12 +32,16 @@ function init()
                     'title' => __('Regions', 'pcc-framework'),
                     'taxonomy' => 'pcc-region',
                 ],
+                'organization' => [
+                    'title' => __('Organization', 'pcc-framework'),
+                    'taxonomy' => 'pcc-organization',
+                ],
                 'tags' => [
                     'title' => __('Tags', 'pcc-framework'),
                     'taxonomy' => 'post_tag',
                 ]
             ],
-            'taxonomies' => ['post_tag', 'pcc-sector', 'pcc-region'],
+            'taxonomies' => ['post_tag', 'pcc-sector', 'pcc-region', 'pcc-organization'],
         ],
         [
             'singular' => __('Story', 'pcc-framework'),
@@ -54,53 +52,109 @@ function init()
 }
 
 /**
- * Registers meta fields for the `pcc-voice` post type.
+ * Registers meta fields for the `pcc-story` post type.
  *
  * @return null
  */
 function register_meta()
 {
-    register_post_meta('pcc-story', 'pcc_story_organization', [
-        'show_in_rest' => true,
-        'single' => true,
-        'type' => 'string',
-        'sanitize_callback' => 'sanitize_text_field',
-        'auth_callback' => function () {
-            return current_user_can('edit_posts');
-        }
-    ]);
-
     register_post_meta('pcc-story', 'pcc_story_video_link', [
         'show_in_rest' => true,
         'single' => true,
         'type' => 'string',
         'sanitize_callback' => 'wp_http_validate_url',
-        'auth_callback' => function () {
-            return current_user_can('edit_posts');
-        }
     ]);
 
-    register_post_meta('pcc-story', 'pcc_story_name', [
+    register_post_meta('pcc-story', 'pcc_story_organization', [
         'show_in_rest' => true,
         'single' => true,
         'type' => 'string',
-        'sanitize_callback' => 'sanitize_text_field',
-        'auth_callback' => function () {
-            return current_user_can('edit_posts');
-        }
+    ]);
+
+    register_post_meta('pcc-story', 'pcc_story_storyteller', [
+        'show_in_rest' => true,
+        'single' => true,
+        'type' => 'string',
+    ]);
+
+    register_post_meta('pcc-story', 'pcc_story_region', [
+        'show_in_rest' => true,
+        'single' => true,
+        'type' => 'string',
+    ]);
+
+    register_post_meta('pcc-story', 'pcc_story_sector', [
+        'show_in_rest' => true,
+        'single' => true,
+        'type' => 'string',
     ]);
 }
-//
-// function prepublish_check ($key) {
-//     if (function_exists('\Altis\Workflow\PublicationChecklist\register_prepublish_check')) {
-//         register_prepublish_check( '', [
-//             'run_check' => function ( array $post, array $meta ) : Status {
-//                 if ( isset( $meta[$key] ) ) {
-//                     return new Status( Status::COMPLETE, $key + ' completed' );
-//                 }
-//
-//                 return new Status( Status::INCOMPLETE, $key + 'missing' );
-//             },
-//         ] );
-//     }
-// }
+
+
+/**
+ * Registers the Story Data metabox and meta fields.
+ *
+ * @return null
+ */
+function data()
+{
+    $prefix = 'pcc_story_';
+
+    $cmb = new_cmb2_box([
+        'id'            => 'story_data',
+        'title'         => __('Story Details', 'pcc-framework'),
+        'object_types'  => ['pcc-story'],
+        'context'       => 'side',
+        'priority'      => 'high',
+        'show_names'    => true,
+    ]);
+
+    $cmb->add_field([
+        'name' => __('Story Video Link', 'pcc-framework'),
+        'id'   => $prefix . 'video_link',
+        'type' => 'text_url',
+        'protocols' => [ 'http', 'https' ],
+        'description' =>
+            __('Link to the video (i.e. on Youtube).', 'pcc-framework'),
+    ]);
+
+    $cmb->add_field([
+        'name' => __('Storyteller', 'pcc-framework'),
+        'desc' =>
+            'Name of the person who is telling this story.',
+        'id'   => $prefix . 'storyteller',
+        'type' => 'select',
+        'show_option_none' => true,
+        'options' => get_people()
+    ]);
+
+    $cmb->add_field([
+        'name' => __('Organization', 'pcc-framework'),
+        'description' =>
+            __('Primary organization featured in this story.', 'pcc-framework'),
+        'id'   => $prefix . 'organization',
+        'taxonomy' => 'pcc-organization',
+        'type' => 'taxonomy_select',
+        'remove_default' => 'true',
+    ]);
+
+    $cmb->add_field([
+        'name' => __('Regions', 'pcc-framework'),
+        'description' =>
+            __('Relevant geographic regions associated with this story.', 'pcc-framework'),
+        'id'   => $prefix . 'region',
+        'taxonomy' => 'pcc-region',
+        'type' => 'taxonomy_multicheck_hierarchical',
+        'remove_default' => 'true',
+    ]);
+
+    $cmb->add_field([
+        'name' => __('Sector', 'pcc-framework'),
+        'description' =>
+            __('Industry or area of work / service.', 'pcc-framework'),
+        'id'   => $prefix . 'sector',
+        'taxonomy' => 'pcc-sector',
+        'type' => 'taxonomy_multicheck_hierarchical',
+        'remove_default' => 'true',
+    ]);
+}

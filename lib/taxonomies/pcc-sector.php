@@ -3,7 +3,7 @@
 namespace PCCFramework\Taxonomies\Sector;
 
 /**
- * Registers the `pcc_sector` taxonomy,
+ * Registers the `pcc-sector` taxonomy,
  * for use with 'pcc-story'.
  */
 function init()
@@ -12,7 +12,7 @@ function init()
         'pcc-sector',
         'pcc-story',
         [
-            'show_in_rest' => true,
+            'show_in_rest' => false,
             'required' => true,
         ],
         [
@@ -24,10 +24,10 @@ function init()
 }
 
 /**
- * Sets the post updated messages for the `pcc_sector` taxonomy.
+ * Sets the post updated messages for the `pcc-sector` taxonomy.
  *
  * @param  array $messages Post updated messages.
- * @return array Messages for the `pcc_sector` taxonomy.
+ * @return array Messages for the `pcc-sector` taxonomy.
  */
 function updated_messages($messages)
 {
