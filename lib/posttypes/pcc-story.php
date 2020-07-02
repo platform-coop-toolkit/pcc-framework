@@ -121,7 +121,7 @@ function data()
     $cmb->add_field([
         'name' => __('Storyteller', 'pcc-framework'),
         'desc' =>
-            __('Name of the person who is telling this story. <a href="./post-new.php?post_type=pcc-person">Add a new person</a> if they do not appear on the list.'),
+            sprintf( __('Name of the person who is telling this story. <a href="%s">Add a new person</a> if they do not appear on the list.', 'pcc-framework'), admin_url('/post-new.php?post_type=pcc-person')),
         'id'   => $prefix . 'storyteller',
         'type' => 'select',
         'show_option_none' => true,
@@ -131,7 +131,7 @@ function data()
     $cmb->add_field([
         'name' => __('Organization', 'pcc-framework'),
         'description' =>
-            __('Primary organization featured in this story. <a href="./edit-tags.php?taxonomy=pcc-organization&post_type=pcc-story">Add a new organization</a> if it does not appear on the list.', 'pcc-framework'),
+            sprintf( __('Primary organization featured in this story. <a href="%s">Add a new organization</a> if it does not appear on the list.', 'pcc-framework'), admin_url('/edit-tags.php?taxonomy=pcc-organization&post_type=pcc-story')),
         'id'   => $prefix . 'organization',
         'taxonomy' => 'pcc-organization',
         'type' => 'taxonomy_select',
@@ -141,7 +141,7 @@ function data()
     $cmb->add_field([
         'name' => __('Regions', 'pcc-framework'),
         'description' =>
-            __('Relevant geographic regions associated with this story. <a href="./edit-tags.php?taxonomy=pcc-region&post_type=pcc-story">Add a new region</a> if it does not appear on the list.', 'pcc-framework'),
+            sprintf( __('Relevant geographic region(s) associated with this story. <a href="%s">Add a new region</a> if it does not appear on the list.', 'pcc-framework'), admin_url('/edit-tags.php?taxonomy=pcc-region&post_type=pcc-story')),
         'id'   => $prefix . 'region',
         'taxonomy' => 'pcc-region',
         'type' => 'taxonomy_multicheck_hierarchical',
@@ -151,7 +151,7 @@ function data()
     $cmb->add_field([
         'name' => __('Sector', 'pcc-framework'),
         'description' =>
-            __('Industry or area of work / service. <a href="./edit-tags.php?taxonomy=pcc-sector&post_type=pcc-story">Add a new sector</a> if it does not appear on the list.', 'pcc-framework'),
+            sprintf( __('Industry or area of work / service. <a href="%s">Add a new sector</a> if it does not appear on the list.', 'pcc-framework'), admin_url('/edit-tags.php?taxonomy=pcc-sector&post_type=pcc-story')),
         'id'   => $prefix . 'sector',
         'taxonomy' => 'pcc-sector',
         'type' => 'taxonomy_multicheck_hierarchical',
