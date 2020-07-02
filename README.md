@@ -19,10 +19,14 @@ Custom Post Types:
 
 * Events
 * People
+* Stories
 
 Custom Taxonomies:
 
 * Roles
+* Organizations
+* Sectors
+* Regions
 
 The following plugins are required:
 
