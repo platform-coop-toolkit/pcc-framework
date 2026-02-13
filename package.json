@@ -23,7 +23,7 @@
   },
   "devDependencies": {
     "@wordpress/eslint-plugin": "^6.1.0",
-    "@wordpress/scripts": "^10.0.0",
+    "@wordpress/scripts": "^31.4.0",
     "autoprefixer": "^9.8.0",
     "cssnano": "^4.1.10",
     "gulp": "^4.0.2",
